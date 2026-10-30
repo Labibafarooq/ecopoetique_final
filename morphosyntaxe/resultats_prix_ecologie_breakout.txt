@@ -1,0 +1,93 @@
+=======================================================
+ANALYSE D'AGENTIVITÉ — Écopoétique
+=======================================================
+
+=======================================================
+  HUMAINS (bestsellers gap closed, être-aux fix applied)
+  Total: 255,227
+=======================================================
+  Agent actif                96,082  ( 37.6%)  ████████████
+  Autre                      73,313  ( 28.7%)  █████████
+  Complément du nom          50,082  ( 19.6%)  ██████
+  Objet                      33,191  ( 13.0%)  ████
+  Récepteur passif            2,559  (  1.0%)  
+
+  → Agent actif:     37.6%
+  → Passif:          1.0%
+  → Objet:           13.0%
+
+=======================================================
+  ANIMAUX référentiels (REFRESH, corrected labels, coverage-closed)
+  Total: 88,859
+=======================================================
+  Complément du nom          29,909  ( 33.7%)  ███████████
+  Agent actif                21,281  ( 23.9%)  ███████
+  Objet                      19,115  ( 21.5%)  ███████
+  Autre                      17,866  ( 20.1%)  ██████
+  Récepteur passif              688  (  0.8%)  
+
+  → Agent actif:     23.9%
+  → Passif:          0.8%
+  → Objet:           21.5%
+
+=======================================================
+  PLANTES référentiels (REFRESH, corrected labels, coverage-closed)
+  Total: 58,637
+=======================================================
+  Complément du nom          29,809  ( 50.8%)  ████████████████
+  Autre                      13,069  ( 22.3%)  ███████
+  Objet                       9,038  ( 15.4%)  █████
+  Agent actif                 6,491  ( 11.1%)  ███
+  Récepteur passif              230  (  0.4%)  
+
+  → Agent actif:     11.1%
+  → Passif:          0.4%
+  → Objet:           15.4%
+
+=======================================================
+RÉSUMÉ COMPARATIF
+=======================================================
+  Catégorie                       Agent%  Passif%  Objet%
+  ----------------------------------------------------
+  HUMAINS (bestsellers gap closed, être-aux fix applied)   37.6%     1.0%   13.0%
+  ANIMAUX référentiels (REFRESH, corrected labels, coverage-closed)   23.9%     0.8%   21.5%
+  PLANTES référentiels (REFRESH, corrected labels, coverage-closed)   11.1%     0.4%   15.4%
+Prix du roman d'écologie subcorpus: 47 novels
+
+============================================================
+  TASK 1 — ANIMAUX — Prix du roman d'écologie (47 novels)
+============================================================
+  Total mentions (all corpus): 132,332
+  Total mentions (Prix subcorpus only): 13,488  (10.2% of corpus total)
+  référentiel    all-corpus:  92,541 ( 69.9%)   Prix-only: 11,106 ( 82.3%)
+  figuré         all-corpus:  39,791 ( 30.1%)   Prix-only:  2,382 ( 17.7%)
+
+============================================================
+  TASK 1 — PLANTES — Prix du roman d'écologie (47 novels)
+============================================================
+  Total mentions (all corpus): 69,319
+  Total mentions (Prix subcorpus only): 4,345  (6.3% of corpus total)
+  référentiel    all-corpus:  59,968 ( 86.5%)   Prix-only:  3,918 ( 90.2%)
+  figuré         all-corpus:   9,351 ( 13.5%)   Prix-only:    427 (  9.8%)
+
+============================================================
+  TASK 3 — ANIMAUX référentiels — Prix du roman d'écologie (47 novels)
+============================================================
+  Total mentions (all corpus): 88,859
+  Total mentions (Prix subcorpus only): 10,685  (12.0% of corpus total)
+  Agent actif        all-corpus:  21,281 ( 23.9%)   Prix-only:  3,038 ( 28.4%)
+  Récepteur passif   all-corpus:     688 (  0.8%)   Prix-only:    124 (  1.2%)
+  Objet              all-corpus:  19,115 ( 21.5%)   Prix-only:  2,231 ( 20.9%)
+  Complément du nom  all-corpus:  29,909 ( 33.7%)   Prix-only:  3,075 ( 28.8%)
+  Autre              all-corpus:  17,866 ( 20.1%)   Prix-only:  2,217 ( 20.7%)
+
+============================================================
+  TASK 3 — PLANTES référentiels — Prix du roman d'écologie (47 novels)
+============================================================
+  Total mentions (all corpus): 58,637
+  Total mentions (Prix subcorpus only): 3,835  (6.5% of corpus total)
+  Agent actif        all-corpus:   6,491 ( 11.1%)   Prix-only:    510 ( 13.3%)
+  Récepteur passif   all-corpus:     230 (  0.4%)   Prix-only:     18 (  0.5%)
+  Objet              all-corpus:   9,038 ( 15.4%)   Prix-only:    613 ( 16.0%)
+  Complément du nom  all-corpus:  29,809 ( 50.8%)   Prix-only:  1,742 ( 45.4%)
+  Autre              all-corpus:  13,069 ( 22.3%)   Prix-only:    952 ( 24.8%)
