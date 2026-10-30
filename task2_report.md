@@ -14,17 +14,17 @@ Task 2 is a prerequisite for Task 4.5 (compare-target classification), which nee
 
 ---
 
-## THE HONEST ACCURACY NUMBER: 74.4%, NOT 77.7%
+## THE HONEST ACCURACY NUMBER: 74.4%, NOT 78.3%
 
 The pipeline uses a hybrid rule → spaCy → LLM cascade: most mentions resolve for free via a rule layer or a spaCy dependency-parse check; only ambiguous cases (about 65% of the gold set) go to an LLM call (qwen3:30b, retrieval-based few-shot, k=4 examples drawn from a 23-example canonical bank).
 
-On the 184-row gold set (of 200 total, 16 held back for other purposes), the technique scores:
-- **Raw: 76.6% (141/184)**
-- **With 2 self-proposed gold-label corrections: 77.7% (143/184)** — **do not use this number.**
+On the 184-row gold set (of 200 total, 16 held back for other purposes), the current production file scores (re-verified directly 2026-10-30):
+- **Raw: 78.3% (144/184)**
+- **With 2 self-proposed gold-label corrections counted as right: 77.7% (143/184) on an earlier version of this file** — **do not use this number, see below.**
 
-This project has a pre-existing, genuine dev/test split (`task2_dev_test_split.json`: 94 dev rows, 90 test rows). The dev rows had been looked at repeatedly in past sessions to tune the rule layer's logic — a real form of leakage, even though no row's literal text was copied anywhere. Scored on the honest partition:
-- **Dev (94 rows, tuning-exposed): 80.9% (76/94)**
-- **Test (90 rows, genuinely untouched): 74.4% (67/90)** ← **this is the number to quote**
+This project has a pre-existing, genuine dev/test split (`task2_dev_test_split.json`: 94 dev rows, 90 test rows). The dev rows had been looked at repeatedly in past sessions to tune the rule layer's logic — a real form of leakage, even though no row's literal text was copied anywhere. Scored on the honest partition (re-verified 2026-10-30):
+- **Dev (94 rows, tuning-exposed): 81.9% (77/94)**
+- **Test (90 rows, genuinely untouched): 74.4% (67/90)** ← **this is the number to quote — and notably, it has not moved at all across every version of this file checked, even as the raw/dev figures crept up slightly from small fixes. Full technique-by-technique history in `TASK2_RESEARCH_HISTORY_COMPLETE.md`.**
 
 **The 2 proposed gold corrections were sent to Riccardo and rejected (2026-10-26)**, with real reasoning in both cases:
 - id=82 "oignons" → he confirmed **META_APP**, not META_QUAL (the whole phrase stands in apposition to the referent as a unit-level metaphor — not an internal N1-de-N2 metaphorization).
