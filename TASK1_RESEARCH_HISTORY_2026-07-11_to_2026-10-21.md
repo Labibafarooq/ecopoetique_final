@@ -139,3 +139,23 @@ Two more log files exist after the fix: `loterre_full_corpus_log4.txt` (started 
 - Backed-up July memory (`claude_memory/`): `project_task0_task1_status.md`, `feedback_task1_duplicate_process_incident.md`, `project_2026-07-10_session.md`, `project_gpu_freeze_20260710.md`
 - Direct inspection: `métaphore/run_loterre_corpus.py`, `métaphore/evaluate_loterre_v8.py` (docstrings/code), `métaphore/loterre_full_corpus_log*.txt` (timestamps and content), `resultats/task1_loterre_labels.csv` (live row count and label distribution, checked 2026-10-21), `git log` (one bulk backup commit only, not independently dated)
 - Archive folders checked for additional material, nothing further found: `8july/`, `12july_documentation/`, `13july_task2+45/`, `17sep/`, `15Oct_chenille_extraction_file/`; `20aug/` contained the animal-forms xlsx attachment already covered in §3
+
+---
+
+## STATUS AS OF 2026-10-30 — READ THIS FIRST, supersedes §6 above
+
+A full audit on 2026-10-30 found real gaps this document's own §6 summary didn't capture, plus a significant new Loterre incident after this document's 2026-10-21 cutoff. Consolidated, honest state:
+
+**Confirmed done**: Animaux (127,935 rows), Plantes (69,468 rows), the 4,209 new-lexicon-form rows.
+
+**Four items from `TASK1_FINAL_REPORT_2026-07-10.md`'s own "OPEN ITEMS" section were never carried forward into this document's §6, and were never resolved anywhere else either (confirmed by searching every doc and memory file — no record of resolution exists):**
+1. 19 animaux + 2 plantes gold rows that never matched the production output by exact key — never rechecked.
+2. The représentation/image-of-an-animal inconsistency (a figurine/painting/photo of an animal sometimes scored référentiel, sometimes figuré, inconsistently) — never fixed.
+3. Loterre's 85.2%/88.9% gold accuracy is from the old v8 prompt, never re-validated against the current production (v6-based) prompt.
+4. The 4 borderline gold rows (porc, abricotier, désert, incendie) — still waiting on a second annotator's opinion.
+
+**From §6's own list**: `figuratifs_task1_own.csv` rebuild — **confirmed NOT done** (direct evidence: the file's last-modified date, 2026-10-05, predates the 2026-10-13 fix it's supposed to incorporate). The 16 failed batches — still no evidence of a retry anywhere. `chenille` — **more nuanced than "0 rows done" implies**: a review file (`15Oct_chenille_extraction_file/chenille_extraction_pending_RICCARDO_RB.csv`) actually has 310 of 620 candidate rows already answered Y/N (176 Y, 134 N) — but this was never merged into production, and a 2026-10-30 attempt to run the merge script (`merge_chenille_into_production.py`) revealed **the script itself is unsafe** (it overwrote 2 production files and caused real data loss — 4,478 rows genuinely lost from `ENTITES_contexte_animaux.csv` — caught and reverted via git the same day; the script needs to be fixed, not just re-run, before chenille can be safely merged).
+
+**Loterre — a major incident after this document's 2026-10-21 cutoff, not yet resolved**: on 2026-10-28, the run reached **120,832 of 120,841 rows (99.9% done)** — essentially complete. A same-day "corruption fix" attempt went wrong and truncated the live output file down to 90,880 rows. **The pre-fix, essentially-complete version still exists**, untouched, in `resultats/task1_loterre_labels_BACKUP_before_corruption_fix_20261028.csv` (121,137 true rows, verified valid structure and sensible label distribution: 103,768 référentiel / 17,368 figuré) — it has not been restored over the broken live file. **Deliberately left as-is for now** (explicit user decision, 2026-10-30) pending a proper look at this later — this is not an oversight, it's intentionally paused.
+
+**Net honest picture**: Task 1's core (animaux, plantes) is solid and done. Loterre is effectively complete already but sitting in a backup file, not the live one. Five smaller items (gold-row rematch, représentation fix, Loterre v6 re-validation, 4 borderline rows, figuratifs rebuild, chenille merge) remain genuinely open, two of them (chenille's remaining 310 rows, the 4 borderline rows) blocked on human judgment, not compute.
