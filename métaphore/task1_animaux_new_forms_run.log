@@ -1,0 +1,18 @@
+
+Task 1 corpus run — ANIMAUX
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_animaux_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_animaux.csv: 118746 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_animaux.csv: 132156 rows so far
+Total rows (before dedup): 132,156
+Unique rows (after dedup): 132,144
+Duplicate rows skipped  : 12
+Resuming: 127,935 rows already done
+Rows to classify: 4,209
+Estimated time: 5h (0.2 days at 3.9s/row)
+
+Warming up model...

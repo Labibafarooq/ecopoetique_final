@@ -1,0 +1,50 @@
+Reclassifying 3665 failed rows using run_task1_corpus.py's exact prompt logic
+Building corpus lookup for lemme/categorie recovery...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_animaux.csv: 114851 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_animaux.csv: 127945 rows so far
+  [100/3665] ref=76 fig=24 (24.0% fig) speed=5.9s/row ETA=5.8h still_failing=8
+  [200/3665] ref=147 fig=53 (26.5% fig) speed=5.8s/row ETA=5.6h still_failing=8
+  [300/3665] ref=225 fig=75 (25.0% fig) speed=6.0s/row ETA=5.6h still_failing=16
+  [400/3665] ref=303 fig=97 (24.2% fig) speed=6.3s/row ETA=5.7h still_failing=28
+  [500/3665] ref=389 fig=111 (22.2% fig) speed=5.8s/row ETA=5.1h still_failing=28
+  [600/3665] ref=470 fig=130 (21.7% fig) speed=5.4s/row ETA=4.6h still_failing=32
+  [700/3665] ref=534 fig=166 (23.7% fig) speed=5.3s/row ETA=4.4h still_failing=32
+  [800/3665] ref=602 fig=198 (24.8% fig) speed=5.3s/row ETA=4.2h still_failing=32
+  [900/3665] ref=672 fig=228 (25.3% fig) speed=5.3s/row ETA=4.1h still_failing=32
+  [1000/3665] ref=744 fig=256 (25.6% fig) speed=5.3s/row ETA=3.9h still_failing=36
+  [1100/3665] ref=821 fig=279 (25.4% fig) speed=5.2s/row ETA=3.7h still_failing=36
+  [1200/3665] ref=892 fig=308 (25.7% fig) speed=5.2s/row ETA=3.6h still_failing=36
+  [1300/3665] ref=972 fig=328 (25.2% fig) speed=5.2s/row ETA=3.4h still_failing=40
+  [1400/3665] ref=1039 fig=361 (25.8% fig) speed=5.2s/row ETA=3.3h still_failing=44
+  [1500/3665] ref=1096 fig=404 (26.9% fig) speed=5.1s/row ETA=3.1h still_failing=44
+  [1600/3665] ref=1161 fig=439 (27.4% fig) speed=5.1s/row ETA=2.9h still_failing=48
+  [1700/3665] ref=1218 fig=482 (28.4% fig) speed=5.0s/row ETA=2.7h still_failing=48
+  [1800/3665] ref=1285 fig=515 (28.6% fig) speed=5.0s/row ETA=2.6h still_failing=48
+  [1900/3665] ref=1354 fig=546 (28.7% fig) speed=5.0s/row ETA=2.4h still_failing=48
+  [2000/3665] ref=1431 fig=569 (28.4% fig) speed=4.9s/row ETA=2.3h still_failing=48
+  [2100/3665] ref=1517 fig=583 (27.8% fig) speed=4.9s/row ETA=2.1h still_failing=48
+  [2200/3665] ref=1598 fig=602 (27.4% fig) speed=4.8s/row ETA=2.0h still_failing=48
+  [2300/3665] ref=1673 fig=627 (27.3% fig) speed=4.8s/row ETA=1.8h still_failing=48
+  [2400/3665] ref=1760 fig=640 (26.7% fig) speed=4.8s/row ETA=1.7h still_failing=48
+  [2500/3665] ref=1823 fig=677 (27.1% fig) speed=4.8s/row ETA=1.6h still_failing=48
+  [2600/3665] ref=1881 fig=719 (27.7% fig) speed=4.8s/row ETA=1.4h still_failing=52
+  [2700/3665] ref=1939 fig=761 (28.2% fig) speed=4.8s/row ETA=1.3h still_failing=56
+  [2800/3665] ref=2002 fig=798 (28.5% fig) speed=4.9s/row ETA=1.2h still_failing=56
+  [2900/3665] ref=2050 fig=850 (29.3% fig) speed=4.8s/row ETA=1.0h still_failing=56
+  [3000/3665] ref=2107 fig=893 (29.8% fig) speed=4.9s/row ETA=0.9h still_failing=60
+  [3100/3665] ref=2154 fig=946 (30.5% fig) speed=4.8s/row ETA=0.8h still_failing=60
+  [3200/3665] ref=2227 fig=973 (30.4% fig) speed=4.9s/row ETA=0.6h still_failing=72
+  [3300/3665] ref=2310 fig=990 (30.0% fig) speed=4.9s/row ETA=0.5h still_failing=76
+  [3400/3665] ref=2393 fig=1007 (29.6% fig) speed=5.0s/row ETA=0.4h still_failing=88
+  [3500/3665] ref=2466 fig=1034 (29.5% fig) speed=5.0s/row ETA=0.2h still_failing=96
+  [3600/3665] ref=2542 fig=1058 (29.4% fig) speed=5.0s/row ETA=0.1h still_failing=100
+  [3665/3665] ref=2585 fig=1080 (29.5% fig) speed=5.0s/row ETA=0.0h still_failing=104
+104 rows still failed after retry — logged to /home/lfarooq/ecopoetique/resultats/task1_animaux_failed_keys_v2.tsv
+
+Patching master output files...
+Backed up /home/lfarooq/ecopoetique/resultats/task1_animaux_labels.csv -> /home/lfarooq/ecopoetique/resultats/task1_animaux_labels.csv.bak_before_v2_patch
+Patched 3665 rows in /home/lfarooq/ecopoetique/resultats/task1_animaux_labels.csv
+Backed up /home/lfarooq/ecopoetique/resultats/task1_animaux_labels_full.csv -> /home/lfarooq/ecopoetique/resultats/task1_animaux_labels_full.csv.bak_before_v2_patch
+Patched 3665 rows in /home/lfarooq/ecopoetique/resultats/task1_animaux_labels_full.csv
+
+Done. Reclassified: 2585 référentiel / 1080 figuré (29.5% fig)

@@ -1,0 +1,11 @@
+Reclassifying 68 failed rows using run_task1_corpus.py's exact prompt logic
+Building corpus lookup for lemme/categorie recovery...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+  [68/68] ref=59 fig=9 (13.2% fig) speed=13.7s/row ETA=0.0h still_failing=32
+32 rows still failed after retry — logged to /home/lfarooq/ecopoetique/resultats/task1_plantes_failed_keys_v3.tsv
+
+Patching master output file...
+Patched 69 rows in /home/lfarooq/ecopoetique/resultats/task1_plantes_labels.csv
+
+Done. Reclassified: 59 référentiel / 9 figuré (13.2% fig)

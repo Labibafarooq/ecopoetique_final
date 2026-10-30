@@ -1,0 +1,70 @@
+
+Task 1 corpus run — ANIMAUX
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_animaux_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_animaux.csv: 118746 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_animaux.csv: 132156 rows so far
+Total rows (before dedup): 132,156
+Unique rows (after dedup): 132,144
+Duplicate rows skipped  : 12
+Resuming: 127,966 rows already done
+Rows to classify: 4,178
+Estimated time: 5h (0.2 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [128,066/132,144]  96.9%  réf=89,742 fig=38,324  speed=7.6s/row  ETA=8.6h  elapsed=0.2h  failed_batches=1
+  [128,166/132,144]  97.0%  réf=89,792 fig=38,374  speed=7.6s/row  ETA=8.4h  elapsed=0.4h  failed_batches=1
+  [128,266/132,144]  97.1%  réf=89,879 fig=38,387  speed=7.0s/row  ETA=7.6h  elapsed=0.6h  failed_batches=1
+  [128,366/132,144]  97.1%  réf=89,973 fig=38,393  speed=7.0s/row  ETA=7.3h  elapsed=0.8h  failed_batches=1
+  [128,466/132,144]  97.2%  réf=90,051 fig=38,415  speed=6.7s/row  ETA=6.9h  elapsed=0.9h  failed_batches=1
+  [128,566/132,144]  97.3%  réf=90,116 fig=38,450  speed=6.6s/row  ETA=6.6h  elapsed=1.1h  failed_batches=1
+  [128,666/132,144]  97.4%  réf=90,191 fig=38,475  speed=6.5s/row  ETA=6.2h  elapsed=1.3h  failed_batches=1
+  [128,766/132,144]  97.4%  réf=90,250 fig=38,516  speed=6.3s/row  ETA=5.9h  elapsed=1.4h  failed_batches=1
+  [128,866/132,144]  97.5%  réf=90,326 fig=38,540  speed=6.2s/row  ETA=5.7h  elapsed=1.6h  failed_batches=2
+  [128,966/132,144]  97.6%  réf=90,400 fig=38,566  speed=6.2s/row  ETA=5.5h  elapsed=1.7h  failed_batches=2
+  [129,066/132,144]  97.7%  réf=90,469 fig=38,597  speed=6.2s/row  ETA=5.3h  elapsed=1.9h  failed_batches=2
+  [129,166/132,144]  97.7%  réf=90,538 fig=38,628  speed=6.2s/row  ETA=5.1h  elapsed=2.1h  failed_batches=2
+  [129,266/132,144]  97.8%  réf=90,618 fig=38,648  speed=6.1s/row  ETA=4.9h  elapsed=2.2h  failed_batches=2
+  [129,366/132,144]  97.9%  réf=90,668 fig=38,698  speed=6.1s/row  ETA=4.7h  elapsed=2.4h  failed_batches=2
+  [129,466/132,144]  98.0%  réf=90,740 fig=38,726  speed=6.0s/row  ETA=4.5h  elapsed=2.5h  failed_batches=2
+  [129,566/132,144]  98.0%  réf=90,810 fig=38,756  speed=6.0s/row  ETA=4.3h  elapsed=2.7h  failed_batches=2
+  [129,666/132,144]  98.1%  réf=90,871 fig=38,795  speed=6.0s/row  ETA=4.1h  elapsed=2.8h  failed_batches=3
+  [129,766/132,144]  98.2%  réf=90,933 fig=38,833  speed=6.0s/row  ETA=4.0h  elapsed=3.0h  failed_batches=3
+  [129,866/132,144]  98.3%  réf=90,972 fig=38,894  speed=6.0s/row  ETA=3.8h  elapsed=3.2h  failed_batches=4
+  [129,966/132,144]  98.4%  réf=91,010 fig=38,956  speed=6.0s/row  ETA=3.7h  elapsed=3.4h  failed_batches=4
+  [130,066/132,144]  98.4%  réf=91,046 fig=39,020  speed=6.1s/row  ETA=3.5h  elapsed=3.5h  failed_batches=4
+  [130,166/132,144]  98.5%  réf=91,096 fig=39,070  speed=6.1s/row  ETA=3.3h  elapsed=3.7h  failed_batches=4
+  [130,266/132,144]  98.6%  réf=91,155 fig=39,111  speed=6.1s/row  ETA=3.2h  elapsed=3.9h  failed_batches=4
+  [130,366/132,144]  98.7%  réf=91,214 fig=39,152  speed=6.0s/row  ETA=3.0h  elapsed=4.0h  failed_batches=4
+  [130,466/132,144]  98.7%  réf=91,263 fig=39,203  speed=6.0s/row  ETA=2.8h  elapsed=4.2h  failed_batches=5
+  [130,566/132,144]  98.8%  réf=91,309 fig=39,257  speed=6.1s/row  ETA=2.7h  elapsed=4.4h  failed_batches=6
+  [130,666/132,144]  98.9%  réf=91,399 fig=39,267  speed=6.1s/row  ETA=2.5h  elapsed=4.6h  failed_batches=7
+  [130,766/132,144]  99.0%  réf=91,493 fig=39,273  speed=6.1s/row  ETA=2.3h  elapsed=4.8h  failed_batches=7
+  [130,866/132,144]  99.0%  réf=91,584 fig=39,282  speed=6.2s/row  ETA=2.2h  elapsed=5.0h  failed_batches=8
+  [130,966/132,144]  99.1%  réf=91,657 fig=39,309  speed=6.2s/row  ETA=2.0h  elapsed=5.2h  failed_batches=8
+  [131,066/132,144]  99.2%  réf=91,735 fig=39,331  speed=6.4s/row  ETA=1.9h  elapsed=5.5h  failed_batches=8
+  [131,166/132,144]  99.3%  réf=91,808 fig=39,358  speed=6.4s/row  ETA=1.7h  elapsed=5.7h  failed_batches=10
+  [131,266/132,144]  99.3%  réf=91,882 fig=39,384  speed=6.4s/row  ETA=1.6h  elapsed=5.9h  failed_batches=11
+  [131,366/132,144]  99.4%  réf=91,926 fig=39,440  speed=6.4s/row  ETA=1.4h  elapsed=6.0h  failed_batches=13
+  [131,466/132,144]  99.5%  réf=91,965 fig=39,501  speed=6.4s/row  ETA=1.2h  elapsed=6.2h  failed_batches=14
+  [131,566/132,144]  99.6%  réf=92,032 fig=39,534  speed=6.4s/row  ETA=1.0h  elapsed=6.4h  failed_batches=15
+  [131,666/132,144]  99.6%  réf=92,104 fig=39,562  speed=6.4s/row  ETA=0.8h  elapsed=6.6h  failed_batches=15
+  [131,766/132,144]  99.7%  réf=92,163 fig=39,603  speed=6.4s/row  ETA=0.7h  elapsed=6.7h  failed_batches=15
+  [131,866/132,144]  99.8%  réf=92,224 fig=39,642  speed=6.3s/row  ETA=0.5h  elapsed=6.9h  failed_batches=15
+  [131,966/132,144]  99.9%  réf=92,304 fig=39,662  speed=6.3s/row  ETA=0.3h  elapsed=7.0h  failed_batches=15
+  [132,066/132,144]  99.9%  réf=92,354 fig=39,712  speed=6.4s/row  ETA=0.1h  elapsed=7.3h  failed_batches=16
+  [132,144/132,144] 100.0%  réf=92,411 fig=39,733  speed=6.4s/row  ETA=0.0h  elapsed=7.4h  failed_batches=16
+Failed keys log: ../resultats/task1_animaux_failed_keys.tsv
+
+Writing full output (with duplicates) → ../resultats/task1_animaux_labels_full.csv
+
+Done! Total time: 7.4h
+Output (unique): ../resultats/task1_animaux_labels.csv
+Output (full)  : ../resultats/task1_animaux_labels_full.csv
+Results: 92,411 référentiel  |  39,733 figuré  (30.1% figuré)

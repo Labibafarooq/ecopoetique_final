@@ -1,0 +1,3 @@
+Thu Jul  9 23:13:30 UTC 2026: watcher started, waiting on main run PID 3534857
+Fri Jul 10 07:28:31 UTC 2026: main plantes run (PID 3534857) has exited, starting retry of failed batches
+Fri Jul 10 08:20:41 UTC 2026: retry pass finished

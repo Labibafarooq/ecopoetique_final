@@ -1,0 +1,16 @@
+Reclassifying 444 failed rows using run_task1_corpus.py's exact prompt logic
+Building corpus lookup for lemme/categorie recovery...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+  [100/444] ref=83 fig=17 (17.0% fig) speed=7.3s/row ETA=0.7h still_failing=8
+  [200/444] ref=168 fig=32 (16.0% fig) speed=7.1s/row ETA=0.5h still_failing=28
+  [300/444] ref=258 fig=42 (14.0% fig) speed=7.0s/row ETA=0.3h still_failing=36
+  [400/444] ref=331 fig=69 (17.2% fig) speed=7.0s/row ETA=0.1h still_failing=48
+  [444/444] ref=374 fig=70 (15.8% fig) speed=7.0s/row ETA=0.0h still_failing=68
+68 rows still failed after retry — logged to /home/lfarooq/ecopoetique/resultats/task1_plantes_failed_keys_v2.tsv
+
+Patching master output file...
+Backed up /home/lfarooq/ecopoetique/resultats/task1_plantes_labels.csv -> /home/lfarooq/ecopoetique/resultats/task1_plantes_labels.csv.bak_before_retry_patch
+Patched 447 rows in /home/lfarooq/ecopoetique/resultats/task1_plantes_labels.csv
+
+Done. Reclassified: 374 référentiel / 70 figuré (15.8% fig)

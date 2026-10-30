@@ -1,0 +1,928 @@
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Rows to classify: 69,314
+Estimated time: 75h (3.1 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [    100/69,314]   0.1%  réf=83 fig=17  speed=3.5s/row  ETA=67.2h  elapsed=0.1h  failed_batches=1
+  [    200/69,314]   0.3%  réf=179 fig=21  speed=3.3s/row  ETA=63.9h  elapsed=0.2h  failed_batches=1
+  [    300/69,314]   0.4%  réf=276 fig=24  speed=3.4s/row  ETA=64.5h  elapsed=0.3h  failed_batches=1
+  [    400/69,314]   0.6%  réf=372 fig=28  speed=3.3s/row  ETA=62.7h  elapsed=0.4h  failed_batches=1
+  [    500/69,314]   0.7%  réf=458 fig=42  speed=3.4s/row  ETA=64.2h  elapsed=0.5h  failed_batches=1
+  [    600/69,314]   0.9%  réf=530 fig=70  speed=3.4s/row  ETA=64.7h  elapsed=0.6h  failed_batches=1
+  [    700/69,314]   1.0%  réf=595 fig=105  speed=3.4s/row  ETA=65.0h  elapsed=0.7h  failed_batches=1
+  [    800/69,314]   1.2%  réf=646 fig=154  speed=3.4s/row  ETA=64.4h  elapsed=0.8h  failed_batches=1
+  [    900/69,314]   1.3%  réf=735 fig=165  speed=3.4s/row  ETA=64.5h  elapsed=0.8h  failed_batches=1
+  [  1,000/69,314]   1.4%  réf=822 fig=178  speed=3.4s/row  ETA=63.7h  elapsed=0.9h  failed_batches=2
+  [  1,100/69,314]   1.6%  réf=912 fig=188  speed=3.4s/row  ETA=64.6h  elapsed=1.0h  failed_batches=2
+  [  1,200/69,314]   1.7%  réf=1,002 fig=198  speed=3.4s/row  ETA=64.1h  elapsed=1.1h  failed_batches=2
+  [  1,300/69,314]   1.9%  réf=1,079 fig=221  speed=3.4s/row  ETA=65.0h  elapsed=1.2h  failed_batches=2
+  [  1,400/69,314]   2.0%  réf=1,163 fig=237  speed=3.5s/row  ETA=65.4h  elapsed=1.3h  failed_batches=2
+  [  1,500/69,314]   2.2%  réf=1,236 fig=264  speed=3.5s/row  ETA=66.0h  elapsed=1.5h  failed_batches=2
+  [  1,600/69,314]   2.3%  réf=1,327 fig=273  speed=3.6s/row  ETA=67.6h  elapsed=1.6h  failed_batches=2
+  [  1,700/69,314]   2.5%  réf=1,405 fig=295  speed=3.6s/row  ETA=68.2h  elapsed=1.7h  failed_batches=3
+  [  1,800/69,314]   2.6%  réf=1,499 fig=301  speed=3.6s/row  ETA=67.4h  elapsed=1.8h  failed_batches=3
+  [  1,900/69,314]   2.7%  réf=1,596 fig=304  speed=3.5s/row  ETA=66.4h  elapsed=1.9h  failed_batches=3
+  [  2,000/69,314]   2.9%  réf=1,678 fig=322  speed=3.5s/row  ETA=66.3h  elapsed=2.0h  failed_batches=3
+  [  2,100/69,314]   3.0%  réf=1,767 fig=333  speed=3.6s/row  ETA=66.3h  elapsed=2.1h  failed_batches=3
+  [  2,200/69,314]   3.2%  réf=1,851 fig=349  speed=3.6s/row  ETA=66.2h  elapsed=2.2h  failed_batches=3
+  [  2,300/69,314]   3.3%  réf=1,940 fig=360  speed=3.6s/row  ETA=66.6h  elapsed=2.3h  failed_batches=3
+  [  2,400/69,314]   3.5%  réf=2,025 fig=375  speed=3.6s/row  ETA=67.3h  elapsed=2.4h  failed_batches=3
+  [  2,500/69,314]   3.6%  réf=2,110 fig=390  speed=3.6s/row  ETA=67.3h  elapsed=2.5h  failed_batches=3
+  [  2,600/69,314]   3.8%  réf=2,196 fig=404  speed=3.6s/row  ETA=67.0h  elapsed=2.6h  failed_batches=3
+  [  2,700/69,314]   3.9%  réf=2,284 fig=416  speed=3.6s/row  ETA=66.7h  elapsed=2.7h  failed_batches=3
+  [  2,800/69,314]   4.0%  réf=2,369 fig=431  speed=3.6s/row  ETA=66.4h  elapsed=2.8h  failed_batches=3
+  [  2,900/69,314]   4.2%  réf=2,463 fig=437  speed=3.6s/row  ETA=66.1h  elapsed=2.9h  failed_batches=3
+  [  3,000/69,314]   4.3%  réf=2,554 fig=446  speed=3.6s/row  ETA=66.1h  elapsed=3.0h  failed_batches=3
+  [  3,100/69,314]   4.5%  réf=2,647 fig=453  speed=3.6s/row  ETA=65.9h  elapsed=3.1h  failed_batches=3
+  [  3,200/69,314]   4.6%  réf=2,729 fig=471  speed=3.7s/row  ETA=67.9h  elapsed=3.3h  failed_batches=4
+  [  3,300/69,314]   4.8%  réf=2,813 fig=487  speed=3.8s/row  ETA=70.1h  elapsed=3.5h  failed_batches=4
+  [  3,400/69,314]   4.9%  réf=2,894 fig=506  speed=3.9s/row  ETA=71.2h  elapsed=3.7h  failed_batches=5
+  [  3,500/69,314]   5.0%  réf=2,975 fig=525  speed=3.9s/row  ETA=70.9h  elapsed=3.8h  failed_batches=6
+  [  3,600/69,314]   5.2%  réf=3,064 fig=536  speed=4.0s/row  ETA=72.3h  elapsed=4.0h  failed_batches=9
+  [  3,700/69,314]   5.3%  réf=3,153 fig=547  speed=4.1s/row  ETA=74.1h  elapsed=4.2h  failed_batches=9
+  [  3,800/69,314]   5.5%  réf=3,251 fig=549  speed=4.1s/row  ETA=75.4h  elapsed=4.4h  failed_batches=9
+  [  3,900/69,314]   5.6%  réf=3,340 fig=560  speed=4.2s/row  ETA=75.9h  elapsed=4.5h  failed_batches=9
+  [  4,000/69,314]   5.8%  réf=3,425 fig=575  speed=4.2s/row  ETA=75.9h  elapsed=4.6h  failed_batches=9
+  [  4,100/69,314]   5.9%  réf=3,515 fig=585  speed=4.2s/row  ETA=75.6h  elapsed=4.8h  failed_batches=9
+  [  4,200/69,314]   6.1%  réf=3,603 fig=597  speed=4.2s/row  ETA=75.2h  elapsed=4.8h  failed_batches=9
+  [  4,300/69,314]   6.2%  réf=3,700 fig=600  speed=4.2s/row  ETA=75.0h  elapsed=5.0h  failed_batches=10
+  [  4,400/69,314]   6.3%  réf=3,785 fig=615  speed=4.2s/row  ETA=76.6h  elapsed=5.2h  failed_batches=10
+  [  4,500/69,314]   6.5%  réf=3,873 fig=627  speed=4.3s/row  ETA=78.0h  elapsed=5.4h  failed_batches=10
+  [  4,600/69,314]   6.6%  réf=3,964 fig=636  speed=4.4s/row  ETA=78.8h  elapsed=5.6h  failed_batches=10
+  [  4,700/69,314]   6.8%  réf=4,046 fig=654  speed=4.5s/row  ETA=80.7h  elapsed=5.9h  failed_batches=10
+  [  4,800/69,314]   6.9%  réf=4,124 fig=676  speed=4.6s/row  ETA=82.3h  elapsed=6.1h  failed_batches=10
+  [  4,900/69,314]   7.1%  réf=4,196 fig=704  speed=4.7s/row  ETA=83.5h  elapsed=6.4h  failed_batches=10
+  [  5,000/69,314]   7.2%  réf=4,282 fig=718  speed=4.7s/row  ETA=84.8h  elapsed=6.6h  failed_batches=10
+  [  5,100/69,314]   7.4%  réf=4,363 fig=737  speed=4.8s/row  ETA=84.8h  elapsed=6.7h  failed_batches=10
+  [  5,200/69,314]   7.5%  réf=4,441 fig=759  speed=4.7s/row  ETA=84.1h  elapsed=6.8h  failed_batches=10
+  [  5,300/69,314]   7.6%  réf=4,525 fig=775  speed=4.7s/row  ETA=83.9h  elapsed=6.9h  failed_batches=10
+  [  5,400/69,314]   7.8%  réf=4,594 fig=806  speed=4.7s/row  ETA=83.5h  elapsed=7.1h  failed_batches=10
+  [  5,500/69,314]   7.9%  réf=4,683 fig=817  speed=4.7s/row  ETA=83.0h  elapsed=7.2h  failed_batches=10
+  [  5,600/69,314]   8.1%  réf=4,769 fig=831  speed=4.7s/row  ETA=82.6h  elapsed=7.3h  failed_batches=10
+  [  5,700/69,314]   8.2%  réf=4,861 fig=839  speed=4.6s/row  ETA=82.0h  elapsed=7.3h  failed_batches=10
+  [  5,800/69,314]   8.4%  réf=4,958 fig=842  speed=4.6s/row  ETA=81.3h  elapsed=7.4h  failed_batches=10
+  [  5,900/69,314]   8.5%  réf=5,041 fig=859  speed=4.6s/row  ETA=80.8h  elapsed=7.5h  failed_batches=11
+  [  6,000/69,314]   8.7%  réf=5,129 fig=871  speed=4.6s/row  ETA=80.2h  elapsed=7.6h  failed_batches=11
+  [  6,100/69,314]   8.8%  réf=5,220 fig=880  speed=4.5s/row  ETA=79.8h  elapsed=7.7h  failed_batches=11
+  [  6,200/69,314]   8.9%  réf=5,303 fig=897  speed=4.5s/row  ETA=79.5h  elapsed=7.8h  failed_batches=12
+  [  6,300/69,314]   9.1%  réf=5,385 fig=915  speed=4.5s/row  ETA=79.0h  elapsed=7.9h  failed_batches=12
+  [  6,400/69,314]   9.2%  réf=5,470 fig=930  speed=4.5s/row  ETA=79.0h  elapsed=8.0h  failed_batches=13
+  [  6,500/69,314]   9.4%  réf=5,562 fig=938  speed=4.5s/row  ETA=78.6h  elapsed=8.1h  failed_batches=13
+  [  6,600/69,314]   9.5%  réf=5,655 fig=945  speed=4.5s/row  ETA=78.3h  elapsed=8.2h  failed_batches=13
+  [  6,700/69,314]   9.7%  réf=5,743 fig=957  speed=4.5s/row  ETA=78.2h  elapsed=8.4h  failed_batches=13
+  [  6,800/69,314]   9.8%  réf=5,836 fig=964  speed=4.5s/row  ETA=78.0h  elapsed=8.5h  failed_batches=13
+  [  6,900/69,314]  10.0%  réf=5,927 fig=973  speed=4.5s/row  ETA=77.7h  elapsed=8.6h  failed_batches=13
+  [  7,000/69,314]  10.1%  réf=6,017 fig=983  speed=4.5s/row  ETA=77.6h  elapsed=8.7h  failed_batches=15
+  [  7,100/69,314]  10.2%  réf=6,109 fig=991  speed=4.5s/row  ETA=77.3h  elapsed=8.8h  failed_batches=15
+  [  7,200/69,314]  10.4%  réf=6,203 fig=997  speed=4.5s/row  ETA=76.9h  elapsed=8.9h  failed_batches=15
+  [  7,300/69,314]  10.5%  réf=6,284 fig=1,016  speed=4.5s/row  ETA=76.7h  elapsed=9.0h  failed_batches=15
+  [  7,400/69,314]  10.7%  réf=6,373 fig=1,027  speed=4.4s/row  ETA=76.4h  elapsed=9.1h  failed_batches=15
+  [  7,500/69,314]  10.8%  réf=6,461 fig=1,039  speed=4.4s/row  ETA=76.1h  elapsed=9.2h  failed_batches=15
+  [  7,600/69,314]  11.0%  réf=6,551 fig=1,049  speed=4.4s/row  ETA=75.7h  elapsed=9.3h  failed_batches=15
+  [  7,700/69,314]  11.1%  réf=6,642 fig=1,058  speed=4.4s/row  ETA=75.4h  elapsed=9.4h  failed_batches=15
+  [  7,800/69,314]  11.3%  réf=6,738 fig=1,062  speed=4.4s/row  ETA=75.2h  elapsed=9.5h  failed_batches=15
+  [  7,900/69,314]  11.4%  réf=6,825 fig=1,075  speed=4.4s/row  ETA=75.0h  elapsed=9.7h  failed_batches=15
+  [  8,000/69,314]  11.5%  réf=6,917 fig=1,083  speed=4.4s/row  ETA=74.7h  elapsed=9.7h  failed_batches=15
+  [  8,100/69,314]  11.7%  réf=6,996 fig=1,104  speed=4.4s/row  ETA=74.5h  elapsed=9.9h  failed_batches=15
+  [  8,200/69,314]  11.8%  réf=7,081 fig=1,119  speed=4.4s/row  ETA=74.2h  elapsed=10.0h  failed_batches=15
+  [  8,300/69,314]  12.0%  réf=7,171 fig=1,129  speed=4.4s/row  ETA=74.0h  elapsed=10.1h  failed_batches=15
+  [  8,400/69,314]  12.1%  réf=7,256 fig=1,144  speed=4.4s/row  ETA=73.7h  elapsed=10.2h  failed_batches=15
+  [  8,500/69,314]  12.3%  réf=7,347 fig=1,153  speed=4.3s/row  ETA=73.4h  elapsed=10.3h  failed_batches=15
+  [  8,600/69,314]  12.4%  réf=7,436 fig=1,164  speed=4.3s/row  ETA=73.2h  elapsed=10.4h  failed_batches=15
+  [  8,700/69,314]  12.6%  réf=7,530 fig=1,170  speed=4.3s/row  ETA=72.9h  elapsed=10.5h  failed_batches=15
+  [  8,800/69,314]  12.7%  réf=7,623 fig=1,177  speed=4.3s/row  ETA=72.7h  elapsed=10.6h  failed_batches=15
+  [  8,900/69,314]  12.8%  réf=7,702 fig=1,198  speed=4.3s/row  ETA=72.4h  elapsed=10.7h  failed_batches=15
+  [  9,000/69,314]  13.0%  réf=7,787 fig=1,213  speed=4.3s/row  ETA=72.3h  elapsed=10.8h  failed_batches=15
+  [  9,100/69,314]  13.1%  réf=7,865 fig=1,235  speed=4.3s/row  ETA=72.0h  elapsed=10.9h  failed_batches=15
+  [  9,200/69,314]  13.3%  réf=7,954 fig=1,246  speed=4.3s/row  ETA=71.7h  elapsed=11.0h  failed_batches=15
+  [  9,300/69,314]  13.4%  réf=8,047 fig=1,253  speed=4.3s/row  ETA=71.6h  elapsed=11.1h  failed_batches=15
+  [  9,400/69,314]  13.6%  réf=8,140 fig=1,260  speed=4.3s/row  ETA=71.3h  elapsed=11.2h  failed_batches=15
+  [  9,500/69,314]  13.7%  réf=8,226 fig=1,274  speed=4.3s/row  ETA=71.2h  elapsed=11.3h  failed_batches=15
+  [  9,600/69,314]  13.9%  réf=8,314 fig=1,286  speed=4.3s/row  ETA=70.9h  elapsed=11.4h  failed_batches=15
+  [  9,700/69,314]  14.0%  réf=8,402 fig=1,298  speed=4.3s/row  ETA=70.7h  elapsed=11.5h  failed_batches=16
+  [  9,800/69,314]  14.1%  réf=8,477 fig=1,323  speed=4.3s/row  ETA=70.5h  elapsed=11.6h  failed_batches=16
+  [  9,900/69,314]  14.3%  réf=8,561 fig=1,339  speed=4.3s/row  ETA=70.3h  elapsed=11.7h  failed_batches=16
+  [ 10,000/69,314]  14.4%  réf=8,653 fig=1,347  speed=4.2s/row  ETA=70.0h  elapsed=11.8h  failed_batches=16
+  [ 10,100/69,314]  14.6%  réf=8,748 fig=1,352  speed=4.2s/row  ETA=69.7h  elapsed=11.9h  failed_batches=16
+  [ 10,200/69,314]  14.7%  réf=8,839 fig=1,361  speed=4.2s/row  ETA=69.6h  elapsed=12.0h  failed_batches=17
+  [ 10,300/69,314]  14.9%  réf=8,934 fig=1,366  speed=4.2s/row  ETA=69.4h  elapsed=12.1h  failed_batches=17
+  [ 10,400/69,314]  15.0%  réf=9,022 fig=1,378  speed=4.2s/row  ETA=69.1h  elapsed=12.2h  failed_batches=17
+  [ 10,500/69,314]  15.1%  réf=9,106 fig=1,394  speed=4.2s/row  ETA=69.0h  elapsed=12.3h  failed_batches=17
+  [ 10,600/69,314]  15.3%  réf=9,198 fig=1,402  speed=4.2s/row  ETA=68.9h  elapsed=12.4h  failed_batches=18
+  [ 10,700/69,314]  15.4%  réf=9,284 fig=1,416  speed=4.2s/row  ETA=68.8h  elapsed=12.6h  failed_batches=18
+  [ 10,800/69,314]  15.6%  réf=9,377 fig=1,423  speed=4.2s/row  ETA=68.5h  elapsed=12.6h  failed_batches=18
+  [ 10,900/69,314]  15.7%  réf=9,461 fig=1,439  speed=4.2s/row  ETA=68.3h  elapsed=12.7h  failed_batches=18
+  [ 11,000/69,314]  15.9%  réf=9,549 fig=1,451  speed=4.2s/row  ETA=68.1h  elapsed=12.9h  failed_batches=18
+  [ 11,100/69,314]  16.0%  réf=9,636 fig=1,464  speed=4.2s/row  ETA=67.9h  elapsed=13.0h  failed_batches=18
+  [ 11,200/69,314]  16.2%  réf=9,715 fig=1,485  speed=4.2s/row  ETA=67.7h  elapsed=13.0h  failed_batches=18
+  [ 11,300/69,314]  16.3%  réf=9,798 fig=1,502  speed=4.2s/row  ETA=67.6h  elapsed=13.2h  failed_batches=18
+  [ 11,400/69,314]  16.4%  réf=9,888 fig=1,512  speed=4.2s/row  ETA=67.5h  elapsed=13.3h  failed_batches=18
+  [ 11,500/69,314]  16.6%  réf=9,979 fig=1,521  speed=4.2s/row  ETA=67.2h  elapsed=13.4h  failed_batches=18
+  [ 11,600/69,314]  16.7%  réf=10,061 fig=1,539  speed=4.2s/row  ETA=66.9h  elapsed=13.5h  failed_batches=18
+  [ 11,700/69,314]  16.9%  réf=10,150 fig=1,550  speed=4.2s/row  ETA=66.7h  elapsed=13.5h  failed_batches=18
+  [ 11,800/69,314]  17.0%  réf=10,235 fig=1,565  speed=4.2s/row  ETA=66.5h  elapsed=13.6h  failed_batches=18
+  [ 11,900/69,314]  17.2%  réf=10,329 fig=1,571  speed=4.2s/row  ETA=66.3h  elapsed=13.7h  failed_batches=18
+  [ 12,000/69,314]  17.3%  réf=10,422 fig=1,578  speed=4.1s/row  ETA=66.0h  elapsed=13.8h  failed_batches=18
+  [ 12,100/69,314]  17.5%  réf=10,511 fig=1,589  speed=4.1s/row  ETA=65.9h  elapsed=13.9h  failed_batches=19
+  [ 12,200/69,314]  17.6%  réf=10,599 fig=1,601  speed=4.1s/row  ETA=65.7h  elapsed=14.0h  failed_batches=19
+  [ 12,300/69,314]  17.7%  réf=10,693 fig=1,607  speed=4.1s/row  ETA=65.5h  elapsed=14.1h  failed_batches=19
+  [ 12,400/69,314]  17.9%  réf=10,784 fig=1,616  speed=4.1s/row  ETA=65.3h  elapsed=14.2h  failed_batches=19
+  [ 12,500/69,314]  18.0%  réf=10,878 fig=1,622  speed=4.1s/row  ETA=65.1h  elapsed=14.3h  failed_batches=19
+  [ 12,600/69,314]  18.2%  réf=10,967 fig=1,633  speed=4.1s/row  ETA=64.9h  elapsed=14.4h  failed_batches=20
+  [ 12,700/69,314]  18.3%  réf=11,064 fig=1,636  speed=4.1s/row  ETA=64.7h  elapsed=14.5h  failed_batches=20
+  [ 12,800/69,314]  18.5%  réf=11,152 fig=1,648  speed=4.1s/row  ETA=64.4h  elapsed=14.6h  failed_batches=20
+  [ 12,900/69,314]  18.6%  réf=11,241 fig=1,659  speed=4.1s/row  ETA=64.2h  elapsed=14.7h  failed_batches=20
+  [ 13,000/69,314]  18.8%  réf=11,329 fig=1,671  speed=4.1s/row  ETA=64.0h  elapsed=14.8h  failed_batches=20
+  [ 13,100/69,314]  18.9%  réf=11,422 fig=1,678  speed=4.1s/row  ETA=63.7h  elapsed=14.8h  failed_batches=20
+  [ 13,200/69,314]  19.0%  réf=11,512 fig=1,688  speed=4.1s/row  ETA=63.5h  elapsed=14.9h  failed_batches=20
+  [ 13,300/69,314]  19.2%  réf=11,605 fig=1,695  speed=4.1s/row  ETA=63.3h  elapsed=15.0h  failed_batches=20
+  [ 13,400/69,314]  19.3%  réf=11,697 fig=1,703  speed=4.1s/row  ETA=63.1h  elapsed=15.1h  failed_batches=20
+  [ 13,500/69,314]  19.5%  réf=11,787 fig=1,713  speed=4.1s/row  ETA=62.8h  elapsed=15.2h  failed_batches=20
+  [ 13,600/69,314]  19.6%  réf=11,875 fig=1,725  speed=4.0s/row  ETA=62.6h  elapsed=15.3h  failed_batches=21
+  [ 13,700/69,314]  19.8%  réf=11,965 fig=1,735  speed=4.0s/row  ETA=62.4h  elapsed=15.4h  failed_batches=21
+  [ 13,800/69,314]  19.9%  réf=12,053 fig=1,747  speed=4.0s/row  ETA=62.3h  elapsed=15.5h  failed_batches=21
+  [ 13,900/69,314]  20.1%  réf=12,145 fig=1,755  speed=4.0s/row  ETA=62.1h  elapsed=15.6h  failed_batches=21
+  [ 14,000/69,314]  20.2%  réf=12,234 fig=1,766  speed=4.0s/row  ETA=61.9h  elapsed=15.7h  failed_batches=21
+  [ 14,100/69,314]  20.3%  réf=12,329 fig=1,771  speed=4.0s/row  ETA=61.6h  elapsed=15.7h  failed_batches=21
+  [ 14,200/69,314]  20.5%  réf=12,416 fig=1,784  speed=4.0s/row  ETA=61.5h  elapsed=15.8h  failed_batches=22
+  [ 14,300/69,314]  20.6%  réf=12,498 fig=1,802  speed=4.0s/row  ETA=61.3h  elapsed=15.9h  failed_batches=22
+  [ 14,400/69,314]  20.8%  réf=12,563 fig=1,837  speed=4.0s/row  ETA=61.2h  elapsed=16.0h  failed_batches=22
+  [ 14,500/69,314]  20.9%  réf=12,619 fig=1,881  speed=4.0s/row  ETA=61.1h  elapsed=16.2h  failed_batches=22
+  [ 14,600/69,314]  21.1%  réf=12,681 fig=1,919  speed=4.0s/row  ETA=60.9h  elapsed=16.3h  failed_batches=22
+  [ 14,700/69,314]  21.2%  réf=12,757 fig=1,943  speed=4.0s/row  ETA=60.7h  elapsed=16.4h  failed_batches=22
+  [ 14,800/69,314]  21.4%  réf=12,841 fig=1,959  speed=4.0s/row  ETA=60.6h  elapsed=16.5h  failed_batches=22
+  [ 14,900/69,314]  21.5%  réf=12,918 fig=1,982  speed=4.0s/row  ETA=60.6h  elapsed=16.6h  failed_batches=23
+  [ 15,000/69,314]  21.6%  réf=13,006 fig=1,994  speed=4.0s/row  ETA=60.4h  elapsed=16.7h  failed_batches=23
+  [ 15,100/69,314]  21.8%  réf=13,099 fig=2,001  speed=4.0s/row  ETA=60.2h  elapsed=16.8h  failed_batches=24
+  [ 15,200/69,314]  21.9%  réf=13,195 fig=2,005  speed=4.0s/row  ETA=60.0h  elapsed=16.9h  failed_batches=24
+  [ 15,300/69,314]  22.1%  réf=13,291 fig=2,009  speed=4.0s/row  ETA=59.9h  elapsed=17.0h  failed_batches=26
+  [ 15,400/69,314]  22.2%  réf=13,387 fig=2,013  speed=4.0s/row  ETA=59.7h  elapsed=17.0h  failed_batches=26
+  [ 15,500/69,314]  22.4%  réf=13,484 fig=2,016  speed=4.0s/row  ETA=59.4h  elapsed=17.1h  failed_batches=26
+  [ 15,600/69,314]  22.5%  réf=13,582 fig=2,018  speed=4.0s/row  ETA=59.2h  elapsed=17.2h  failed_batches=26
+  [ 15,700/69,314]  22.7%  réf=13,679 fig=2,021  speed=4.0s/row  ETA=59.0h  elapsed=17.3h  failed_batches=26
+  [ 15,800/69,314]  22.8%  réf=13,762 fig=2,038  speed=4.0s/row  ETA=58.9h  elapsed=17.4h  failed_batches=26
+  [ 15,900/69,314]  22.9%  réf=13,855 fig=2,045  speed=4.0s/row  ETA=58.8h  elapsed=17.5h  failed_batches=26
+  [ 16,000/69,314]  23.1%  réf=13,946 fig=2,054  speed=4.0s/row  ETA=58.7h  elapsed=17.6h  failed_batches=29
+  [ 16,100/69,314]  23.2%  réf=14,034 fig=2,066  speed=4.0s/row  ETA=58.7h  elapsed=17.8h  failed_batches=32
+  [ 16,200/69,314]  23.4%  réf=14,111 fig=2,089  speed=4.0s/row  ETA=58.5h  elapsed=17.9h  failed_batches=32
+  [ 16,300/69,314]  23.5%  réf=14,201 fig=2,099  speed=4.0s/row  ETA=58.3h  elapsed=17.9h  failed_batches=32
+  [ 16,400/69,314]  23.7%  réf=14,287 fig=2,113  speed=4.0s/row  ETA=58.2h  elapsed=18.0h  failed_batches=33
+  [ 16,500/69,314]  23.8%  réf=14,364 fig=2,136  speed=4.0s/row  ETA=58.0h  elapsed=18.1h  failed_batches=33
+  [ 16,600/69,314]  23.9%  réf=14,453 fig=2,147  speed=3.9s/row  ETA=57.8h  elapsed=18.2h  failed_batches=33
+  [ 16,700/69,314]  24.1%  réf=14,534 fig=2,166  speed=4.0s/row  ETA=57.7h  elapsed=18.3h  failed_batches=34
+  [ 16,800/69,314]  24.2%  réf=14,609 fig=2,191  speed=3.9s/row  ETA=57.6h  elapsed=18.4h  failed_batches=34
+  [ 16,900/69,314]  24.4%  réf=14,702 fig=2,198  speed=3.9s/row  ETA=57.4h  elapsed=18.5h  failed_batches=35
+  [ 17,000/69,314]  24.5%  réf=14,793 fig=2,207  speed=3.9s/row  ETA=57.2h  elapsed=18.6h  failed_batches=35
+  [ 17,100/69,314]  24.7%  réf=14,881 fig=2,219  speed=3.9s/row  ETA=57.0h  elapsed=18.7h  failed_batches=35
+  [ 17,200/69,314]  24.8%  réf=14,974 fig=2,226  speed=3.9s/row  ETA=56.8h  elapsed=18.8h  failed_batches=35
+  [ 17,300/69,314]  25.0%  réf=15,064 fig=2,236  speed=3.9s/row  ETA=56.7h  elapsed=18.9h  failed_batches=35
+  [ 17,400/69,314]  25.1%  réf=15,159 fig=2,241  speed=3.9s/row  ETA=56.5h  elapsed=18.9h  failed_batches=35
+  [ 17,500/69,314]  25.2%  réf=15,244 fig=2,256  speed=3.9s/row  ETA=56.4h  elapsed=19.0h  failed_batches=35
+  [ 17,600/69,314]  25.4%  réf=15,334 fig=2,266  speed=3.9s/row  ETA=56.2h  elapsed=19.1h  failed_batches=35
+  [ 17,700/69,314]  25.5%  réf=15,420 fig=2,280  speed=3.9s/row  ETA=56.1h  elapsed=19.2h  failed_batches=35
+  [ 17,800/69,314]  25.7%  réf=15,510 fig=2,290  speed=3.9s/row  ETA=55.9h  elapsed=19.3h  failed_batches=37
+  [ 17,900/69,314]  25.8%  réf=15,602 fig=2,298  speed=3.9s/row  ETA=55.7h  elapsed=19.4h  failed_batches=37
+  [ 18,000/69,314]  26.0%  réf=15,679 fig=2,321  speed=3.9s/row  ETA=55.6h  elapsed=19.5h  failed_batches=37
+  [ 18,100/69,314]  26.1%  réf=15,767 fig=2,333  speed=3.9s/row  ETA=55.5h  elapsed=19.6h  failed_batches=37
+  [ 18,200/69,314]  26.3%  réf=15,847 fig=2,353  speed=3.9s/row  ETA=55.3h  elapsed=19.7h  failed_batches=38
+  [ 18,300/69,314]  26.4%  réf=15,931 fig=2,369  speed=3.9s/row  ETA=55.2h  elapsed=19.8h  failed_batches=38
+  [ 18,400/69,314]  26.5%  réf=16,024 fig=2,376  speed=3.9s/row  ETA=55.0h  elapsed=19.9h  failed_batches=38
+  [ 18,500/69,314]  26.7%  réf=16,119 fig=2,381  speed=3.9s/row  ETA=54.9h  elapsed=20.0h  failed_batches=38
+  [ 18,600/69,314]  26.8%  réf=16,183 fig=2,417  speed=3.9s/row  ETA=54.9h  elapsed=20.1h  failed_batches=38
+  [ 18,700/69,314]  27.0%  réf=16,254 fig=2,446  speed=3.9s/row  ETA=54.8h  elapsed=20.3h  failed_batches=38
+  [ 18,800/69,314]  27.1%  réf=16,322 fig=2,478  speed=3.9s/row  ETA=54.7h  elapsed=20.4h  failed_batches=39
+  [ 18,900/69,314]  27.3%  réf=16,406 fig=2,494  speed=3.9s/row  ETA=54.6h  elapsed=20.5h  failed_batches=39
+  [ 19,000/69,314]  27.4%  réf=16,493 fig=2,507  speed=3.9s/row  ETA=54.5h  elapsed=20.6h  failed_batches=39
+  [ 19,100/69,314]  27.6%  réf=16,580 fig=2,520  speed=3.9s/row  ETA=54.3h  elapsed=20.7h  failed_batches=39
+  [ 19,200/69,314]  27.7%  réf=16,669 fig=2,531  speed=3.9s/row  ETA=54.2h  elapsed=20.8h  failed_batches=39
+  [ 19,300/69,314]  27.8%  réf=16,755 fig=2,545  speed=3.9s/row  ETA=54.1h  elapsed=20.9h  failed_batches=39
+  [ 19,400/69,314]  28.0%  réf=16,836 fig=2,564  speed=3.9s/row  ETA=54.0h  elapsed=21.0h  failed_batches=39
+  [ 19,500/69,314]  28.1%  réf=16,916 fig=2,584  speed=3.9s/row  ETA=53.8h  elapsed=21.1h  failed_batches=39
+  [ 19,600/69,314]  28.3%  réf=16,994 fig=2,606  speed=3.9s/row  ETA=53.6h  elapsed=21.1h  failed_batches=39
+  [ 19,700/69,314]  28.4%  réf=17,085 fig=2,615  speed=3.9s/row  ETA=53.6h  elapsed=21.3h  failed_batches=39
+  [ 19,800/69,314]  28.6%  réf=17,177 fig=2,623  speed=3.9s/row  ETA=53.4h  elapsed=21.4h  failed_batches=39
+  [ 19,900/69,314]  28.7%  réf=17,270 fig=2,630  speed=3.9s/row  ETA=53.3h  elapsed=21.5h  failed_batches=39
+  [ 20,000/69,314]  28.9%  réf=17,358 fig=2,642  speed=3.9s/row  ETA=53.2h  elapsed=21.6h  failed_batches=39
+  [ 20,100/69,314]  29.0%  réf=17,448 fig=2,652  speed=3.9s/row  ETA=53.0h  elapsed=21.7h  failed_batches=39
+  [ 20,200/69,314]  29.1%  réf=17,545 fig=2,655  speed=3.9s/row  ETA=52.9h  elapsed=21.7h  failed_batches=39
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 20,234 rows already done
+Rows to classify: 49,080
+Estimated time: 53h (2.2 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 20,334/69,314]  29.3%  réf=17,663 fig=2,671  speed=3.4s/row  ETA=46.2h  elapsed=0.1h  failed_batches=0
+  [ 20,434/69,314]  29.5%  réf=17,751 fig=2,683  speed=3.8s/row  ETA=51.1h  elapsed=0.2h  failed_batches=0
+  [ 20,534/69,314]  29.6%  réf=17,835 fig=2,699  speed=3.8s/row  ETA=52.0h  elapsed=0.3h  failed_batches=1
+  [ 20,634/69,314]  29.8%  réf=17,913 fig=2,721  speed=3.7s/row  ETA=50.6h  elapsed=0.4h  failed_batches=1
+  [ 20,734/69,314]  29.9%  réf=18,005 fig=2,729  speed=3.8s/row  ETA=50.7h  elapsed=0.5h  failed_batches=1
+  [ 20,834/69,314]  30.1%  réf=18,090 fig=2,744  speed=3.8s/row  ETA=51.6h  elapsed=0.6h  failed_batches=1
+  [ 20,934/69,314]  30.2%  réf=18,163 fig=2,771  speed=3.7s/row  ETA=50.4h  elapsed=0.7h  failed_batches=1
+  [ 21,034/69,314]  30.3%  réf=18,257 fig=2,777  speed=3.8s/row  ETA=50.4h  elapsed=0.8h  failed_batches=1
+  [ 21,134/69,314]  30.5%  réf=18,349 fig=2,785  speed=3.7s/row  ETA=50.1h  elapsed=0.9h  failed_batches=1
+  [ 21,234/69,314]  30.6%  réf=18,444 fig=2,790  speed=3.7s/row  ETA=49.4h  elapsed=1.0h  failed_batches=1
+  [ 21,334/69,314]  30.8%  réf=18,535 fig=2,799  speed=3.7s/row  ETA=49.1h  elapsed=1.1h  failed_batches=1
+  [ 21,434/69,314]  30.9%  réf=18,631 fig=2,803  speed=3.6s/row  ETA=48.5h  elapsed=1.2h  failed_batches=1
+  [ 21,534/69,314]  31.1%  réf=18,725 fig=2,809  speed=3.7s/row  ETA=48.5h  elapsed=1.3h  failed_batches=1
+  [ 21,634/69,314]  31.2%  réf=18,818 fig=2,816  speed=3.6s/row  ETA=47.8h  elapsed=1.4h  failed_batches=1
+  [ 21,734/69,314]  31.4%  réf=18,903 fig=2,831  speed=3.6s/row  ETA=48.2h  elapsed=1.5h  failed_batches=1
+  [ 21,834/69,314]  31.5%  réf=18,983 fig=2,851  speed=3.7s/row  ETA=48.2h  elapsed=1.6h  failed_batches=1
+  [ 21,934/69,314]  31.6%  réf=19,062 fig=2,872  speed=3.7s/row  ETA=48.1h  elapsed=1.7h  failed_batches=1
+  [ 22,034/69,314]  31.8%  réf=19,143 fig=2,891  speed=3.6s/row  ETA=47.6h  elapsed=1.8h  failed_batches=1
+  [ 22,134/69,314]  31.9%  réf=19,224 fig=2,910  speed=3.6s/row  ETA=47.6h  elapsed=1.9h  failed_batches=1
+  [ 22,234/69,314]  32.1%  réf=19,316 fig=2,918  speed=3.6s/row  ETA=46.9h  elapsed=2.0h  failed_batches=1
+  [ 22,334/69,314]  32.2%  réf=19,402 fig=2,932  speed=3.6s/row  ETA=46.5h  elapsed=2.1h  failed_batches=1
+  [ 22,434/69,314]  32.4%  réf=19,494 fig=2,940  speed=3.6s/row  ETA=46.7h  elapsed=2.2h  failed_batches=1
+  [ 22,534/69,314]  32.5%  réf=19,587 fig=2,947  speed=3.6s/row  ETA=46.4h  elapsed=2.3h  failed_batches=1
+  [ 22,634/69,314]  32.7%  réf=19,672 fig=2,962  speed=3.6s/row  ETA=46.3h  elapsed=2.4h  failed_batches=1
+  [ 22,734/69,314]  32.8%  réf=19,764 fig=2,970  speed=3.6s/row  ETA=46.3h  elapsed=2.5h  failed_batches=1
+  [ 22,834/69,314]  32.9%  réf=19,855 fig=2,979  speed=3.6s/row  ETA=46.2h  elapsed=2.6h  failed_batches=2
+  [ 22,934/69,314]  33.1%  réf=19,947 fig=2,987  speed=3.6s/row  ETA=46.0h  elapsed=2.7h  failed_batches=2
+  [ 23,034/69,314]  33.2%  réf=20,045 fig=2,989  speed=3.6s/row  ETA=45.9h  elapsed=2.8h  failed_batches=2
+  [ 23,134/69,314]  33.4%  réf=20,137 fig=2,997  speed=3.6s/row  ETA=45.8h  elapsed=2.9h  failed_batches=2
+  [ 23,234/69,314]  33.5%  réf=20,225 fig=3,009  speed=3.6s/row  ETA=45.9h  elapsed=3.0h  failed_batches=2
+  [ 23,334/69,314]  33.7%  réf=20,312 fig=3,022  speed=3.6s/row  ETA=46.1h  elapsed=3.1h  failed_batches=2
+  [ 23,434/69,314]  33.8%  réf=20,407 fig=3,027  speed=3.6s/row  ETA=46.1h  elapsed=3.2h  failed_batches=2
+  [ 23,534/69,314]  34.0%  réf=20,499 fig=3,035  speed=3.6s/row  ETA=45.8h  elapsed=3.3h  failed_batches=2
+  [ 23,634/69,314]  34.1%  réf=20,594 fig=3,040  speed=3.6s/row  ETA=45.6h  elapsed=3.4h  failed_batches=2
+  [ 23,734/69,314]  34.2%  réf=20,680 fig=3,054  speed=3.6s/row  ETA=45.3h  elapsed=3.5h  failed_batches=2
+  [ 23,834/69,314]  34.4%  réf=20,774 fig=3,060  speed=3.6s/row  ETA=45.6h  elapsed=3.6h  failed_batches=2
+  [ 23,934/69,314]  34.5%  réf=20,868 fig=3,066  speed=3.6s/row  ETA=45.3h  elapsed=3.7h  failed_batches=2
+  [ 24,034/69,314]  34.7%  réf=20,958 fig=3,076  speed=3.6s/row  ETA=45.4h  elapsed=3.8h  failed_batches=3
+  [ 24,134/69,314]  34.8%  réf=21,042 fig=3,092  speed=3.6s/row  ETA=45.4h  elapsed=3.9h  failed_batches=3
+  [ 24,234/69,314]  35.0%  réf=21,132 fig=3,102  speed=3.6s/row  ETA=45.2h  elapsed=4.0h  failed_batches=3
+  [ 24,334/69,314]  35.1%  réf=21,216 fig=3,118  speed=3.6s/row  ETA=45.2h  elapsed=4.1h  failed_batches=3
+  [ 24,434/69,314]  35.3%  réf=21,301 fig=3,133  speed=3.6s/row  ETA=45.2h  elapsed=4.2h  failed_batches=4
+  [ 24,534/69,314]  35.4%  réf=21,369 fig=3,165  speed=3.6s/row  ETA=45.1h  elapsed=4.3h  failed_batches=4
+  [ 24,634/69,314]  35.5%  réf=21,463 fig=3,171  speed=3.7s/row  ETA=45.6h  elapsed=4.5h  failed_batches=8
+  [ 24,734/69,314]  35.7%  réf=21,560 fig=3,174  speed=3.7s/row  ETA=45.5h  elapsed=4.6h  failed_batches=8
+  [ 24,834/69,314]  35.8%  réf=21,655 fig=3,179  speed=3.7s/row  ETA=45.5h  elapsed=4.7h  failed_batches=8
+  [ 24,934/69,314]  36.0%  réf=21,753 fig=3,181  speed=3.7s/row  ETA=45.3h  elapsed=4.8h  failed_batches=8
+  [ 25,034/69,314]  36.1%  réf=21,846 fig=3,188  speed=3.7s/row  ETA=45.2h  elapsed=4.9h  failed_batches=8
+  [ 25,134/69,314]  36.3%  réf=21,927 fig=3,207  speed=3.7s/row  ETA=45.2h  elapsed=5.0h  failed_batches=8
+  [ 25,234/69,314]  36.4%  réf=21,995 fig=3,239  speed=3.7s/row  ETA=45.3h  elapsed=5.1h  failed_batches=8
+  [ 25,334/69,314]  36.5%  réf=22,081 fig=3,253  speed=3.7s/row  ETA=45.1h  elapsed=5.2h  failed_batches=9
+  [ 25,434/69,314]  36.7%  réf=22,166 fig=3,268  speed=3.7s/row  ETA=44.8h  elapsed=5.3h  failed_batches=9
+  [ 25,534/69,314]  36.8%  réf=22,247 fig=3,287  speed=3.7s/row  ETA=44.8h  elapsed=5.4h  failed_batches=9
+  [ 25,634/69,314]  37.0%  réf=22,332 fig=3,302  speed=3.7s/row  ETA=44.6h  elapsed=5.5h  failed_batches=9
+  [ 25,734/69,314]  37.1%  réf=22,427 fig=3,307  speed=3.7s/row  ETA=44.4h  elapsed=5.6h  failed_batches=9
+  [ 25,834/69,314]  37.3%  réf=22,513 fig=3,321  speed=3.7s/row  ETA=44.1h  elapsed=5.7h  failed_batches=9
+  [ 25,934/69,314]  37.4%  réf=22,591 fig=3,343  speed=3.7s/row  ETA=44.1h  elapsed=5.8h  failed_batches=9
+  [ 26,034/69,314]  37.6%  réf=22,664 fig=3,370  speed=3.7s/row  ETA=44.1h  elapsed=5.9h  failed_batches=9
+  [ 26,134/69,314]  37.7%  réf=22,760 fig=3,374  speed=3.7s/row  ETA=44.0h  elapsed=6.0h  failed_batches=9
+  [ 26,234/69,314]  37.8%  réf=22,847 fig=3,387  speed=3.7s/row  ETA=43.9h  elapsed=6.1h  failed_batches=9
+  [ 26,334/69,314]  38.0%  réf=22,934 fig=3,400  speed=3.7s/row  ETA=43.8h  elapsed=6.2h  failed_batches=9
+  [ 26,434/69,314]  38.1%  réf=23,020 fig=3,414  speed=3.7s/row  ETA=43.7h  elapsed=6.3h  failed_batches=9
+  [ 26,534/69,314]  38.3%  réf=23,075 fig=3,459  speed=3.7s/row  ETA=43.7h  elapsed=6.4h  failed_batches=9
+  [ 26,634/69,314]  38.4%  réf=23,151 fig=3,483  speed=3.7s/row  ETA=43.6h  elapsed=6.5h  failed_batches=9
+  [ 26,734/69,314]  38.6%  réf=23,239 fig=3,495  speed=3.7s/row  ETA=43.6h  elapsed=6.7h  failed_batches=9
+  [ 26,834/69,314]  38.7%  réf=23,323 fig=3,511  speed=3.7s/row  ETA=43.5h  elapsed=6.8h  failed_batches=10
+  [ 26,934/69,314]  38.9%  réf=23,410 fig=3,524  speed=3.7s/row  ETA=43.6h  elapsed=6.9h  failed_batches=10
+  [ 27,034/69,314]  39.0%  réf=23,497 fig=3,537  speed=3.7s/row  ETA=43.5h  elapsed=7.0h  failed_batches=10
+  [ 27,134/69,314]  39.1%  réf=23,595 fig=3,539  speed=3.7s/row  ETA=43.3h  elapsed=7.1h  failed_batches=10
+  [ 27,234/69,314]  39.3%  réf=23,676 fig=3,558  speed=3.7s/row  ETA=43.3h  elapsed=7.2h  failed_batches=10
+  [ 27,334/69,314]  39.4%  réf=23,757 fig=3,577  speed=3.7s/row  ETA=43.4h  elapsed=7.3h  failed_batches=10
+  [ 27,434/69,314]  39.6%  réf=23,850 fig=3,584  speed=3.7s/row  ETA=43.2h  elapsed=7.4h  failed_batches=10
+  [ 27,534/69,314]  39.7%  réf=23,945 fig=3,589  speed=3.7s/row  ETA=43.0h  elapsed=7.5h  failed_batches=10
+  [ 27,634/69,314]  39.9%  réf=24,030 fig=3,604  speed=3.7s/row  ETA=42.9h  elapsed=7.6h  failed_batches=10
+  [ 27,734/69,314]  40.0%  réf=24,124 fig=3,610  speed=3.7s/row  ETA=42.7h  elapsed=7.7h  failed_batches=10
+  [ 27,834/69,314]  40.2%  réf=24,213 fig=3,621  speed=3.7s/row  ETA=42.6h  elapsed=7.8h  failed_batches=10
+  [ 27,934/69,314]  40.3%  réf=24,296 fig=3,638  speed=3.7s/row  ETA=42.5h  elapsed=7.9h  failed_batches=10
+  [ 28,034/69,314]  40.4%  réf=24,386 fig=3,648  speed=3.7s/row  ETA=42.3h  elapsed=8.0h  failed_batches=10
+  [ 28,134/69,314]  40.6%  réf=24,476 fig=3,658  speed=3.7s/row  ETA=42.1h  elapsed=8.1h  failed_batches=10
+  [ 28,234/69,314]  40.7%  réf=24,558 fig=3,676  speed=3.7s/row  ETA=42.0h  elapsed=8.2h  failed_batches=10
+  [ 28,334/69,314]  40.9%  réf=24,647 fig=3,687  speed=3.7s/row  ETA=41.9h  elapsed=8.3h  failed_batches=11
+  [ 28,434/69,314]  41.0%  réf=24,722 fig=3,712  speed=3.7s/row  ETA=41.9h  elapsed=8.4h  failed_batches=11
+  [ 28,534/69,314]  41.2%  réf=24,804 fig=3,730  speed=3.7s/row  ETA=41.7h  elapsed=8.5h  failed_batches=11
+  [ 28,634/69,314]  41.3%  réf=24,888 fig=3,746  speed=3.7s/row  ETA=41.6h  elapsed=8.6h  failed_batches=11
+  [ 28,734/69,314]  41.5%  réf=24,979 fig=3,755  speed=3.7s/row  ETA=41.4h  elapsed=8.7h  failed_batches=11
+  [ 28,834/69,314]  41.6%  réf=25,070 fig=3,764  speed=3.7s/row  ETA=41.3h  elapsed=8.8h  failed_batches=11
+  [ 28,934/69,314]  41.7%  réf=25,154 fig=3,780  speed=3.7s/row  ETA=41.2h  elapsed=8.9h  failed_batches=11
+  [ 29,034/69,314]  41.9%  réf=25,218 fig=3,816  speed=3.7s/row  ETA=41.2h  elapsed=9.0h  failed_batches=11
+  [ 29,134/69,314]  42.0%  réf=25,303 fig=3,831  speed=3.7s/row  ETA=41.1h  elapsed=9.1h  failed_batches=12
+  [ 29,234/69,314]  42.2%  réf=25,381 fig=3,853  speed=3.7s/row  ETA=41.1h  elapsed=9.2h  failed_batches=12
+  [ 29,334/69,314]  42.3%  réf=25,464 fig=3,870  speed=3.7s/row  ETA=41.0h  elapsed=9.3h  failed_batches=12
+  [ 29,434/69,314]  42.5%  réf=25,552 fig=3,882  speed=3.7s/row  ETA=40.9h  elapsed=9.4h  failed_batches=12
+  [ 29,534/69,314]  42.6%  réf=25,638 fig=3,896  speed=3.7s/row  ETA=40.8h  elapsed=9.5h  failed_batches=12
+  [ 29,634/69,314]  42.8%  réf=25,733 fig=3,901  speed=3.7s/row  ETA=40.7h  elapsed=9.6h  failed_batches=13
+  [ 29,734/69,314]  42.9%  réf=25,817 fig=3,917  speed=3.7s/row  ETA=40.7h  elapsed=9.8h  failed_batches=13
+  [ 29,834/69,314]  43.0%  réf=25,897 fig=3,937  speed=3.7s/row  ETA=40.5h  elapsed=9.9h  failed_batches=13
+  [ 29,934/69,314]  43.2%  réf=25,982 fig=3,952  speed=3.7s/row  ETA=40.5h  elapsed=10.0h  failed_batches=13
+  [ 30,034/69,314]  43.3%  réf=26,078 fig=3,956  speed=3.7s/row  ETA=40.3h  elapsed=10.1h  failed_batches=13
+  [ 30,134/69,314]  43.5%  réf=26,173 fig=3,961  speed=3.7s/row  ETA=40.2h  elapsed=10.2h  failed_batches=13
+  [ 30,234/69,314]  43.6%  réf=26,269 fig=3,965  speed=3.7s/row  ETA=40.1h  elapsed=10.2h  failed_batches=13
+  [ 30,334/69,314]  43.8%  réf=26,365 fig=3,969  speed=3.7s/row  ETA=39.9h  elapsed=10.3h  failed_batches=13
+  [ 30,434/69,314]  43.9%  réf=26,453 fig=3,981  speed=3.7s/row  ETA=39.8h  elapsed=10.4h  failed_batches=13
+  [ 30,534/69,314]  44.1%  réf=26,544 fig=3,990  speed=3.7s/row  ETA=39.7h  elapsed=10.5h  failed_batches=13
+  [ 30,634/69,314]  44.2%  réf=26,634 fig=4,000  speed=3.7s/row  ETA=39.6h  elapsed=10.7h  failed_batches=13
+  [ 30,734/69,314]  44.3%  réf=26,712 fig=4,022  speed=3.7s/row  ETA=39.6h  elapsed=10.8h  failed_batches=14
+  [ 30,834/69,314]  44.5%  réf=26,798 fig=4,036  speed=3.7s/row  ETA=39.5h  elapsed=10.9h  failed_batches=14
+  [ 30,934/69,314]  44.6%  réf=26,881 fig=4,053  speed=3.7s/row  ETA=39.4h  elapsed=11.0h  failed_batches=14
+  [ 31,034/69,314]  44.8%  réf=26,970 fig=4,064  speed=3.7s/row  ETA=39.3h  elapsed=11.1h  failed_batches=14
+  [ 31,134/69,314]  44.9%  réf=27,054 fig=4,080  speed=3.7s/row  ETA=39.2h  elapsed=11.2h  failed_batches=14
+  [ 31,234/69,314]  45.1%  réf=27,122 fig=4,112  speed=3.7s/row  ETA=39.1h  elapsed=11.3h  failed_batches=14
+  [ 31,334/69,314]  45.2%  réf=27,198 fig=4,136  speed=3.7s/row  ETA=39.0h  elapsed=11.4h  failed_batches=14
+  [ 31,434/69,314]  45.4%  réf=27,274 fig=4,160  speed=3.7s/row  ETA=38.9h  elapsed=11.5h  failed_batches=14
+  [ 31,534/69,314]  45.5%  réf=27,351 fig=4,183  speed=3.7s/row  ETA=38.7h  elapsed=11.6h  failed_batches=14
+  [ 31,634/69,314]  45.6%  réf=27,442 fig=4,192  speed=3.7s/row  ETA=38.6h  elapsed=11.7h  failed_batches=14
+  [ 31,734/69,314]  45.8%  réf=27,526 fig=4,208  speed=3.7s/row  ETA=38.6h  elapsed=11.8h  failed_batches=14
+  [ 31,834/69,314]  45.9%  réf=27,609 fig=4,225  speed=3.7s/row  ETA=38.5h  elapsed=11.9h  failed_batches=14
+  [ 31,934/69,314]  46.1%  réf=27,693 fig=4,241  speed=3.7s/row  ETA=38.4h  elapsed=12.0h  failed_batches=14
+  [ 32,034/69,314]  46.2%  réf=27,785 fig=4,249  speed=3.7s/row  ETA=38.3h  elapsed=12.1h  failed_batches=14
+  [ 32,134/69,314]  46.4%  réf=27,882 fig=4,252  speed=3.7s/row  ETA=38.2h  elapsed=12.2h  failed_batches=14
+  [ 32,234/69,314]  46.5%  réf=27,957 fig=4,277  speed=3.7s/row  ETA=38.1h  elapsed=12.3h  failed_batches=14
+  [ 32,334/69,314]  46.6%  réf=28,038 fig=4,296  speed=3.7s/row  ETA=38.0h  elapsed=12.4h  failed_batches=14
+  [ 32,434/69,314]  46.8%  réf=28,127 fig=4,307  speed=3.7s/row  ETA=38.4h  elapsed=12.7h  failed_batches=14
+  [ 32,534/69,314]  46.9%  réf=28,209 fig=4,325  speed=3.8s/row  ETA=39.0h  elapsed=13.0h  failed_batches=14
+  [ 32,634/69,314]  47.1%  réf=28,303 fig=4,331  speed=3.9s/row  ETA=39.5h  elapsed=13.3h  failed_batches=14
+  [ 32,734/69,314]  47.2%  réf=28,394 fig=4,340  speed=3.9s/row  ETA=39.8h  elapsed=13.6h  failed_batches=14
+  [ 32,834/69,314]  47.4%  réf=28,477 fig=4,357  speed=4.0s/row  ETA=40.3h  elapsed=13.9h  failed_batches=14
+  [ 32,934/69,314]  47.5%  réf=28,565 fig=4,369  speed=4.0s/row  ETA=40.8h  elapsed=14.3h  failed_batches=14
+  [ 33,034/69,314]  47.7%  réf=28,655 fig=4,379  speed=4.1s/row  ETA=41.2h  elapsed=14.5h  failed_batches=14
+  [ 33,134/69,314]  47.8%  réf=28,735 fig=4,399  speed=4.2s/row  ETA=41.7h  elapsed=14.9h  failed_batches=14
+  [ 33,234/69,314]  47.9%  réf=28,798 fig=4,436  speed=4.2s/row  ETA=42.2h  elapsed=15.2h  failed_batches=14
+  [ 33,334/69,314]  48.1%  réf=28,892 fig=4,442  speed=4.2s/row  ETA=42.5h  elapsed=15.5h  failed_batches=14
+  [ 33,434/69,314]  48.2%  réf=28,984 fig=4,450  speed=4.3s/row  ETA=42.7h  elapsed=15.7h  failed_batches=14
+  [ 33,534/69,314]  48.4%  réf=29,082 fig=4,452  speed=4.3s/row  ETA=42.9h  elapsed=15.9h  failed_batches=14
+  [ 33,634/69,314]  48.5%  réf=29,175 fig=4,459  speed=4.3s/row  ETA=42.9h  elapsed=16.1h  failed_batches=14
+  [ 33,734/69,314]  48.7%  réf=29,256 fig=4,478  speed=4.3s/row  ETA=42.8h  elapsed=16.2h  failed_batches=14
+  [ 33,834/69,314]  48.8%  réf=29,341 fig=4,493  speed=4.3s/row  ETA=42.6h  elapsed=16.3h  failed_batches=14
+  [ 33,934/69,314]  49.0%  réf=29,437 fig=4,497  speed=4.3s/row  ETA=42.4h  elapsed=16.4h  failed_batches=14
+  [ 34,034/69,314]  49.1%  réf=29,525 fig=4,509  speed=4.3s/row  ETA=42.2h  elapsed=16.5h  failed_batches=14
+  [ 34,134/69,314]  49.2%  réf=29,616 fig=4,518  speed=4.3s/row  ETA=42.1h  elapsed=16.6h  failed_batches=14
+  [ 34,234/69,314]  49.4%  réf=29,703 fig=4,531  speed=4.3s/row  ETA=41.9h  elapsed=16.7h  failed_batches=14
+  [ 34,334/69,314]  49.5%  réf=29,799 fig=4,535  speed=4.3s/row  ETA=41.7h  elapsed=16.8h  failed_batches=14
+  [ 34,434/69,314]  49.7%  réf=29,894 fig=4,540  speed=4.3s/row  ETA=41.5h  elapsed=16.9h  failed_batches=14
+  [ 34,534/69,314]  49.8%  réf=29,975 fig=4,559  speed=4.3s/row  ETA=41.4h  elapsed=17.0h  failed_batches=14
+  [ 34,634/69,314]  50.0%  réf=30,062 fig=4,572  speed=4.3s/row  ETA=41.2h  elapsed=17.1h  failed_batches=14
+  [ 34,734/69,314]  50.1%  réf=30,129 fig=4,605  speed=4.3s/row  ETA=41.1h  elapsed=17.2h  failed_batches=14
+  [ 34,834/69,314]  50.3%  réf=30,215 fig=4,619  speed=4.3s/row  ETA=40.9h  elapsed=17.3h  failed_batches=14
+  [ 34,934/69,314]  50.4%  réf=30,300 fig=4,634  speed=4.3s/row  ETA=40.7h  elapsed=17.4h  failed_batches=14
+  [ 35,034/69,314]  50.5%  réf=30,372 fig=4,662  speed=4.3s/row  ETA=40.6h  elapsed=17.5h  failed_batches=14
+  [ 35,134/69,314]  50.7%  réf=30,457 fig=4,677  speed=4.3s/row  ETA=40.5h  elapsed=17.6h  failed_batches=14
+  [ 35,234/69,314]  50.8%  réf=30,542 fig=4,692  speed=4.3s/row  ETA=40.3h  elapsed=17.7h  failed_batches=14
+  [ 35,334/69,314]  51.0%  réf=30,631 fig=4,703  speed=4.3s/row  ETA=40.2h  elapsed=17.8h  failed_batches=14
+  [ 35,434/69,314]  51.1%  réf=30,718 fig=4,716  speed=4.2s/row  ETA=40.0h  elapsed=17.9h  failed_batches=14
+  [ 35,534/69,314]  51.3%  réf=30,800 fig=4,734  speed=4.2s/row  ETA=39.8h  elapsed=18.0h  failed_batches=15
+  [ 35,634/69,314]  51.4%  réf=30,876 fig=4,758  speed=4.2s/row  ETA=39.7h  elapsed=18.1h  failed_batches=15
+  [ 35,734/69,314]  51.6%  réf=30,969 fig=4,765  speed=4.2s/row  ETA=39.5h  elapsed=18.2h  failed_batches=16
+  [ 35,834/69,314]  51.7%  réf=31,060 fig=4,774  speed=4.2s/row  ETA=39.4h  elapsed=18.3h  failed_batches=16
+  [ 35,934/69,314]  51.8%  réf=31,150 fig=4,784  speed=4.2s/row  ETA=39.2h  elapsed=18.4h  failed_batches=16
+  [ 36,034/69,314]  52.0%  réf=31,244 fig=4,790  speed=4.2s/row  ETA=39.0h  elapsed=18.5h  failed_batches=16
+  [ 36,134/69,314]  52.1%  réf=31,329 fig=4,805  speed=4.2s/row  ETA=38.9h  elapsed=18.6h  failed_batches=16
+  [ 36,234/69,314]  52.3%  réf=31,403 fig=4,831  speed=4.2s/row  ETA=38.8h  elapsed=18.8h  failed_batches=16
+  [ 36,334/69,314]  52.4%  réf=31,487 fig=4,847  speed=4.2s/row  ETA=38.6h  elapsed=18.9h  failed_batches=16
+  [ 36,434/69,314]  52.6%  réf=31,574 fig=4,860  speed=4.2s/row  ETA=38.5h  elapsed=19.0h  failed_batches=16
+  [ 36,534/69,314]  52.7%  réf=31,665 fig=4,869  speed=4.2s/row  ETA=38.3h  elapsed=19.0h  failed_batches=16
+  [ 36,634/69,314]  52.9%  réf=31,759 fig=4,875  speed=4.2s/row  ETA=38.1h  elapsed=19.1h  failed_batches=16
+  [ 36,734/69,314]  53.0%  réf=31,840 fig=4,894  speed=4.2s/row  ETA=37.9h  elapsed=19.2h  failed_batches=16
+  [ 36,834/69,314]  53.1%  réf=31,922 fig=4,912  speed=4.2s/row  ETA=37.7h  elapsed=19.3h  failed_batches=16
+  [ 36,934/69,314]  53.3%  réf=32,003 fig=4,931  speed=4.2s/row  ETA=37.6h  elapsed=19.4h  failed_batches=16
+  [ 37,034/69,314]  53.4%  réf=32,087 fig=4,947  speed=4.2s/row  ETA=37.5h  elapsed=19.5h  failed_batches=16
+  [ 37,134/69,314]  53.6%  réf=32,173 fig=4,961  speed=4.2s/row  ETA=37.3h  elapsed=19.6h  failed_batches=16
+  [ 37,234/69,314]  53.7%  réf=32,265 fig=4,969  speed=4.2s/row  ETA=37.2h  elapsed=19.7h  failed_batches=16
+  [ 37,334/69,314]  53.9%  réf=32,358 fig=4,976  speed=4.2s/row  ETA=37.1h  elapsed=19.8h  failed_batches=18
+  [ 37,434/69,314]  54.0%  réf=32,442 fig=4,992  speed=4.2s/row  ETA=37.3h  elapsed=20.1h  failed_batches=23
+  [ 37,534/69,314]  54.2%  réf=32,531 fig=5,003  speed=4.2s/row  ETA=37.4h  elapsed=20.4h  failed_batches=23
+  [ 37,634/69,314]  54.3%  réf=32,604 fig=5,030  speed=4.3s/row  ETA=37.5h  elapsed=20.6h  failed_batches=23
+  [ 37,734/69,314]  54.4%  réf=32,693 fig=5,041  speed=4.3s/row  ETA=37.4h  elapsed=20.7h  failed_batches=23
+  [ 37,834/69,314]  54.6%  réf=32,784 fig=5,050  speed=4.3s/row  ETA=37.2h  elapsed=20.8h  failed_batches=23
+  [ 37,934/69,314]  54.7%  réf=32,877 fig=5,057  speed=4.2s/row  ETA=37.0h  elapsed=20.9h  failed_batches=23
+  [ 38,034/69,314]  54.9%  réf=32,975 fig=5,059  speed=4.2s/row  ETA=36.8h  elapsed=21.0h  failed_batches=23
+  [ 38,134/69,314]  55.0%  réf=33,061 fig=5,073  speed=4.2s/row  ETA=36.8h  elapsed=21.1h  failed_batches=23
+  [ 38,234/69,314]  55.2%  réf=33,142 fig=5,092  speed=4.3s/row  ETA=36.9h  elapsed=21.3h  failed_batches=23
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 38,234 rows already done
+Rows to classify: 31,080
+Estimated time: 34h (1.4 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 38,334/69,314]  55.3%  réf=33,228 fig=5,106  speed=5.0s/row  ETA=42.7h  elapsed=0.1h  failed_batches=0
+  [ 38,434/69,314]  55.4%  réf=33,319 fig=5,115  speed=4.8s/row  ETA=41.1h  elapsed=0.3h  failed_batches=1
+  [ 38,534/69,314]  55.6%  réf=33,412 fig=5,122  speed=4.4s/row  ETA=38.0h  elapsed=0.4h  failed_batches=2
+  [ 38,634/69,314]  55.7%  réf=33,486 fig=5,148  speed=4.3s/row  ETA=36.4h  elapsed=0.5h  failed_batches=2
+  [ 38,734/69,314]  55.9%  réf=33,579 fig=5,155  speed=4.1s/row  ETA=34.9h  elapsed=0.6h  failed_batches=2
+  [ 38,834/69,314]  56.0%  réf=33,672 fig=5,162  speed=4.0s/row  ETA=34.0h  elapsed=0.7h  failed_batches=2
+  [ 38,934/69,314]  56.2%  réf=33,754 fig=5,180  speed=4.1s/row  ETA=34.9h  elapsed=0.8h  failed_batches=4
+  [ 39,034/69,314]  56.3%  réf=33,834 fig=5,200  speed=4.1s/row  ETA=34.9h  elapsed=0.9h  failed_batches=4
+  [ 39,134/69,314]  56.5%  réf=33,918 fig=5,216  speed=4.1s/row  ETA=34.1h  elapsed=1.0h  failed_batches=4
+  [ 39,234/69,314]  56.6%  réf=34,012 fig=5,222  speed=4.1s/row  ETA=34.2h  elapsed=1.1h  failed_batches=4
+  [ 39,334/69,314]  56.7%  réf=34,094 fig=5,240  speed=4.1s/row  ETA=34.0h  elapsed=1.2h  failed_batches=4
+  [ 39,434/69,314]  56.9%  réf=34,180 fig=5,254  speed=4.1s/row  ETA=33.9h  elapsed=1.4h  failed_batches=4
+  [ 39,534/69,314]  57.0%  réf=34,263 fig=5,271  speed=4.1s/row  ETA=33.6h  elapsed=1.5h  failed_batches=5
+  [ 39,634/69,314]  57.2%  réf=34,346 fig=5,288  speed=4.1s/row  ETA=33.8h  elapsed=1.6h  failed_batches=5
+  [ 39,734/69,314]  57.3%  réf=34,430 fig=5,304  speed=4.1s/row  ETA=33.4h  elapsed=1.7h  failed_batches=5
+  [ 39,834/69,314]  57.5%  réf=34,516 fig=5,318  speed=4.1s/row  ETA=33.2h  elapsed=1.8h  failed_batches=5
+  [ 39,934/69,314]  57.6%  réf=34,602 fig=5,332  speed=4.1s/row  ETA=33.2h  elapsed=1.9h  failed_batches=5
+  [ 40,034/69,314]  57.8%  réf=34,691 fig=5,343  speed=4.0s/row  ETA=32.8h  elapsed=2.0h  failed_batches=5
+  [ 40,134/69,314]  57.9%  réf=34,783 fig=5,351  speed=4.0s/row  ETA=32.4h  elapsed=2.1h  failed_batches=5
+  [ 40,234/69,314]  58.0%  réf=34,864 fig=5,370  speed=4.0s/row  ETA=32.3h  elapsed=2.2h  failed_batches=5
+  [ 40,334/69,314]  58.2%  réf=34,951 fig=5,383  speed=4.0s/row  ETA=31.9h  elapsed=2.3h  failed_batches=5
+  [ 40,434/69,314]  58.3%  réf=35,045 fig=5,389  speed=3.9s/row  ETA=31.4h  elapsed=2.4h  failed_batches=5
+  [ 40,534/69,314]  58.5%  réf=35,137 fig=5,397  speed=3.9s/row  ETA=30.9h  elapsed=2.5h  failed_batches=5
+  [ 40,634/69,314]  58.6%  réf=35,220 fig=5,414  speed=3.9s/row  ETA=30.8h  elapsed=2.6h  failed_batches=5
+  [ 40,734/69,314]  58.8%  réf=35,306 fig=5,428  speed=3.8s/row  ETA=30.5h  elapsed=2.7h  failed_batches=5
+  [ 40,834/69,314]  58.9%  réf=35,396 fig=5,438  speed=3.8s/row  ETA=30.3h  elapsed=2.8h  failed_batches=5
+  [ 40,934/69,314]  59.1%  réf=35,477 fig=5,457  speed=3.8s/row  ETA=29.9h  elapsed=2.8h  failed_batches=5
+  [ 41,034/69,314]  59.2%  réf=35,573 fig=5,461  speed=3.8s/row  ETA=29.7h  elapsed=2.9h  failed_batches=5
+  [ 41,134/69,314]  59.3%  réf=35,661 fig=5,473  speed=3.8s/row  ETA=29.8h  elapsed=3.1h  failed_batches=5
+  [ 41,234/69,314]  59.5%  réf=35,757 fig=5,477  speed=3.8s/row  ETA=29.8h  elapsed=3.2h  failed_batches=5
+  [ 41,334/69,314]  59.6%  réf=35,842 fig=5,492  speed=3.9s/row  ETA=30.2h  elapsed=3.3h  failed_batches=5
+  [ 41,434/69,314]  59.8%  réf=35,928 fig=5,506  speed=3.9s/row  ETA=30.4h  elapsed=3.5h  failed_batches=5
+  [ 41,534/69,314]  59.9%  réf=36,013 fig=5,521  speed=4.0s/row  ETA=30.9h  elapsed=3.7h  failed_batches=6
+  [ 41,634/69,314]  60.1%  réf=36,101 fig=5,533  speed=4.0s/row  ETA=30.9h  elapsed=3.8h  failed_batches=6
+  [ 41,734/69,314]  60.2%  réf=36,197 fig=5,537  speed=4.0s/row  ETA=31.0h  elapsed=3.9h  failed_batches=7
+  [ 41,834/69,314]  60.4%  réf=36,284 fig=5,550  speed=4.1s/row  ETA=31.1h  elapsed=4.1h  failed_batches=7
+  [ 41,934/69,314]  60.5%  réf=36,376 fig=5,558  speed=4.1s/row  ETA=31.1h  elapsed=4.2h  failed_batches=7
+  [ 42,034/69,314]  60.6%  réf=36,467 fig=5,567  speed=4.1s/row  ETA=31.1h  elapsed=4.3h  failed_batches=7
+  [ 42,134/69,314]  60.8%  réf=36,547 fig=5,587  speed=4.1s/row  ETA=30.9h  elapsed=4.4h  failed_batches=7
+  [ 42,234/69,314]  60.9%  réf=36,617 fig=5,617  speed=4.1s/row  ETA=30.8h  elapsed=4.6h  failed_batches=7
+  [ 42,334/69,314]  61.1%  réf=36,683 fig=5,651  speed=4.1s/row  ETA=30.9h  elapsed=4.7h  failed_batches=7
+  [ 42,434/69,314]  61.2%  réf=36,756 fig=5,678  speed=4.3s/row  ETA=32.2h  elapsed=5.0h  failed_batches=7
+  [ 42,534/69,314]  61.4%  réf=36,831 fig=5,703  speed=4.5s/row  ETA=33.2h  elapsed=5.3h  failed_batches=7
+  [ 42,634/69,314]  61.5%  réf=36,911 fig=5,723  speed=4.6s/row  ETA=34.0h  elapsed=5.6h  failed_batches=7
+  [ 42,734/69,314]  61.7%  réf=36,982 fig=5,752  speed=4.6s/row  ETA=34.0h  elapsed=5.8h  failed_batches=7
+  [ 42,834/69,314]  61.8%  réf=37,064 fig=5,770  speed=4.6s/row  ETA=33.9h  elapsed=5.9h  failed_batches=7
+  [ 42,934/69,314]  61.9%  réf=37,135 fig=5,799  speed=4.6s/row  ETA=33.7h  elapsed=6.0h  failed_batches=7
+  [ 43,034/69,314]  62.1%  réf=37,214 fig=5,820  speed=4.6s/row  ETA=33.6h  elapsed=6.1h  failed_batches=7
+  [ 43,134/69,314]  62.2%  réf=37,290 fig=5,844  speed=4.6s/row  ETA=33.5h  elapsed=6.3h  failed_batches=7
+  [ 43,234/69,314]  62.4%  réf=37,366 fig=5,868  speed=4.6s/row  ETA=33.3h  elapsed=6.4h  failed_batches=8
+  [ 43,334/69,314]  62.5%  réf=37,458 fig=5,876  speed=4.6s/row  ETA=32.9h  elapsed=6.5h  failed_batches=8
+  [ 43,434/69,314]  62.7%  réf=37,555 fig=5,879  speed=4.5s/row  ETA=32.6h  elapsed=6.6h  failed_batches=8
+  [ 43,534/69,314]  62.8%  réf=37,651 fig=5,883  speed=4.5s/row  ETA=32.4h  elapsed=6.7h  failed_batches=8
+  [ 43,634/69,314]  63.0%  réf=37,742 fig=5,892  speed=4.5s/row  ETA=32.1h  elapsed=6.7h  failed_batches=8
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 43,634 rows already done
+Rows to classify: 25,680
+Estimated time: 28h (1.2 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 43,734/69,314]  63.1%  réf=37,824 fig=5,910  speed=4.1s/row  ETA=28.9h  elapsed=0.1h  failed_batches=0
+  [ 43,834/69,314]  63.2%  réf=37,902 fig=5,932  speed=6.2s/row  ETA=43.6h  elapsed=0.3h  failed_batches=0
+  [ 43,934/69,314]  63.4%  réf=37,992 fig=5,942  speed=8.8s/row  ETA=62.2h  elapsed=0.7h  failed_batches=0
+  [ 44,034/69,314]  63.5%  réf=38,085 fig=5,949  speed=9.9s/row  ETA=69.8h  elapsed=1.1h  failed_batches=0
+  [ 44,134/69,314]  63.7%  réf=38,164 fig=5,970  speed=10.7s/row  ETA=74.6h  elapsed=1.5h  failed_batches=0
+  [ 44,234/69,314]  63.8%  réf=38,244 fig=5,990  speed=10.7s/row  ETA=74.4h  elapsed=1.8h  failed_batches=0
+  [ 44,334/69,314]  64.0%  réf=38,313 fig=6,021  speed=10.0s/row  ETA=69.7h  elapsed=2.0h  failed_batches=0
+  [ 44,434/69,314]  64.1%  réf=38,396 fig=6,038  speed=9.3s/row  ETA=64.3h  elapsed=2.1h  failed_batches=0
+  [ 44,534/69,314]  64.2%  réf=38,488 fig=6,046  speed=8.7s/row  ETA=59.8h  elapsed=2.2h  failed_batches=0
+  [ 44,634/69,314]  64.4%  réf=38,578 fig=6,056  speed=8.3s/row  ETA=56.9h  elapsed=2.3h  failed_batches=0
+  [ 44,734/69,314]  64.5%  réf=38,649 fig=6,085  speed=8.0s/row  ETA=54.5h  elapsed=2.4h  failed_batches=0
+  [ 44,834/69,314]  64.7%  réf=38,729 fig=6,105  speed=7.7s/row  ETA=52.5h  elapsed=2.6h  failed_batches=0
+  [ 44,934/69,314]  64.8%  réf=38,809 fig=6,125  speed=7.5s/row  ETA=50.8h  elapsed=2.7h  failed_batches=0
+  [ 45,034/69,314]  65.0%  réf=38,900 fig=6,134  speed=7.2s/row  ETA=48.9h  elapsed=2.8h  failed_batches=0
+  [ 45,134/69,314]  65.1%  réf=38,988 fig=6,146  speed=7.1s/row  ETA=47.5h  elapsed=2.9h  failed_batches=0
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 45,157 rows already done
+Rows to classify: 24,157
+Estimated time: 26h (1.1 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 45,234/69,314]  65.3%  réf=39,077 fig=6,157  speed=7.0s/row  ETA=47.1h  elapsed=3.1h  failed_batches=0
+  [ 45,257/69,314]  65.3%  réf=39,104 fig=6,153  speed=7.2s/row  ETA=48.0h  elapsed=0.2h  failed_batches=0
+  [ 45,334/69,314]  65.4%  réf=39,168 fig=6,166  speed=7.1s/row  ETA=47.2h  elapsed=3.3h  failed_batches=0
+  [ 45,357/69,314]  65.4%  réf=39,194 fig=6,163  speed=7.1s/row  ETA=47.1h  elapsed=0.4h  failed_batches=0
+  [ 45,434/69,314]  65.5%  réf=39,265 fig=6,169  speed=7.1s/row  ETA=47.1h  elapsed=3.6h  failed_batches=0
+  [ 45,457/69,314]  65.6%  réf=39,285 fig=6,172  speed=7.4s/row  ETA=49.3h  elapsed=0.6h  failed_batches=0
+  [ 45,534/69,314]  65.7%  réf=39,355 fig=6,179  speed=7.2s/row  ETA=47.6h  elapsed=3.8h  failed_batches=0
+  [ 45,557/69,314]  65.7%  réf=39,377 fig=6,180  speed=7.8s/row  ETA=51.5h  elapsed=0.9h  failed_batches=0
+  [ 45,634/69,314]  65.8%  réf=39,437 fig=6,197  speed=7.3s/row  ETA=48.2h  elapsed=4.1h  failed_batches=0
+  [ 45,657/69,314]  65.9%  réf=39,461 fig=6,196  speed=8.1s/row  ETA=53.2h  elapsed=1.1h  failed_batches=0
+  [ 45,734/69,314]  66.0%  réf=39,534 fig=6,200  speed=7.3s/row  ETA=47.9h  elapsed=4.3h  failed_batches=0
+  [ 45,757/69,314]  66.0%  réf=39,560 fig=6,197  speed=7.9s/row  ETA=51.5h  elapsed=1.3h  failed_batches=1
+  [ 45,834/69,314]  66.1%  réf=39,628 fig=6,206  speed=7.3s/row  ETA=47.7h  elapsed=4.5h  failed_batches=0
+  [ 45,857/69,314]  66.2%  réf=39,645 fig=6,212  speed=7.9s/row  ETA=51.7h  elapsed=1.5h  failed_batches=1
+  [ 45,934/69,314]  66.3%  réf=39,708 fig=6,226  speed=7.4s/row  ETA=47.9h  elapsed=4.7h  failed_batches=1
+  [ 45,957/69,314]  66.3%  réf=39,732 fig=6,225  speed=7.9s/row  ETA=51.5h  elapsed=1.8h  failed_batches=1
+  [ 46,034/69,314]  66.4%  réf=39,787 fig=6,247  speed=7.3s/row  ETA=47.5h  elapsed=4.9h  failed_batches=1
+  [ 46,057/69,314]  66.4%  réf=39,804 fig=6,253  speed=7.8s/row  ETA=50.2h  elapsed=1.9h  failed_batches=1
+  [ 46,134/69,314]  66.6%  réf=39,866 fig=6,268  speed=7.3s/row  ETA=47.2h  elapsed=5.1h  failed_batches=1
+  [ 46,157/69,314]  66.6%  réf=39,881 fig=6,276  speed=7.7s/row  ETA=49.6h  elapsed=2.1h  failed_batches=1
+  [ 46,234/69,314]  66.7%  réf=39,947 fig=6,287  speed=7.3s/row  ETA=47.0h  elapsed=5.3h  failed_batches=1
+  [ 46,257/69,314]  66.7%  réf=39,965 fig=6,292  speed=7.7s/row  ETA=49.3h  elapsed=2.4h  failed_batches=2
+  [ 46,334/69,314]  66.8%  réf=40,036 fig=6,298  speed=7.3s/row  ETA=46.8h  elapsed=5.5h  failed_batches=1
+  [ 46,357/69,314]  66.9%  réf=40,055 fig=6,302  speed=7.7s/row  ETA=48.8h  elapsed=2.6h  failed_batches=2
+  [ 46,434/69,314]  67.0%  réf=40,118 fig=6,316  speed=7.3s/row  ETA=46.4h  elapsed=5.7h  failed_batches=1
+  [ 46,457/69,314]  67.0%  réf=40,133 fig=6,324  speed=7.5s/row  ETA=47.8h  elapsed=2.7h  failed_batches=2
+  [ 46,534/69,314]  67.1%  réf=40,212 fig=6,322  speed=7.2s/row  ETA=45.9h  elapsed=5.8h  failed_batches=1
+  [ 46,557/69,314]  67.2%  réf=40,225 fig=6,332  speed=7.4s/row  ETA=47.1h  elapsed=2.9h  failed_batches=2
+  [ 46,634/69,314]  67.3%  réf=40,299 fig=6,335  speed=7.3s/row  ETA=45.7h  elapsed=6.0h  failed_batches=2
+  [ 46,657/69,314]  67.3%  réf=40,312 fig=6,345  speed=7.4s/row  ETA=46.6h  elapsed=3.1h  failed_batches=2
+  [ 46,734/69,314]  67.4%  réf=40,381 fig=6,353  speed=7.2s/row  ETA=45.3h  elapsed=6.2h  failed_batches=2
+  [ 46,757/69,314]  67.5%  réf=40,399 fig=6,358  speed=7.3s/row  ETA=46.0h  elapsed=3.3h  failed_batches=2
+  [ 46,834/69,314]  67.6%  réf=40,461 fig=6,373  speed=7.2s/row  ETA=45.1h  elapsed=6.4h  failed_batches=2
+  [ 46,857/69,314]  67.6%  réf=40,478 fig=6,379  speed=7.4s/row  ETA=46.0h  elapsed=3.5h  failed_batches=2
+  [ 46,934/69,314]  67.7%  réf=40,545 fig=6,389  speed=7.2s/row  ETA=44.8h  elapsed=6.6h  failed_batches=3
+  [ 46,957/69,314]  67.7%  réf=40,559 fig=6,398  speed=7.3s/row  ETA=45.4h  elapsed=3.7h  failed_batches=2
+  [ 47,034/69,314]  67.9%  réf=40,632 fig=6,402  speed=7.2s/row  ETA=44.4h  elapsed=6.8h  failed_batches=3
+  [ 47,057/69,314]  67.9%  réf=40,650 fig=6,407  speed=7.2s/row  ETA=44.8h  elapsed=3.8h  failed_batches=2
+  [ 47,134/69,314]  68.0%  réf=40,728 fig=6,406  speed=7.2s/row  ETA=44.1h  elapsed=7.0h  failed_batches=3
+  [ 47,157/69,314]  68.0%  réf=40,745 fig=6,412  speed=7.2s/row  ETA=44.5h  elapsed=4.0h  failed_batches=2
+  [ 47,234/69,314]  68.1%  réf=40,818 fig=6,416  speed=7.2s/row  ETA=44.0h  elapsed=7.2h  failed_batches=4
+  [ 47,257/69,314]  68.2%  réf=40,829 fig=6,428  speed=7.3s/row  ETA=44.7h  elapsed=4.3h  failed_batches=3
+  [ 47,334/69,314]  68.3%  réf=40,909 fig=6,425  speed=7.2s/row  ETA=44.1h  elapsed=7.4h  failed_batches=5
+  [ 47,357/69,314]  68.3%  réf=40,919 fig=6,438  speed=7.3s/row  ETA=44.6h  elapsed=4.5h  failed_batches=3
+  [ 47,434/69,314]  68.4%  réf=41,007 fig=6,427  speed=7.2s/row  ETA=43.8h  elapsed=7.6h  failed_batches=5
+  [ 47,457/69,314]  68.5%  réf=41,015 fig=6,442  speed=7.3s/row  ETA=44.2h  elapsed=4.7h  failed_batches=3
+  [ 47,534/69,314]  68.6%  réf=41,094 fig=6,440  speed=7.2s/row  ETA=43.6h  elapsed=7.8h  failed_batches=5
+  [ 47,557/69,314]  68.6%  réf=41,103 fig=6,454  speed=7.3s/row  ETA=44.1h  elapsed=4.9h  failed_batches=3
+  [ 47,634/69,314]  68.7%  réf=41,189 fig=6,445  speed=7.2s/row  ETA=43.4h  elapsed=8.0h  failed_batches=5
+  [ 47,657/69,314]  68.8%  réf=41,196 fig=6,461  speed=7.3s/row  ETA=43.9h  elapsed=5.1h  failed_batches=3
+  [ 47,734/69,314]  68.9%  réf=41,271 fig=6,463  speed=7.2s/row  ETA=43.4h  elapsed=8.2h  failed_batches=6
+  [ 47,757/69,314]  68.9%  réf=41,275 fig=6,482  speed=7.3s/row  ETA=43.9h  elapsed=5.3h  failed_batches=3
+  [ 47,834/69,314]  69.0%  réf=41,360 fig=6,474  speed=7.2s/row  ETA=43.2h  elapsed=8.4h  failed_batches=6
+  [ 47,857/69,314]  69.0%  réf=41,364 fig=6,493  speed=7.3s/row  ETA=43.8h  elapsed=5.5h  failed_batches=3
+  [ 47,934/69,314]  69.2%  réf=41,445 fig=6,489  speed=7.2s/row  ETA=43.0h  elapsed=8.6h  failed_batches=6
+  [ 47,957/69,314]  69.2%  réf=41,448 fig=6,509  speed=7.3s/row  ETA=43.6h  elapsed=5.7h  failed_batches=3
+  [ 48,034/69,314]  69.3%  réf=41,530 fig=6,504  speed=7.3s/row  ETA=42.9h  elapsed=8.9h  failed_batches=6
+  [ 48,057/69,314]  69.3%  réf=41,529 fig=6,528  speed=7.4s/row  ETA=43.7h  elapsed=6.0h  failed_batches=3
+  [ 48,134/69,314]  69.4%  réf=41,609 fig=6,525  speed=7.3s/row  ETA=42.8h  elapsed=9.1h  failed_batches=6
+  [ 48,157/69,314]  69.5%  réf=41,615 fig=6,542  speed=7.4s/row  ETA=43.4h  elapsed=6.2h  failed_batches=3
+  [ 48,234/69,314]  69.6%  réf=41,699 fig=6,535  speed=7.3s/row  ETA=42.6h  elapsed=9.3h  failed_batches=6
+  [ 48,257/69,314]  69.6%  réf=41,708 fig=6,549  speed=7.4s/row  ETA=43.1h  elapsed=6.4h  failed_batches=3
+  [ 48,334/69,314]  69.7%  réf=41,785 fig=6,549  speed=7.3s/row  ETA=42.3h  elapsed=9.5h  failed_batches=6
+  [ 48,357/69,314]  69.8%  réf=41,794 fig=6,563  speed=7.3s/row  ETA=42.7h  elapsed=6.5h  failed_batches=3
+  [ 48,434/69,314]  69.9%  réf=41,880 fig=6,554  speed=7.2s/row  ETA=42.0h  elapsed=9.7h  failed_batches=6
+  [ 48,457/69,314]  69.9%  réf=41,888 fig=6,569  speed=7.3s/row  ETA=42.4h  elapsed=6.7h  failed_batches=3
+  [ 48,534/69,314]  70.0%  réf=41,969 fig=6,565  speed=7.2s/row  ETA=41.7h  elapsed=9.8h  failed_batches=6
+  [ 48,557/69,314]  70.1%  réf=41,974 fig=6,583  speed=7.3s/row  ETA=42.1h  elapsed=6.9h  failed_batches=3
+  [ 48,634/69,314]  70.2%  réf=42,060 fig=6,574  speed=7.2s/row  ETA=41.4h  elapsed=10.0h  failed_batches=6
+  [ 48,657/69,314]  70.2%  réf=42,064 fig=6,593  speed=7.3s/row  ETA=41.6h  elapsed=7.1h  failed_batches=3
+  [ 48,734/69,314]  70.3%  réf=42,153 fig=6,581  speed=7.2s/row  ETA=41.1h  elapsed=10.2h  failed_batches=6
+  [ 48,757/69,314]  70.3%  réf=42,158 fig=6,599  speed=7.3s/row  ETA=41.4h  elapsed=7.3h  failed_batches=3
+  [ 48,834/69,314]  70.5%  réf=42,238 fig=6,596  speed=7.2s/row  ETA=41.1h  elapsed=10.4h  failed_batches=6
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 48,848 rows already done
+Rows to classify: 20,466
+Estimated time: 22h (0.9 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 48,948/69,314]  70.6%  réf=42,333 fig=6,615  speed=4.0s/row  ETA=22.7h  elapsed=0.1h  failed_batches=0
+  [ 49,048/69,314]  70.8%  réf=42,425 fig=6,623  speed=4.3s/row  ETA=24.3h  elapsed=0.2h  failed_batches=0
+  [ 49,148/69,314]  70.9%  réf=42,524 fig=6,624  speed=5.5s/row  ETA=31.1h  elapsed=0.5h  failed_batches=0
+  [ 49,248/69,314]  71.1%  réf=42,614 fig=6,634  speed=6.7s/row  ETA=37.5h  elapsed=0.7h  failed_batches=0
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 49,248 rows already done
+Rows to classify: 20,066
+Estimated time: 22h (0.9 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 49,348/69,314]  71.2%  réf=42,708 fig=6,640  speed=8.8s/row  ETA=48.9h  elapsed=0.2h  failed_batches=0
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 49,431 rows already done
+Rows to classify: 19,883
+Estimated time: 22h (0.9 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 49,531/69,314]  71.5%  réf=42,863 fig=6,668  speed=5.4s/row  ETA=29.6h  elapsed=0.1h  failed_batches=1
+  [ 49,631/69,314]  71.6%  réf=42,952 fig=6,679  speed=4.6s/row  ETA=25.4h  elapsed=0.3h  failed_batches=1
+  [ 49,731/69,314]  71.7%  réf=43,038 fig=6,693  speed=5.0s/row  ETA=27.1h  elapsed=0.4h  failed_batches=1
+  [ 49,831/69,314]  71.9%  réf=43,132 fig=6,699  speed=4.5s/row  ETA=24.3h  elapsed=0.5h  failed_batches=1
+  [ 49,931/69,314]  72.0%  réf=43,210 fig=6,721  speed=4.4s/row  ETA=23.9h  elapsed=0.6h  failed_batches=1
+  [ 50,031/69,314]  72.2%  réf=43,283 fig=6,748  speed=4.4s/row  ETA=23.8h  elapsed=0.7h  failed_batches=2
+  [ 50,131/69,314]  72.3%  réf=43,381 fig=6,750  speed=4.3s/row  ETA=23.2h  elapsed=0.8h  failed_batches=2
+  [ 50,231/69,314]  72.5%  réf=43,469 fig=6,762  speed=4.2s/row  ETA=22.4h  elapsed=0.9h  failed_batches=2
+
+Task 1 corpus run — PLANTES
+Model  : qwen3:30b
+Batch  : 4
+Output : ../resultats/task1_plantes_labels.csv
+=================================================================
+
+Loading corpus...
+  Loaded ../resultats/corpus_principal/ENTITES_contexte_plantes.csv: 63599 rows so far
+  Loaded ../resultats/bestsellers/BESTSELLERS_contexte_plantes.csv: 69319 rows so far
+Total rows (before dedup): 69,319
+Unique rows (after dedup): 69,314
+Duplicate rows skipped  : 5
+Resuming: 50,231 rows already done
+Rows to classify: 19,083
+Estimated time: 21h (0.9 days at 3.9s/row)
+
+Warming up model...
+Done.
+
+  [ 50,331/69,314]  72.6%  réf=43,550 fig=6,781  speed=3.9s/row  ETA=20.8h  elapsed=0.1h  failed_batches=0
+  [ 50,431/69,314]  72.8%  réf=43,637 fig=6,794  speed=3.9s/row  ETA=20.4h  elapsed=0.2h  failed_batches=2
+  [ 50,531/69,314]  72.9%  réf=43,718 fig=6,813  speed=3.7s/row  ETA=19.3h  elapsed=0.3h  failed_batches=2
+  [ 50,631/69,314]  73.0%  réf=43,792 fig=6,839  speed=4.2s/row  ETA=21.9h  elapsed=0.5h  failed_batches=2
+  [ 50,731/69,314]  73.2%  réf=43,871 fig=6,860  speed=4.1s/row  ETA=21.2h  elapsed=0.6h  failed_batches=2
+  [ 50,831/69,314]  73.3%  réf=43,962 fig=6,869  speed=4.0s/row  ETA=20.8h  elapsed=0.7h  failed_batches=2
+  [ 50,931/69,314]  73.5%  réf=44,048 fig=6,883  speed=4.0s/row  ETA=20.5h  elapsed=0.8h  failed_batches=2
+  [ 51,031/69,314]  73.6%  réf=44,143 fig=6,888  speed=3.9s/row  ETA=19.6h  elapsed=0.9h  failed_batches=2
+  [ 51,131/69,314]  73.8%  réf=44,236 fig=6,895  speed=3.8s/row  ETA=19.1h  elapsed=0.9h  failed_batches=2
+  [ 51,231/69,314]  73.9%  réf=44,327 fig=6,904  speed=3.8s/row  ETA=18.9h  elapsed=1.0h  failed_batches=2
+  [ 51,331/69,314]  74.1%  réf=44,418 fig=6,913  speed=3.8s/row  ETA=18.8h  elapsed=1.1h  failed_batches=2
+  [ 51,431/69,314]  74.2%  réf=44,506 fig=6,925  speed=3.8s/row  ETA=18.8h  elapsed=1.3h  failed_batches=2
+  [ 51,531/69,314]  74.3%  réf=44,588 fig=6,943  speed=3.7s/row  ETA=18.5h  elapsed=1.4h  failed_batches=2
+  [ 51,631/69,314]  74.5%  réf=44,681 fig=6,950  speed=3.7s/row  ETA=18.2h  elapsed=1.4h  failed_batches=2
+  [ 51,731/69,314]  74.6%  réf=44,778 fig=6,953  speed=3.7s/row  ETA=17.8h  elapsed=1.5h  failed_batches=2
+  [ 51,831/69,314]  74.8%  réf=44,866 fig=6,965  speed=3.6s/row  ETA=17.6h  elapsed=1.6h  failed_batches=2
+  [ 51,931/69,314]  74.9%  réf=44,934 fig=6,997  speed=3.7s/row  ETA=17.6h  elapsed=1.7h  failed_batches=2
+  [ 52,031/69,314]  75.1%  réf=45,015 fig=7,016  speed=3.6s/row  ETA=17.5h  elapsed=1.8h  failed_batches=2
+  [ 52,131/69,314]  75.2%  réf=45,109 fig=7,022  speed=3.6s/row  ETA=17.1h  elapsed=1.9h  failed_batches=2
+  [ 52,231/69,314]  75.4%  réf=45,207 fig=7,024  speed=3.5s/row  ETA=16.7h  elapsed=2.0h  failed_batches=2
+  [ 52,331/69,314]  75.5%  réf=45,307 fig=7,024  speed=3.5s/row  ETA=16.6h  elapsed=2.1h  failed_batches=2
+  [ 52,431/69,314]  75.6%  réf=45,401 fig=7,030  speed=3.5s/row  ETA=16.4h  elapsed=2.1h  failed_batches=2
+  [ 52,531/69,314]  75.8%  réf=45,498 fig=7,033  speed=3.5s/row  ETA=16.2h  elapsed=2.2h  failed_batches=2
+  [ 52,631/69,314]  75.9%  réf=45,580 fig=7,051  speed=3.5s/row  ETA=16.1h  elapsed=2.3h  failed_batches=2
+  [ 52,731/69,314]  76.1%  réf=45,666 fig=7,065  speed=3.5s/row  ETA=16.0h  elapsed=2.4h  failed_batches=2
+  [ 52,831/69,314]  76.2%  réf=45,754 fig=7,077  speed=3.5s/row  ETA=16.0h  elapsed=2.5h  failed_batches=2
+  [ 52,931/69,314]  76.4%  réf=45,828 fig=7,103  speed=3.5s/row  ETA=16.0h  elapsed=2.6h  failed_batches=2
+  [ 53,031/69,314]  76.5%  réf=45,916 fig=7,115  speed=3.5s/row  ETA=16.0h  elapsed=2.7h  failed_batches=2
+  [ 53,131/69,314]  76.7%  réf=46,001 fig=7,130  speed=3.5s/row  ETA=15.9h  elapsed=2.8h  failed_batches=2
+  [ 53,231/69,314]  76.8%  réf=46,093 fig=7,138  speed=3.5s/row  ETA=15.8h  elapsed=2.9h  failed_batches=2
+  [ 53,331/69,314]  76.9%  réf=46,185 fig=7,146  speed=3.5s/row  ETA=15.7h  elapsed=3.0h  failed_batches=2
+  [ 53,431/69,314]  77.1%  réf=46,268 fig=7,163  speed=3.5s/row  ETA=15.6h  elapsed=3.1h  failed_batches=2
+  [ 53,531/69,314]  77.2%  réf=46,346 fig=7,185  speed=3.5s/row  ETA=15.5h  elapsed=3.2h  failed_batches=2
+  [ 53,631/69,314]  77.4%  réf=46,439 fig=7,192  speed=3.5s/row  ETA=15.5h  elapsed=3.4h  failed_batches=2
+  [ 53,731/69,314]  77.5%  réf=46,522 fig=7,209  speed=3.6s/row  ETA=15.4h  elapsed=3.5h  failed_batches=2
+  [ 53,831/69,314]  77.7%  réf=46,604 fig=7,227  speed=3.6s/row  ETA=15.3h  elapsed=3.6h  failed_batches=2
+  [ 53,931/69,314]  77.8%  réf=46,681 fig=7,250  speed=3.6s/row  ETA=15.3h  elapsed=3.7h  failed_batches=3
+  [ 54,031/69,314]  78.0%  réf=46,775 fig=7,256  speed=3.6s/row  ETA=15.2h  elapsed=3.8h  failed_batches=3
+  [ 54,131/69,314]  78.1%  réf=46,865 fig=7,266  speed=3.6s/row  ETA=15.3h  elapsed=3.9h  failed_batches=3
+  [ 54,231/69,314]  78.2%  réf=46,953 fig=7,278  speed=3.6s/row  ETA=15.2h  elapsed=4.0h  failed_batches=3
+  [ 54,331/69,314]  78.4%  réf=47,040 fig=7,291  speed=3.6s/row  ETA=15.2h  elapsed=4.1h  failed_batches=3
+  [ 54,431/69,314]  78.5%  réf=47,140 fig=7,291  speed=3.6s/row  ETA=15.0h  elapsed=4.2h  failed_batches=3
+  [ 54,531/69,314]  78.7%  réf=47,232 fig=7,299  speed=3.6s/row  ETA=14.8h  elapsed=4.3h  failed_batches=3
+  [ 54,631/69,314]  78.8%  réf=47,319 fig=7,312  speed=3.6s/row  ETA=14.8h  elapsed=4.4h  failed_batches=3
+  [ 54,731/69,314]  79.0%  réf=47,404 fig=7,327  speed=3.6s/row  ETA=14.8h  elapsed=4.6h  failed_batches=3
+  [ 54,831/69,314]  79.1%  réf=47,486 fig=7,345  speed=3.7s/row  ETA=14.7h  elapsed=4.7h  failed_batches=3
+  [ 54,931/69,314]  79.2%  réf=47,567 fig=7,364  speed=3.7s/row  ETA=14.8h  elapsed=4.8h  failed_batches=4
+  [ 55,031/69,314]  79.4%  réf=47,651 fig=7,380  speed=3.7s/row  ETA=14.7h  elapsed=4.9h  failed_batches=4
+  [ 55,131/69,314]  79.5%  réf=47,742 fig=7,389  speed=3.7s/row  ETA=14.7h  elapsed=5.1h  failed_batches=4
+  [ 55,231/69,314]  79.7%  réf=47,825 fig=7,406  speed=3.7s/row  ETA=14.6h  elapsed=5.2h  failed_batches=4
+  [ 55,331/69,314]  79.8%  réf=47,909 fig=7,422  speed=3.8s/row  ETA=14.6h  elapsed=5.3h  failed_batches=4
+  [ 55,431/69,314]  80.0%  réf=47,980 fig=7,451  speed=3.8s/row  ETA=14.6h  elapsed=5.5h  failed_batches=4
+  [ 55,531/69,314]  80.1%  réf=48,059 fig=7,472  speed=3.8s/row  ETA=14.6h  elapsed=5.6h  failed_batches=4
+  [ 55,631/69,314]  80.3%  réf=48,138 fig=7,493  speed=3.8s/row  ETA=14.6h  elapsed=5.8h  failed_batches=6
+  [ 55,731/69,314]  80.4%  réf=48,226 fig=7,505  speed=3.9s/row  ETA=14.6h  elapsed=5.9h  failed_batches=7
+  [ 55,831/69,314]  80.5%  réf=48,318 fig=7,513  speed=3.9s/row  ETA=14.4h  elapsed=6.0h  failed_batches=7
+  [ 55,931/69,314]  80.7%  réf=48,412 fig=7,519  speed=3.8s/row  ETA=14.3h  elapsed=6.1h  failed_batches=7
+  [ 56,031/69,314]  80.8%  réf=48,496 fig=7,535  speed=3.8s/row  ETA=14.1h  elapsed=6.2h  failed_batches=8
+  [ 56,131/69,314]  81.0%  réf=48,584 fig=7,547  speed=3.8s/row  ETA=14.0h  elapsed=6.3h  failed_batches=8
+  [ 56,231/69,314]  81.1%  réf=48,672 fig=7,559  speed=3.8s/row  ETA=13.9h  elapsed=6.4h  failed_batches=8
+  [ 56,331/69,314]  81.3%  réf=48,756 fig=7,575  speed=3.8s/row  ETA=13.7h  elapsed=6.5h  failed_batches=8
+  [ 56,431/69,314]  81.4%  réf=48,849 fig=7,582  speed=3.8s/row  ETA=13.6h  elapsed=6.6h  failed_batches=8
+  [ 56,531/69,314]  81.6%  réf=48,939 fig=7,592  speed=3.8s/row  ETA=13.5h  elapsed=6.6h  failed_batches=8
+  [ 56,631/69,314]  81.7%  réf=49,027 fig=7,604  speed=3.8s/row  ETA=13.4h  elapsed=6.7h  failed_batches=8
+  [ 56,731/69,314]  81.8%  réf=49,095 fig=7,636  speed=3.8s/row  ETA=13.3h  elapsed=6.9h  failed_batches=8
+  [ 56,831/69,314]  82.0%  réf=49,186 fig=7,645  speed=3.8s/row  ETA=13.1h  elapsed=6.9h  failed_batches=8
+  [ 56,931/69,314]  82.1%  réf=49,270 fig=7,661  speed=3.8s/row  ETA=13.0h  elapsed=7.1h  failed_batches=8
+  [ 57,031/69,314]  82.3%  réf=49,353 fig=7,678  speed=3.8s/row  ETA=12.9h  elapsed=7.2h  failed_batches=8
+  [ 57,131/69,314]  82.4%  réf=49,441 fig=7,690  speed=3.8s/row  ETA=12.9h  elapsed=7.3h  failed_batches=8
+  [ 57,231/69,314]  82.6%  réf=49,535 fig=7,696  speed=3.8s/row  ETA=12.8h  elapsed=7.4h  failed_batches=8
+  [ 57,331/69,314]  82.7%  réf=49,622 fig=7,709  speed=3.8s/row  ETA=12.7h  elapsed=7.5h  failed_batches=8
+  [ 57,431/69,314]  82.9%  réf=49,715 fig=7,716  speed=3.8s/row  ETA=12.5h  elapsed=7.6h  failed_batches=8
+  [ 57,531/69,314]  83.0%  réf=49,807 fig=7,724  speed=3.8s/row  ETA=12.4h  elapsed=7.7h  failed_batches=8
+  [ 57,631/69,314]  83.1%  réf=49,895 fig=7,736  speed=3.8s/row  ETA=12.3h  elapsed=7.8h  failed_batches=8
+  [ 57,731/69,314]  83.3%  réf=49,980 fig=7,751  speed=3.8s/row  ETA=12.2h  elapsed=7.9h  failed_batches=8
+  [ 57,831/69,314]  83.4%  réf=50,078 fig=7,753  speed=3.8s/row  ETA=12.0h  elapsed=7.9h  failed_batches=8
+  [ 57,931/69,314]  83.6%  réf=50,178 fig=7,753  speed=3.7s/row  ETA=11.9h  elapsed=8.0h  failed_batches=8
+  [ 58,031/69,314]  83.7%  réf=50,277 fig=7,754  speed=3.7s/row  ETA=11.7h  elapsed=8.1h  failed_batches=8
+  [ 58,131/69,314]  83.9%  réf=50,374 fig=7,757  speed=3.7s/row  ETA=11.6h  elapsed=8.2h  failed_batches=8
+  [ 58,231/69,314]  84.0%  réf=50,466 fig=7,765  speed=3.7s/row  ETA=11.5h  elapsed=8.3h  failed_batches=8
+  [ 58,331/69,314]  84.2%  réf=50,556 fig=7,775  speed=3.7s/row  ETA=11.4h  elapsed=8.4h  failed_batches=8
+  [ 58,431/69,314]  84.3%  réf=50,649 fig=7,782  speed=3.7s/row  ETA=11.3h  elapsed=8.5h  failed_batches=8
+  [ 58,531/69,314]  84.4%  réf=50,725 fig=7,806  speed=3.7s/row  ETA=11.2h  elapsed=8.6h  failed_batches=8
+  [ 58,631/69,314]  84.6%  réf=50,807 fig=7,824  speed=3.7s/row  ETA=11.1h  elapsed=8.7h  failed_batches=8
+  [ 58,731/69,314]  84.7%  réf=50,897 fig=7,834  speed=3.7s/row  ETA=11.0h  elapsed=8.8h  failed_batches=9
+  [ 58,831/69,314]  84.9%  réf=50,970 fig=7,861  speed=3.7s/row  ETA=10.9h  elapsed=8.9h  failed_batches=10
+  [ 58,931/69,314]  85.0%  réf=51,054 fig=7,877  speed=3.7s/row  ETA=10.8h  elapsed=9.0h  failed_batches=10
+  [ 59,031/69,314]  85.2%  réf=51,132 fig=7,899  speed=3.7s/row  ETA=10.7h  elapsed=9.1h  failed_batches=10
+  [ 59,131/69,314]  85.3%  réf=51,226 fig=7,905  speed=3.7s/row  ETA=10.6h  elapsed=9.2h  failed_batches=10
+  [ 59,231/69,314]  85.5%  réf=51,299 fig=7,932  speed=3.8s/row  ETA=10.5h  elapsed=9.4h  failed_batches=15
+  [ 59,331/69,314]  85.6%  réf=51,388 fig=7,943  speed=3.8s/row  ETA=10.4h  elapsed=9.5h  failed_batches=15
+  [ 59,431/69,314]  85.7%  réf=51,479 fig=7,952  speed=3.7s/row  ETA=10.3h  elapsed=9.6h  failed_batches=15
+  [ 59,531/69,314]  85.9%  réf=51,560 fig=7,971  speed=3.7s/row  ETA=10.2h  elapsed=9.7h  failed_batches=16
+  [ 59,631/69,314]  86.0%  réf=51,647 fig=7,984  speed=3.7s/row  ETA=10.1h  elapsed=9.8h  failed_batches=16
+  [ 59,731/69,314]  86.2%  réf=51,726 fig=8,005  speed=3.7s/row  ETA=10.0h  elapsed=9.9h  failed_batches=16
+  [ 59,831/69,314]  86.3%  réf=51,809 fig=8,022  speed=3.7s/row  ETA=9.8h  elapsed=10.0h  failed_batches=16
+  [ 59,931/69,314]  86.5%  réf=51,906 fig=8,025  speed=3.7s/row  ETA=9.7h  elapsed=10.1h  failed_batches=16
+  [ 60,031/69,314]  86.6%  réf=51,996 fig=8,035  speed=3.7s/row  ETA=9.7h  elapsed=10.2h  failed_batches=16
+  [ 60,131/69,314]  86.8%  réf=52,083 fig=8,048  speed=3.7s/row  ETA=9.5h  elapsed=10.3h  failed_batches=16
+  [ 60,231/69,314]  86.9%  réf=52,176 fig=8,055  speed=3.7s/row  ETA=9.4h  elapsed=10.4h  failed_batches=16
+  [ 60,331/69,314]  87.0%  réf=52,256 fig=8,075  speed=3.7s/row  ETA=9.3h  elapsed=10.5h  failed_batches=16
+  [ 60,431/69,314]  87.2%  réf=52,346 fig=8,085  speed=3.7s/row  ETA=9.2h  elapsed=10.6h  failed_batches=17
+  [ 60,531/69,314]  87.3%  réf=52,435 fig=8,096  speed=3.7s/row  ETA=9.1h  elapsed=10.7h  failed_batches=17
+  [ 60,631/69,314]  87.5%  réf=52,519 fig=8,112  speed=3.7s/row  ETA=9.0h  elapsed=10.8h  failed_batches=18
+  [ 60,731/69,314]  87.6%  réf=52,606 fig=8,125  speed=3.7s/row  ETA=8.9h  elapsed=10.9h  failed_batches=18
+  [ 60,831/69,314]  87.8%  réf=52,695 fig=8,136  speed=3.7s/row  ETA=8.8h  elapsed=11.0h  failed_batches=18
+  [ 60,931/69,314]  87.9%  réf=52,780 fig=8,151  speed=3.7s/row  ETA=8.7h  elapsed=11.1h  failed_batches=18
+  [ 61,031/69,314]  88.1%  réf=52,846 fig=8,185  speed=3.7s/row  ETA=8.6h  elapsed=11.2h  failed_batches=18
+  [ 61,131/69,314]  88.2%  réf=52,937 fig=8,194  speed=3.7s/row  ETA=8.5h  elapsed=11.3h  failed_batches=18
+  [ 61,231/69,314]  88.3%  réf=53,023 fig=8,208  speed=3.7s/row  ETA=8.4h  elapsed=11.4h  failed_batches=18
+  [ 61,331/69,314]  88.5%  réf=53,114 fig=8,217  speed=3.7s/row  ETA=8.3h  elapsed=11.5h  failed_batches=18
+  [ 61,431/69,314]  88.6%  réf=53,207 fig=8,224  speed=3.7s/row  ETA=8.2h  elapsed=11.7h  failed_batches=18
+  [ 61,531/69,314]  88.8%  réf=53,295 fig=8,236  speed=3.8s/row  ETA=8.2h  elapsed=11.8h  failed_batches=22
+  [ 61,631/69,314]  88.9%  réf=53,384 fig=8,247  speed=3.8s/row  ETA=8.0h  elapsed=11.9h  failed_batches=22
+  [ 61,731/69,314]  89.1%  réf=53,476 fig=8,255  speed=3.8s/row  ETA=7.9h  elapsed=12.0h  failed_batches=22
+  [ 61,831/69,314]  89.2%  réf=53,567 fig=8,264  speed=3.8s/row  ETA=7.8h  elapsed=12.1h  failed_batches=23
+  [ 61,931/69,314]  89.3%  réf=53,653 fig=8,278  speed=3.8s/row  ETA=7.7h  elapsed=12.2h  failed_batches=23
+  [ 62,031/69,314]  89.5%  réf=53,736 fig=8,295  speed=3.8s/row  ETA=7.6h  elapsed=12.4h  failed_batches=23
+  [ 62,131/69,314]  89.6%  réf=53,821 fig=8,310  speed=3.8s/row  ETA=7.5h  elapsed=12.5h  failed_batches=23
+  [ 62,231/69,314]  89.8%  réf=53,910 fig=8,321  speed=3.8s/row  ETA=7.4h  elapsed=12.6h  failed_batches=23
+  [ 62,331/69,314]  89.9%  réf=53,999 fig=8,332  speed=3.8s/row  ETA=7.3h  elapsed=12.7h  failed_batches=23
+  [ 62,431/69,314]  90.1%  réf=54,087 fig=8,344  speed=3.8s/row  ETA=7.2h  elapsed=12.8h  failed_batches=23
+  [ 62,531/69,314]  90.2%  réf=54,180 fig=8,351  speed=3.8s/row  ETA=7.1h  elapsed=12.9h  failed_batches=23
+  [ 62,631/69,314]  90.4%  réf=54,273 fig=8,358  speed=3.8s/row  ETA=7.0h  elapsed=13.0h  failed_batches=23
+  [ 62,731/69,314]  90.5%  réf=54,366 fig=8,365  speed=3.8s/row  ETA=6.9h  elapsed=13.1h  failed_batches=23
+  [ 62,831/69,314]  90.6%  réf=54,459 fig=8,372  speed=3.8s/row  ETA=6.8h  elapsed=13.1h  failed_batches=23
+  [ 62,931/69,314]  90.8%  réf=54,550 fig=8,381  speed=3.8s/row  ETA=6.7h  elapsed=13.3h  failed_batches=23
+  [ 63,031/69,314]  90.9%  réf=54,637 fig=8,394  speed=3.8s/row  ETA=6.6h  elapsed=13.4h  failed_batches=23
+  [ 63,131/69,314]  91.1%  réf=54,723 fig=8,408  speed=3.8s/row  ETA=6.5h  elapsed=13.5h  failed_batches=23
+  [ 63,231/69,314]  91.2%  réf=54,805 fig=8,426  speed=3.8s/row  ETA=6.4h  elapsed=13.6h  failed_batches=24
+  [ 63,331/69,314]  91.4%  réf=54,892 fig=8,439  speed=3.8s/row  ETA=6.3h  elapsed=13.7h  failed_batches=24
+  [ 63,431/69,314]  91.5%  réf=54,980 fig=8,451  speed=3.8s/row  ETA=6.1h  elapsed=13.8h  failed_batches=24
+  [ 63,531/69,314]  91.7%  réf=55,071 fig=8,460  speed=3.8s/row  ETA=6.0h  elapsed=13.9h  failed_batches=25
+  [ 63,631/69,314]  91.8%  réf=55,154 fig=8,477  speed=3.8s/row  ETA=5.9h  elapsed=14.0h  failed_batches=25
+  [ 63,731/69,314]  91.9%  réf=55,241 fig=8,490  speed=3.8s/row  ETA=5.8h  elapsed=14.1h  failed_batches=25
+  [ 63,831/69,314]  92.1%  réf=55,330 fig=8,501  speed=3.8s/row  ETA=5.7h  elapsed=14.2h  failed_batches=25
+  [ 63,931/69,314]  92.2%  réf=55,417 fig=8,514  speed=3.8s/row  ETA=5.6h  elapsed=14.3h  failed_batches=25
+  [ 64,031/69,314]  92.4%  réf=55,499 fig=8,532  speed=3.8s/row  ETA=5.5h  elapsed=14.4h  failed_batches=25
+  [ 64,131/69,314]  92.5%  réf=55,576 fig=8,555  speed=3.8s/row  ETA=5.4h  elapsed=14.5h  failed_batches=25
+  [ 64,231/69,314]  92.7%  réf=55,654 fig=8,577  speed=3.8s/row  ETA=5.3h  elapsed=14.6h  failed_batches=25
+  [ 64,331/69,314]  92.8%  réf=55,735 fig=8,596  speed=3.8s/row  ETA=5.2h  elapsed=14.7h  failed_batches=26
+  [ 64,431/69,314]  93.0%  réf=55,817 fig=8,614  speed=3.8s/row  ETA=5.1h  elapsed=14.8h  failed_batches=26
+  [ 64,531/69,314]  93.1%  réf=55,909 fig=8,622  speed=3.8s/row  ETA=5.0h  elapsed=14.9h  failed_batches=26
+  [ 64,631/69,314]  93.2%  réf=56,000 fig=8,631  speed=3.8s/row  ETA=4.9h  elapsed=15.0h  failed_batches=26
+  [ 64,731/69,314]  93.4%  réf=56,082 fig=8,649  speed=3.8s/row  ETA=4.8h  elapsed=15.1h  failed_batches=26
+  [ 64,831/69,314]  93.5%  réf=56,168 fig=8,663  speed=3.7s/row  ETA=4.7h  elapsed=15.2h  failed_batches=26
+  [ 64,931/69,314]  93.7%  réf=56,249 fig=8,682  speed=3.7s/row  ETA=4.6h  elapsed=15.3h  failed_batches=26
+  [ 65,031/69,314]  93.8%  réf=56,333 fig=8,698  speed=3.7s/row  ETA=4.5h  elapsed=15.4h  failed_batches=26
+  [ 65,131/69,314]  94.0%  réf=56,419 fig=8,712  speed=3.7s/row  ETA=4.4h  elapsed=15.5h  failed_batches=26
+  [ 65,231/69,314]  94.1%  réf=56,507 fig=8,724  speed=3.7s/row  ETA=4.2h  elapsed=15.6h  failed_batches=26
+  [ 65,331/69,314]  94.3%  réf=56,593 fig=8,738  speed=3.7s/row  ETA=4.1h  elapsed=15.7h  failed_batches=26
+  [ 65,431/69,314]  94.4%  réf=56,678 fig=8,753  speed=3.7s/row  ETA=4.0h  elapsed=15.8h  failed_batches=26
+  [ 65,531/69,314]  94.5%  réf=56,765 fig=8,766  speed=3.7s/row  ETA=3.9h  elapsed=15.9h  failed_batches=26
+  [ 65,631/69,314]  94.7%  réf=56,851 fig=8,780  speed=3.7s/row  ETA=3.8h  elapsed=16.0h  failed_batches=27
+  [ 65,731/69,314]  94.8%  réf=56,939 fig=8,792  speed=3.7s/row  ETA=3.7h  elapsed=16.1h  failed_batches=27
+  [ 65,831/69,314]  95.0%  réf=57,025 fig=8,806  speed=3.7s/row  ETA=3.6h  elapsed=16.2h  failed_batches=27
+  [ 65,931/69,314]  95.1%  réf=57,114 fig=8,817  speed=3.7s/row  ETA=3.5h  elapsed=16.3h  failed_batches=27
+  [ 66,031/69,314]  95.3%  réf=57,200 fig=8,831  speed=3.7s/row  ETA=3.4h  elapsed=16.4h  failed_batches=27
+  [ 66,131/69,314]  95.4%  réf=57,288 fig=8,843  speed=3.7s/row  ETA=3.3h  elapsed=16.5h  failed_batches=27
+  [ 66,231/69,314]  95.6%  réf=57,371 fig=8,860  speed=3.7s/row  ETA=3.2h  elapsed=16.6h  failed_batches=28
+  [ 66,331/69,314]  95.7%  réf=57,457 fig=8,874  speed=3.7s/row  ETA=3.1h  elapsed=16.7h  failed_batches=28
+  [ 66,431/69,314]  95.8%  réf=57,542 fig=8,889  speed=3.7s/row  ETA=3.0h  elapsed=16.8h  failed_batches=28
+  [ 66,531/69,314]  96.0%  réf=57,623 fig=8,908  speed=3.7s/row  ETA=2.9h  elapsed=16.9h  failed_batches=28
+  [ 66,631/69,314]  96.1%  réf=57,708 fig=8,923  speed=3.7s/row  ETA=2.8h  elapsed=17.0h  failed_batches=28
+  [ 66,731/69,314]  96.3%  réf=57,795 fig=8,936  speed=3.7s/row  ETA=2.7h  elapsed=17.1h  failed_batches=28
+  [ 66,831/69,314]  96.4%  réf=57,874 fig=8,957  speed=3.7s/row  ETA=2.6h  elapsed=17.2h  failed_batches=28
+  [ 66,931/69,314]  96.6%  réf=57,957 fig=8,974  speed=3.7s/row  ETA=2.5h  elapsed=17.3h  failed_batches=28
+  [ 67,031/69,314]  96.7%  réf=58,049 fig=8,982  speed=3.7s/row  ETA=2.4h  elapsed=17.4h  failed_batches=28
+  [ 67,131/69,314]  96.9%  réf=58,139 fig=8,992  speed=3.7s/row  ETA=2.3h  elapsed=17.5h  failed_batches=28
+  [ 67,231/69,314]  97.0%  réf=58,225 fig=9,006  speed=3.7s/row  ETA=2.2h  elapsed=17.6h  failed_batches=28
+  [ 67,331/69,314]  97.1%  réf=58,311 fig=9,020  speed=3.7s/row  ETA=2.1h  elapsed=17.7h  failed_batches=28
+  [ 67,431/69,314]  97.3%  réf=58,399 fig=9,032  speed=3.7s/row  ETA=2.0h  elapsed=17.8h  failed_batches=28
+  [ 67,531/69,314]  97.4%  réf=58,480 fig=9,051  speed=3.7s/row  ETA=1.8h  elapsed=17.9h  failed_batches=28
+  [ 67,631/69,314]  97.6%  réf=58,559 fig=9,072  speed=3.7s/row  ETA=1.7h  elapsed=18.0h  failed_batches=28
+  [ 67,731/69,314]  97.7%  réf=58,638 fig=9,093  speed=3.7s/row  ETA=1.6h  elapsed=18.1h  failed_batches=29
+  [ 67,831/69,314]  97.9%  réf=58,719 fig=9,112  speed=3.7s/row  ETA=1.5h  elapsed=18.2h  failed_batches=29
+  [ 67,931/69,314]  98.0%  réf=58,805 fig=9,126  speed=3.7s/row  ETA=1.4h  elapsed=18.3h  failed_batches=30
+  [ 68,031/69,314]  98.1%  réf=58,886 fig=9,145  speed=3.7s/row  ETA=1.3h  elapsed=18.4h  failed_batches=30
+  [ 68,131/69,314]  98.3%  réf=58,971 fig=9,160  speed=3.7s/row  ETA=1.2h  elapsed=18.5h  failed_batches=30
+  [ 68,231/69,314]  98.4%  réf=59,045 fig=9,186  speed=3.7s/row  ETA=1.1h  elapsed=18.6h  failed_batches=30
+  [ 68,331/69,314]  98.6%  réf=59,128 fig=9,203  speed=3.7s/row  ETA=1.0h  elapsed=18.8h  failed_batches=30
+  [ 68,431/69,314]  98.7%  réf=59,217 fig=9,214  speed=3.7s/row  ETA=0.9h  elapsed=18.9h  failed_batches=30
+  [ 68,531/69,314]  98.9%  réf=59,301 fig=9,230  speed=3.7s/row  ETA=0.8h  elapsed=19.0h  failed_batches=30
+  [ 68,631/69,314]  99.0%  réf=59,386 fig=9,245  speed=3.7s/row  ETA=0.7h  elapsed=19.1h  failed_batches=31
+  [ 68,731/69,314]  99.2%  réf=59,469 fig=9,262  speed=3.7s/row  ETA=0.6h  elapsed=19.2h  failed_batches=31
+  [ 68,831/69,314]  99.3%  réf=59,556 fig=9,275  speed=3.7s/row  ETA=0.5h  elapsed=19.3h  failed_batches=31
+  [ 68,931/69,314]  99.4%  réf=59,636 fig=9,295  speed=3.7s/row  ETA=0.4h  elapsed=19.4h  failed_batches=31
+  [ 69,031/69,314]  99.6%  réf=59,711 fig=9,320  speed=3.7s/row  ETA=0.3h  elapsed=19.5h  failed_batches=31
+  [ 69,131/69,314]  99.7%  réf=59,797 fig=9,334  speed=3.7s/row  ETA=0.2h  elapsed=19.6h  failed_batches=31
+  [ 69,231/69,314]  99.9%  réf=59,883 fig=9,348  speed=3.7s/row  ETA=0.1h  elapsed=19.7h  failed_batches=31
+  [ 69,314/69,314] 100.0%  réf=59,963 fig=9,351  speed=3.7s/row  ETA=0.0h  elapsed=19.8h  failed_batches=31
+Failed keys log: ../resultats/task1_plantes_failed_keys.tsv
+
+Writing full output (with duplicates) → ../resultats/task1_plantes_labels_full.csv
+
+Done! Total time: 19.8h
+Output (unique): ../resultats/task1_plantes_labels.csv
+Output (full)  : ../resultats/task1_plantes_labels_full.csv
+Results: 59,963 référentiel  |  9,351 figuré  (13.5% figuré)

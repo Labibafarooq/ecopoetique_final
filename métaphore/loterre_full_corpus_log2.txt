@@ -1,0 +1,11 @@
+Total candidate rows: 120841
+Traceback (most recent call last):
+  File "/raid/home/farooq/projects/ecopoetique_v2/métaphore/run_loterre_corpus.py", line 78, in <module>
+    main()
+  File "/raid/home/farooq/projects/ecopoetique_v2/métaphore/run_loterre_corpus.py", line 39, in main
+    done_keys = {(r["fichier"], r["token_lexique"], r["contexte"][:50]) for r in existing}
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/raid/home/farooq/projects/ecopoetique_v2/métaphore/run_loterre_corpus.py", line 39, in <setcomp>
+    done_keys = {(r["fichier"], r["token_lexique"], r["contexte"][:50]) for r in existing}
+                                                    ~~~~~~~~~~~~~^^^^^
+TypeError: 'NoneType' object is not subscriptable

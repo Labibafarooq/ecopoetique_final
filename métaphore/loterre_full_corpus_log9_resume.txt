@@ -1,0 +1,8 @@
+Total candidate rows: 120841
+Already done: 86306 — resuming
+Remaining: 34502
+    ERROR: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11436/api/chat
+    ERROR: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11436/api/chat
+    ERROR: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11436/api/chat
+    ERROR: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11436/api/chat
+    ERROR: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11436/api/chat

@@ -1,0 +1,190 @@
+fichier,token,contexte,gold,pred,correct,pass_used
+Dreyfus-Arthur_Journal-sexuel-dun-garçon-daujourdhui.txt,animal,"[Sa jalousie, son fantasme de possession, peut faire d’un animal de compagnie un adversaire.]",référentiel,référentiel,1,pass2
+Chevillard-Eric_Oreille-rouge.txt,savane,"Il n’y a plus que des hyènes dans la savane, dont le rire forcé fait peine à entendre.",référentiel,référentiel,1,pass1
+Bouraoui-Nina_Satisfaction.txt,marais,"L’odeur des marais, les salins, de la terre après le feu, les cendres et la boue, le sifflet de l’air dans les roseaux q",référentiel,référentiel,1,pass1
+Minard-Celine_Faillir-etre-flingue.txt,rivière,"– Ces bottes, elles étaient au bord de cette rivière où Josh s’est embourbé en cherchant un passage pour nos bœufs.",référentiel,référentiel,1,pass1
+Buti-Roland_Le_milieu-de-lhorizon.txt,rive,"Elles ont scruté les environs à la recherche d’une présence, ont examiné le sol, puis la berge, intriguées par les trace",référentiel,référentiel,1,pass1
+Bachi-Salim_Le-chien-d-Ulysse.txt,mer,"Mais Hamid Kaïm savait se dissiper, s’évanouir, rejoindre les profondeurs vagues, sombres, immondes, de la mer et de la ",référentiel,référentiel,1,pass1
+Bortnikov-Dimitri_Lagneau-des-neiges.txt,steppe,"Dans la steppe  Mais ils étaient silencieux, les trains de la faim  Se bonjouraient tristement !",référentiel,référentiel,1,pass1
+Quentin-Abel_Soeur.txt,animal,"Qu’un animal insignifiant puisse faire dérailler la mécanique bien huilée d’un déplacement présidentiel, voilà qui est s",référentiel,figuré,0,pass2
+Quignard-Pascal_Les-ombres-errantes.txt,océan,"Ils montèrent dans une chaise de poste et s’installèrent tous les deux à Bayonne dans la demeure de Saint-Cyran, à Campi",référentiel,référentiel,1,pass1
+Roegiers-Patrick_Le-bonheur-des-belges.txt,forêt,"Ses bras me serrent et je l’embrasse longuement, enseveli dans la forêt luxuriante de ses cheveux.",figuré,figuré,1,pass2
+Rolin-Jean_Le-Ravissement-de-Britney-Spears.txt,plantes,"Mais Fuck avait précisé que la colline était couverte de plantes urticantes – le poison ivy, ou « lierre empoisonné » –,",référentiel,référentiel,1,pass1
+Rolin-Jean_Les-evenements.txt,enrochements,"Puis, rechaussé, il a suivi l’avenue du Golfe jusqu’à la jetée du port, dont les enrochements accueillent une nombreuse ",référentiel,référentiel,1,pass1
+Willems-Sandrine_Lextreme.txt,oasis,"Et ce furent les agapes, dans le service, tout le monde était invité, à goûter les loukoums, les cornes de gazelles et a",figuré,figuré,1,pass2
+Serre-Anne_Un-chapeau-leopard.txt,lacs,"Elle a laissé tant de traces dans le cerveau du Narrateur que partout où ils ont marché ensemble, peu à peu les arbres, ",référentiel,référentiel,1,pass1
+Pireyre-Emmanuelle_Feerie-generale.txt,montagnes,"La conversation stagnait, toute la team municipale était en route vers les brochettes, les herbes inconnues, les montagn",figuré,figuré,1,pass2
+Dreyfus-Arthur_Journal-sexuel-dun-garçon-daujourdhui.txt,forêt,– Faire l’amour comme si je suis en couple avec la personne et aussi faire dans la forêt,référentiel,référentiel,1,pass1
+Levi-Celia_La-Tannerie.txt,oasis,"Elle imaginait des déserts et des oasis, des montagnes orientaies, les clochers d’églises hispaniques du bout du monde.",référentiel,référentiel,1,pass1
+Loi-Fabrice_Pirates.txt,océan,"Nous avancions péniblement, sur leur piémont sud, vers l’océan Indien.",référentiel,référentiel,1,pass1
+Cosse-Laurence_La-grande-arche.txt,pêche,Monsieur et madame von Spreckelsen sont à la pêche.,référentiel,référentiel,1,pass2
+Boisséson-Matthieu-de_Le-Grand-Chariot.txt,forêts,(Il y avait là des forêts-noires délicieuses.),figuré,référentiel,0,pass1
+Diop-Boubacar-Boris_Les-petits-de-la-guenon.txt,forêt,"Pour nous, il était clair qu’il avait définitivement perdu la tête et que Damel allait le faire jeter dans la forêt.",référentiel,référentiel,1,pass1
+Dieudonne-Adeline_la-vraie-vie.txt,faune,Je me sentais un peu étrangère à cette faune hystérique.,figuré,référentiel,0,pass1
+Haddad-Hubert_Palestine.txt,animal,"L’animal bêle, cabriole et s’enfuit, à la recherche du berger.",référentiel,référentiel,1,pass2
+Ono-dit-Biot-Christophe_Birmane.txt,rivière,"Après une cérémonie de mariage, chez les Hens, tout près d’une rivière.",référentiel,référentiel,1,pass1
+Bonnefoy-Miguel_Le-reve-du-jaguar.txt,champignons,"Dans sa solitude, débarrassé de tout poids, Cristóbal dénoua la ficelle, défit l’emballage et trouva un vieux cahier d’é",référentiel,référentiel,1,pass1
+Dupont-Eric_La-fiancee-americaine.txt,mer,"J’avais été à Königsberg une élève moyenne, un peu dissipée, plus intéressée par les excursions à la mer et sur la pénin",référentiel,référentiel,1,pass1
+Lazlo-Viktor_Les-passagers-du-siecle.txt,brousse,"Ils verraient bien ce qu’elle valait, cette bouffeuse de serpent, ce monstre aux pieds d’éléphant, ils essaieraient une ",référentiel,référentiel,1,pass1
+Leprince-Pierre_Les-enquetes-de-M.txt,animaux,"Il craignait les animaux à cause de son asthme, le comparer à un seul d’entre eux lui aurait peut-être causé un frisson ",référentiel,référentiel,1,pass2
+Mathieu-Nicolas_Leurs-enfants-apres-eux.txt,paysages,"Ce qui signifie qu’une fois par an, il va vérifier sur place l’existence de paysages qu’il a vus à la télé.",référentiel,référentiel,1,pass1
+Quentin-Abel_Cabane.txt,animal domestique,"Il dit : « Prenez le crâne d’un animal domestique, videz-le et fourrez-le avec de l’écorce hachée, et enfouissez le tout",référentiel,référentiel,1,pass2
+Bulle-Estelle-Sarah_La-ou-les-chiens-aboient-par-la-queue.txt,mer,"On voyait bien que tout appartenait à des mains puissantes, qui pouvaient payer les douzaines d’hommes cassés en deux da",référentiel,référentiel,1,pass1
+Baechler-Sonia_On-dirait-toi.txt,forêt,"Comme la procession avançait vers la forêt, l’ivrogne avait voulu porter la Croix.",référentiel,référentiel,1,pass1
+Majdalani-Charif_Caravanserail.txt,savane,"C’est au cœur de cet écrin miraculeux, tandis qu’un éphémère tapis de verdure couvre la savane, que Samuel ramasse les f",référentiel,référentiel,1,pass1
+Hatzfeld-Jean_La-strategie-des-antilopes.txt,marais,« Le temps nous a poussés vivants hors des marais.,figuré,référentiel,0,pass1
+Clemencon-Frederique_Colonie.txt,mauvaises herbes,"Léonce mettra ses bottes, son vieux tablier de toile bleu, et descendra jusqu’au jardin, bêchera cette fois un ou deux c",référentiel,référentiel,1,pass1
+Sagnard-Arnaud_Bronson.txt,mer,"Cette fois-ci plus envahissant encore, plus large à s’y noyer, jamais étal. La mer, c’est lui. Tout autour de moi, dans ",figuré,figuré,1,pass2
+Cortanze-Gerard-de_Assam.txt,champignon,"– Le thé peut se ratatiner comme les bottes d’un cavalier mongol, être raide comme les fanons d’un bœuf, onduler comme l",figuré,référentiel,0,pass2
+Humbert-Fabrice_Lorigine-de-la-violence.txt,animal,"Même si je sais que, les bras en l’air, David a fait le trajet en courant, titubant sous les cris et les coups, de la ga",référentiel,référentiel,1,pass2
+Sabolo-Monica_Eden.txt,forêt,"— Il se passe des trucs ici, Nita. Dans la forêt. Lucy pointa du doigt les petites silhouettes qui dodelinaient dans le ",figuré,référentiel,0,pass1
+Miano-Leonora_Les-aubes-ecarlates.txt,fleuve,"Depuis quelques jours, ils se terraient dans la brousse, entre Iwié et la rive du fleuve, cherchant le moyen de traverse",référentiel,référentiel,1,pass1
+Joncour-Serge_Chien-Loup.txt,animaux,"Des animaux au service des hommes, Points, 2011.",référentiel,référentiel,1,pass2
+Desy-Proulx-Monique_Enleve-la-nuit.txt,rive,"Sur le coup, on boit, ça ne goûte rien, pas d’amer ni d’insulte sur la langue, mais la gouttelette ou la pincée n’est pa",référentiel,figuré,0,pass2
+Quentin-Abel_Cabane.txt,désert,Leur combat dans le désert commençait à attaquer son appétit de vivre.,référentiel,référentiel,1,pass1
+Rozier-Gilles_Un-amour-sans-resistance.txt,maquis,"N’avoir rien dit ni fait contre l’occupant, avoir laissé le vélo au garage et les autres partir pour le maquis était une",référentiel,figuré,0,pass2
+Wilhelmy-Audrée_Le-corps-des-bêtes.txt,littoral,"Elle ne sait pas comment apprivoiser sa nudité, c’est une sorte d’animal à l’intérieur duquel elle ne peut pas entrer, a",référentiel,référentiel,1,pass1
+Minard-Celine_Plasmas.txt,bactéries,"Il opérait des excavations en présence de grands prédateurs, de pollens et de bactéries inconnues.",référentiel,référentiel,1,pass1
+Apperry-Yann_Farrago.txt,broussailles,"Moi-même, à l’époque où je fréquentais l’école, je m’y étais rendu souvent, seul ou en compagnie de quelques camarades, ",référentiel,référentiel,1,pass1
+Arnaud-Clara_Et-vous-passerez-comme-des-vents-fou.txt,montagne,"Puis la montagne avait été désertée, la forêt avait tout recouvert, les rares habitants se faisaient discrets.",référentiel,référentiel,1,pass1
+Filhol-Elizabeth_Doggerland.txt,bande littorale,"Le littoral du Doggerland est moins une ligne claire qu’une zone de transition, davantage une bande de recouvrement qu’u",référentiel,référentiel,1,pass1
+Fottorino-Eric_Mohican.txt,lande,"Et quand il pressait cet or liquide entre ses dents, une giclée sucrée tapissait son palais, chargée de tous les parfums",référentiel,référentiel,1,pass1
+Gervais-Bertrand_Les-failles-de-l-Amerique.txt,baie,"Nous aurons le collège à nous, et surtout la grande terrasse qui offre une vue splendide sur la baie. Le corps a déjà ét",référentiel,référentiel,1,pass1
+Gisele-Pineau_La-vie-privee-doubli.txt,forêt,"À distance des villages, la colonne serpente entre les bois épineux d’une forêt marécageuse où les bêtes-longues grouill",référentiel,référentiel,1,pass1
+Carrere-Emmanuel_Dautres-Vies-Que-La-Mienne.txt,mer,"Un instant plus tôt la mer était étale, un instant plus tard c’était un mur aussi haut qu’un gratte-ciel et qui tombait ",référentiel,référentiel,1,pass1
+Flahaut-Thomas_Ostwald.txt,rivière,"Et dans la lumière bleue des lampadaires de la rivière, Félix apparaît.",référentiel,référentiel,1,pass1
+Clerc-Thomas_Paris-musee-du-XXIe-siecle.txt,paysage,"Vision dodécaphonique de Montmartre : au très-loin dans le fond, le Sacré-Cuir, comme une gaffe dans le paysage, une gaf",référentiel,référentiel,1,pass1
+Roegiers-Patrick_Le-bonheur-des-belges.txt,lacs,"Installés dans les clairières, au bord des lacs et des rivières, ils se chauffent en brûlant la bouse de vache et se rep",référentiel,référentiel,1,pass1
+Martin-Jean-Pierre_Mes-Fous.txt,montagne,La sauvagerie de la montagne semble parfaitement ordonnée.,référentiel,référentiel,1,pass1
+Jaubert-Alain_Val-Paradis.txt,maritimes,"Tous les ragots du bord y étaient passés. Je laissais errer mes yeux sur les cloisons, sur quatre petites peintures à l’",figuré,référentiel,0,pass2
+"Fleutiaux-Pierrette_Des-phrases-courtes,-ma-cherie.txt",habitat naturel,Son habitat naturel était son bureau.,figuré,figuré,1,pass2
+Chalandon-Sorj_Lenrage.txt,maritime,La colonie maritime faisait de nous des matelots de pacotille.,référentiel,figuré,0,pass2
+Rolin-Jean_Le-pont-de-bezons.txt,berge,"Le surlendemain, samedi 23 mars, dans la seconde moitié de l’après-midi, alors qu’une appétissante odeur de brochettes é",référentiel,référentiel,1,pass1
+Chevillard-Eric_Oreille-rouge.txt,fleuve,"Mais que ferait une armoire ici, au bord du fleuve Niger ?",référentiel,référentiel,1,pass1
+Dalembert-Louis_Mur-Mediterranee.txt,désert,"De temps en temps, le pape François, depuis le balcon de son palais, prêchait dans le désert.",figuré,figuré,1,pass2
+Lang-Luc_Les-indiens.txt,gazon,"Il fallut quatre heures pour arriver, avec les côtes sans fin où les moteurs s’effondrent, les fréquentes pauses café, p",référentiel,figuré,0,pass2
+Hadjimarkos-Clarke-Phoebe_Aliene.txt,broussailles,"Hannah trotte devant eux, elle fourrage dans les broussailles, sprinte au détour des virages, se perd dans les bois, les",référentiel,référentiel,1,pass1
+Rufin-Jean-Christophe_Rouge-Bresil.txt,mer,"Certains jours, il plongeait tout son corps pelu dans une barrique d’eau de mer et se frottait à la cendre.",référentiel,référentiel,1,pass1
+Ravaloson-Johry_Vol-a-vif.txt,pâture,"Je reviens vers La Source et plane sur Ilakak, Là où s’étendaient la forêt, les champs de coton. Ma pâture s’y étend mai",référentiel,référentiel,1,pass1
+Ducrozet-Pierre_Le-Grand-Vertige.txt,montagnes,Arthur regarde les montagnes défiler par la fenêtre.,référentiel,référentiel,1,pass1
+Sabolo-Monica_La-vie-clandestine.txt,mers,"Peut-être les artistes Tumaco ne pouvaient-ils s’adresser à leurs proches, demander pardon aux femmes à la tête et aux b",figuré,référentiel,0,pass2
+Bailly-Pierric_La-foudre.txt,forêt,"On avait quitté les prairies d’épilobes, on était désormais pleinement immergés dans la forêt.",référentiel,référentiel,1,pass1
+Quentin-Abel_Cabane.txt,écologie,Il a milité un peu pour l’écologie profonde.,référentiel,référentiel,1,pass2
+Millet-Richard_La-voix-d-alto.txt,forêts,"Peut-être ne rêvait-elle que d’aimer, de mêler l’amour et la musique, de sortir des forêts obscures et solitaires où ell",figuré,figuré,1,pass2
+Bachi-Salim_Le-chien-d-Ulysse.txt,mers,"Forteresse hérissée d’immeubles branlants, de toits aux arêtes vives, où flottent d’immenses étoffes blanches, rouges, b",figuré,référentiel,0,pass1
+Malte-Marcus_Le-garçon.txt,paysage,Ainsi attifés ils sont censés se fondre dans le paysage.,référentiel,référentiel,1,pass1
+Mabanckou-Alain_Petit-Piment.txt,océan,Cette rivière est connue pour être plus dangereuse que l’océan Atlantique.,figuré,référentiel,0,pass1
+Del-Amo-Jean-Baptiste_Le-fils-de-lhomme.txt,montagne,Une respiration contenue s’étend sur la montagne.,référentiel,référentiel,1,pass1
+Hadjadj-Bachir_Le-voleur-de-reves.txt,maquis,"Sa connaissance du monde, autre que celle du maquis et des frontières, se limitait à ses séjours dans des pays arabes qu",référentiel,référentiel,1,pass1
+Rinkel-Blandine_Vers-la-violence.txt,mer,"Ce serait être largué en pleine mer sans bouée de sauvetage. Et la mer, Gérard connaissait. On n’en sortait jamais indem",figuré,référentiel,0,pass1
+Victor-Gary_La_piste-des-sortileges.txt,océan,"Il a choisi, pour ce faire, de se pendre face à l’immensité de la mer, en s’aidant de ce fabuleux palmier qui semblait i",référentiel,figuré,0,pass2
+Trillard-Marc_Campagne-derniere.txt,brousse,Cet après-midi la brousse s’est encore ouverte et refermée sur un homme du chantier.,référentiel,référentiel,1,pass1
+Arnaud-Clara_Et-vous-passerez-comme-des-vents-fou.txt,montagne,"Au soir, ils avaient siroté une bière tiède en regardant la montagne, tes derniers jours vont être beaux, ça n’appelle p",référentiel,référentiel,1,pass1
+Mavrikakis-Catherine_Le-ciel-de-Bay-City.txt,mer,"Je ne sais que le K-Mart à un bout de Veronica Lane, la maison de ma tante à l’autre bout et l’autoroute au loin, immens",figuré,figuré,1,pass2
+Feraga-Alexandre_Apres-la-mer.txt,mer,"Cette promesse a traversé mille fois la Wilaya, la mer et ma mémoire.",figuré,référentiel,0,pass1
+April-Jean-Philippe_Les-ensauvagés.txt,végétation,"Mais le jour déclinait, l’ombre allongée des arbres avait assombri la rivière. Une nappe de brume froide louvoyait le lo",référentiel,référentiel,1,pass1
+Ouaknine-Serge_le-tao-du-tagueur.txt,plage,Il cherchait la direction de la plage.,référentiel,référentiel,1,pass1
+Mann-Esther-Levon-Minasian_Le-fil-des-anges.txt,montagne,"Tirée par la jeep, la camionnette descend lentement les lacets de la montagne jusqu’à la ville.",référentiel,référentiel,1,pass1
+Gaudet-Jonathan_La-derive-des-jours.txt,forêt,"Là-bas, derrière la forêt, une tempête se prépare.",référentiel,référentiel,1,pass1
+Kaddour-Hedi_Waltenberg.txt,pelouse,"Et tous les gens qui sont sur la pelouse sont outrés, les Américains n’ont rien compris, il faudra bien les arrêter d’un",référentiel,référentiel,1,pass1
+Boum-Hemley_Le-reve-du-pecheur.txt,mer,"Des hommes descendent des villages vers la mer, ils sont nombreux sans faire foule car la plage est immense.",référentiel,référentiel,1,pass1
+Dorion-Helene_Pas-meme-le-bruit-d-un-fleuve.txt,montagnes,"imaginait une galerie d’art où étaient exposés mes dessins de jardins, de montagnes et de forêts.",figuré,référentiel,0,pass2
+Hunzinger-Claudie_La-langue-des-oiseaux.txt,proie,"Parce que la question de fond était là : laquelle, le chasseur, laquelle la proie ?",figuré,référentiel,0,pass1
+Polack-Stephanie_Comme-un-frere.txt,mer,"Les vagues ne sont que des tourments passagers que lui font les vents, les forces électriques, ce sont des accidents qui",figuré,référentiel,0,pass1
+Victor-Gary_La_piste-des-sortileges.txt,montagne,"Il entrevoit, en un éclair, Persée Persifal gravissant un sentier escarpé au flanc d’une montagne.",référentiel,référentiel,1,pass1
+Jobidon-Gilles_Lame-frere.txt,mer,"Les vieux disent qu’au jour de l’An la mer semblera bouillir, qu’un frasil blanc en sortira, qu’on n’y verra pas deux to",référentiel,référentiel,1,pass1
+Monenembo-Tierno_Le-Terroriste-Noir.txt,rivière,Le Blanc traversa la rivière et serra longuement la main de votre grand-père.,référentiel,référentiel,1,pass1
+Volodine-Antoine_Terminus-radieux.txt,taïga,C’est une nuit agréable d’été dans la taïga et il n’y a même pas de mouches pour la gâcher.,référentiel,référentiel,1,pass1
+Claudel-Philippe_Le-rapport-de-Brodeck.txt,paysage,C’était comme si le paysage et tout ce qu’il avait contenu s’étaient effacés derrière mes pas.,figuré,figuré,1,pass2
+Saucier-Jocelyne_Il-pleuvait-des-oiseaux.txt,forêt,"Sur la rive, quelques escarpements rocheux, des trouées blondes et sablonneuses, de minuscules plages baignées de soleil",référentiel,référentiel,1,pass1
+Lang-Luc_Les-indiens.txt,paysage,"Le printemps approche, les robes légères, les épaules dénudées, je prépare la renaissance du paysage…",figuré,référentiel,0,pass1
+Colonna-Daria_La-voleuse.txt,paysage,"J’ai parcouru ma paix comme un long paysage sans lumière et sans ombre, depuis ma cabine, derrière des fenêtres d’eau.",figuré,figuré,1,pass2
+Rufin-Jean-Christophe_Rouge-Bresil.txt,mer,Le long vaisseau plat se haussait à peine à la surface de la mer.,référentiel,référentiel,1,pass1
+Faye-Gael_Jacaranda.txt,paysage,"Le car m’a déposé dans le centre et j’ai continué à pied en passant devant l’église Saint-Jean, posée au sommet de son p",référentiel,référentiel,1,pass1
+Victor-Gary_La_piste-des-sortileges.txt,lac,"Les poteaux des condamnés, tous au centre du cercle, représentaient une étoile à cinq branches, dont deux étaient dirigé",figuré,référentiel,0,pass1
+Lyamlahy-Khalid_Evocation-d-un-memorial.txt,eau verte,« [...] il y a aussi l’eau verte des lagunes,référentiel,référentiel,1,pass1
+Audeguy-Stephane_Histoire-du-lion-personne.txt,animal,"Ce ne pouvait être, dans de tels parages et à ce moment de l’année, un rhinocéros, car la saison des pluies n’était pas ",référentiel,référentiel,1,pass2
+Gaude-Laurent_Le-Soleil-des-Scorta.txt,mer,"Tout cela prouvait que Donato était encore là, quelque part sur la mer.",référentiel,référentiel,1,pass1
+Adam-Olivier_Le-coeur-regulier.txt,aridité,"Sous le ciel dégagé d’un bleu encore pâle, les roches étaient presque jaunes, aucune trace de végétation ne venait troub",référentiel,référentiel,1,pass1
+Lapouge_Gilles_Le-bois-des-amoureux.txt,montagne,"C’était le verbatim de leurs deux vies, ces dossiers, puisqu’ils n’avaient rien fait d’autre, depuis leur naissance au p",référentiel,référentiel,1,pass1
+Cortanze-Gerard-de_Assam.txt,mer,Cela faisait plus de six mois qu’il était en mer.,référentiel,référentiel,1,pass1
+Bonnefoy-Miguel_Sucre-noir.txt,savane,"La vallée autrefois verdoyante, humide sur les berges du fleuve, riche en humus et en sels minéraux, abritée de forêts e",référentiel,référentiel,1,pass1
+Moix-Yann_Podium.txt,étangs,"« La Sologne est une belle région, où les couleurs brunes, vers le soir, s’affaissent derrière un rideau de gouttes fine",référentiel,référentiel,1,pass1
+Quentin-Abel_Cabane.txt,environnement,"Je savais quand un individu était mûr, prêt à s’épancher. Le chassagne-montrachet, le cercueil : tout cela créait un env",référentiel,figuré,0,pass2
+Leblanc-Perrine_Gens-du-Nord.txt,plage,"Dans les environs de la plage de Clogga Strand, près de la jetée de Roadstone léchée par la mer d’Irlande, deux camions ",référentiel,référentiel,1,pass1
+Alexakis-Vassilis_Lenfant-grec.txt,montagne,"Il faut dire qu’on aperçoit derrière mon linge, au fond de l’horizon, la montagne Sainte-Victoire, immortalisée par Céza",référentiel,référentiel,1,pass1
+Niel-Colin_Entre-fauves.txt,carnivores,"En vrai je n’ai jamais vu quelque chose d’aussi impressionnant que cette charge : on s’imagine déjà encaisser l’assaut, ",référentiel,référentiel,1,pass1
+Sebban-Olivier_Le-jour-de-ton-nom.txt,lande,"En sortant des artères rectilignes du quartier résidentiel, les deux voitures s’étaient engouffrées sur une route second",référentiel,référentiel,1,pass1
+Poivre-d-Arvor-Olivier_Disparaitre.txt,altitudes,"Non que je craigne de souffrir en chutant mais l’on est si bien, là-haut, à ces altitudes où l’oxygène se raréfie, tout ",référentiel,référentiel,1,pass1
+Mordillat-Gerard_Les-vivants-et-les-morts.txt,montagne,"Les caniveaux roulent comme des ruisseaux de montagne, l’eau ruisselle au milieu des rues et, dès qu’ils ont dépassé la ",figuré,référentiel,0,pass1
+Confiant-Raphael_La-panse-du-chacal.txt,rivière,"Devi et les garçons avaient, par prudence, enjambé la rivière La Falaise et observaient les deux hommes depuis l’autre r",référentiel,référentiel,1,pass1
+Ebode-Eugene_La-transmission.txt,mer,"En contrebas, il y a la baie qui bruit de toutes les sonorités de la ville et de la mer.",référentiel,référentiel,1,pass1
+Beyrouk_Et-le-ciel-a-oublié-de-plevoir.txt,désert,"Il s’est imaginé adoubé par les grandes familles du désert, il a cru voir les honneurs pleuvoir sur sa tête.",référentiel,figuré,0,pass2
+Greveillac-Paul_Maitres-et-esclaves.txt,montagnes,Les murs en étaient épais comme les montagnes.,figuré,figuré,1,pass2
+Mathieu-Daude-Agnes_Marchands-de-sable.txt,plage,Il finit par prendre à partie la caissière en lui montrant une montagne multicolore de jouets de plage.,figuré,référentiel,0,pass1
+Chalandon-Sorj_Lenrage.txt,baie,"Chez moi, on retrouverait ce salaud dans la baie de Txingudi.",référentiel,référentiel,1,pass1
+Darrieussecq-Marie_Tom-est-mort.txt,ruisseaux,"Les Blue Mountains, ce serait le Canada, ou n’importe où ailleurs de forêts, de ruisseaux et de maisons en bois, s’il n’",référentiel,référentiel,1,pass1
+Victor-Gary_Je-sais-quand-Dieu-vient-se-promener-dans-mon-jardin.txt,désert,"N’était-il pas trop tardif, ce combat désespéré pour rester ici, moi qui avais choisi le désert, le corps à corps avec l",figuré,figuré,1,pass2
+Dupont-Monod-Clara_Sadapter.txt,montagne,"C’était la force des états d’urgence, qu’elle connaissait pour avoir déjà subi les assauts du ciel en montagne, qui déra",référentiel,référentiel,1,pass1
+Guyotat-Pierre_Idiotie.txt,animaux,Sortant sur le palier pour toquer à la porte d’une vieille femme vivant seule dont elle dit qu’elle vérifie chaque matin,référentiel,référentiel,1,pass2
+Nicole-Eugene_Loeuvre-des-mers.txt,désert,"Nous avons laissé Maryse aider ces dames à s’installer. Quand nous sommes ressortis du bâtiment, j’ai compris à quel poi",figuré,figuré,1,pass2
+Rico-Lucie_GPS.txt,paysages,"Antoine n’a jamais besoin de GPS. Il vit de plain-pied avec les paysages, les vrais, et il les aime tellement qu’il veut",référentiel,référentiel,1,pass1
+Claudel-Philippe_Le-rapport-de-Brodeck.txt,rivière,"C’est un métier de raconter des histoires, ce n’est pas le mien, je ne fais que de brèves notices sur l’état de la flore",référentiel,référentiel,1,pass1
+Rufin-Jean-Christophe_Rouge-Bresil.txt,basses terres,À son pied grimpait un tumulte de grands arbres qui cherchaient à échapper au corps à corps végétal des basses terres.,référentiel,référentiel,1,pass1
+Mainard-Dominique-Le_ciel_des_chevaux.txt,plantes,"Il avait repoussé les plantes vertes qu’une voisine avait installées là et s’était accoudé à l’appui de fenêtre, Joseph ",référentiel,référentiel,1,pass2
+Germain-Sylvie_Magnus.txt,lac,Elle n’est plus que décombres au bord d’un lac.,figuré,référentiel,0,pass1
+Koenig-Gaspard_Humus.txt,paysages,La monoculture s’étend sur nos paysages autant que dans nos têtes.,référentiel,référentiel,1,pass1
+Amette-Jacques-Pierre_La-maitresse-de-Brecht.txt,plage,"Là-bas, vers la gauche de la plage, une presqu’île gardait les orages.",référentiel,référentiel,1,pass1
+Turine-Jean-Marc_Le-Theo-des-fleuves.txt,fleuve,"Lorsqu’il ne marche pas, il s’assied au bord du fleuve, le regard perdu dans la disparition incessante de l’eau et son r",référentiel,référentiel,1,pass1
+Raharimanana_Revenir.txt,animal,"Et s’il le mangeait, n’allait-il pas tomber pour être ramassé comme un animal mort par cet ogre de Senegaly ?",figuré,figuré,1,pass2
+Enard-Mathias_La-Perfection-du-tir.txt,montagne,"La tante n’avait pas voulu qu’elle revienne, c’est pour ça qu’elle m’avait raconté ce bobard qu’elle était déjà partie, ",référentiel,référentiel,1,pass1
+Azoulai-Nathalie_Berenice.txt,montagne,"Ce sentiment qu’il a eu de gravir une montagne en poussant l’antithèse jusqu’au bout, en faisant de sa Phèdre le plus ar",figuré,figuré,1,pass2
+Garcin-Christian-_Des-femmes-disparaissent.txt,animal,"Elle ne comprenait rien à rien, éprouva soudain le besoin d’un recours affectueux, un animal à caresser par exemple.",référentiel,référentiel,1,pass2
+April-Jean-Philippe_Les-ensauvagés.txt,animal,"La fourrure ouverte sur des flancs de sang laissait entrevoir le corps frénétique de Zac, torse concave et cuisses croch",référentiel,référentiel,1,pass2
+Freche-Emilie_Les-amants-du-Lutetia.txt,mer,", parce que c’était les mots qu’il lui disait chaque été pour la rassurer, lorsque, au mouillage sur notre bateau de lac",référentiel,figuré,0,pass2
+Kaddour-Hedi_Waltenberg.txt,rive,"La nuit tombe lentement, il y a un taxi libre, elle n’en veut pas, elle marche pour se détendre, un de ses élèves a dit ",référentiel,référentiel,1,pass1
+Sebban-Olivier_Le-jour-de-ton-nom.txt,montagne,"Il ouvrit les yeux et les referma aussitôt, aveuglé derrière paupières closes, l’empreinte des branches de mélèze gravée",référentiel,référentiel,1,pass1
+Hunzinger-Claudie_Un-chien-a-ma-table.txt,océans,"Les forêts brûlaient. Les océans agonisaient. Le permafrost fondait, libérant des virus préhistoriques comme autant de z",référentiel,référentiel,1,pass1
+Minard-Celine_Le-Grand-Jeu.txt,prédation,"Il y a un vainqueur et un vaincu, il y a ruse, il y a stratégie, il y a part obscure, habileté, réflexion et calcul dans",référentiel,figuré,0,pass2
+Zenatti-Valerie_Jacob-Jacob.txt,mer,"Le lieutenant se doute que Jacob est déjà prêt à accoster en Provence, il n’en dit rien à Rachel, il pense qu’elle serai",référentiel,référentiel,1,pass1
+Narine-Vidya_Orchideiste.txt,estuaire,"Un secret qui abrite quelques pépites, comme tombées d’une météorite dans un estuaire.",figuré,référentiel,0,pass2
+Rolin-Olivier_Un-chasseur-de-lions.txt,lacs,« Est-ce que vous croyez que ces cétacés vivent dans les lacs ?,référentiel,référentiel,1,pass1
+Lapouge_Gilles_Le-bois-des-amoureux.txt,montagnes,"On dit toujours que dans les montagnes, on est avare comme pas un.",référentiel,référentiel,1,pass1
+Reznikov-Patricia_Le-songe-du-photographe.txt,rive,"Sur l’autre rive, peut-être celle de Buda, un grand bâtiment que je n’identifie pas, mon souvenir est trop flou.",référentiel,référentiel,1,pass1
+Bichet-Yves_Lhomme-qui-marche.txt,végétation,"Y a pas d’orties ici, pas de ronces, pas vraiment de végétation.",référentiel,référentiel,1,pass1
+Pagano-Emmanuelle_Saufs-riverains.txt,littoral,"Elle attire de nombreuses espèces d’oiseaux d’eau, d’ordinaire seulement présentes sur le littoral lagunaire.",référentiel,référentiel,1,pass1
+Houellebecq-Michel_La-carte-et-le-territoire.txt,écologiste,"En se renseignant sur Internet, il avait appris que Dignitas (c’était le nom du groupement d’euthanasieurs) faisait l’ob",référentiel,référentiel,1,pass2
+Greveillac-Paul_Maitres-et-esclaves.txt,incendie,"Ils fumèrent en silence, bercés par l’agitation des cuisines, réchauffés par l’incendie des fourneaux.",figuré,référentiel,0,pass2
+Collette-Sandrine_On-etait-des-loups.txt,lac,Face à nous le lac nous accueille et je tressaille il ne faut pas que je flanche il y a comme un relâchement en moi.,référentiel,référentiel,1,pass1
+Tuil-Karine_Six-mois-six-jours.txt,aridité,"Ce romantisme petit-bourgeois, cette aridité conjugale, ça les déprimait…",figuré,figuré,1,pass2
+Robles-Jean_Là-où-les-tigres-sont-chez-eux.txt,fleuve,"Partir avec Aynoré à la recherche de son peuple, retrouver ensemble cette communion originelle avec le fleuve, les oisea",référentiel,référentiel,1,pass1
+Rahimi-Atiq_Syngue-Sabour-Pierre-de-Patience.txt,oiseaux migrateurs,» Elle s’assied au pied du rideau aux motifs d’oiseaux migrateurs.,figuré,référentiel,0,pass2
+Poulain-Catherine_Le-grand-marin.txt,baie,Nous en trouverons d’autres quand nous irons pêcher… Sur les plages de la baie d’Uganik et tout le long de la côte ouest,référentiel,référentiel,1,pass1
+Foenkinos-David_les-souvenirs.txt,mer,"Cela me paraissait étrange de vouloir mourir face à la mer, devant le spectacle grandiloquent de la beauté terrestre.",référentiel,référentiel,1,pass1
+Dalembert-Louis_Mur-Mediterranee.txt,désert,"À l’aube suivante, ils atteignirent la périphérie d’Agadez : la porte du désert.",référentiel,référentiel,1,pass1
+Desbiolles-Maryline_Le-Beau-Temps.txt,mer,"Jaubert partage avec Supervielle d’être né loin de Paris, près de la mer, bien que Jules ou Julio Supervielle soit né bi",référentiel,référentiel,1,pass1
+Filhol-Elizabeth_Doggerland.txt,pelouse,"Ce qui a été épargné par les incendies et les destructions volontaires semble défier le temps, une voûte en ogive, un al",référentiel,référentiel,1,pass1
+Desy-Proulx-Monique_Enleve-la-nuit.txt,montagnes,"Car certaines clientèles aiment beaucoup le curry, tandis que d’autres préfèrent le fenugrec ou la cannelle, mais presqu",référentiel,référentiel,1,pass1
+Ndiaye-Marie_Rosie-Carpe.txt,pelouse,"Pendant plusieurs mois, depuis le jour où elle avait vu Carpe dans son jardin, figé et transi mais s’obstinant sombremen",référentiel,référentiel,1,pass1
+Lambron-Marc_Etrangers-dans-la-nuit.txt,plages,"Leurs pères avaient combattu sans femmes sur les plages de Normandie, ce n’est pas Betty Friedan qui allait leur dire où",référentiel,référentiel,1,pass1
+Chevillard-Eric_Choir.txt,écosystème,"L’écosystème de Choir s’en trouva toutefois légèrement perturbé et, dans les semaines qui suivirent, réapparurent les di",référentiel,référentiel,1,pass1
+Plamondon-Eric_Taqawan.txt,lac,"Murray remonte le Saint-Laurent depuis l’est, Amherst attaque à partir du lac Ontario à l’ouest et Haviland prend la dir",référentiel,référentiel,1,pass1
+Dicker-Joël_La-verite-sur-l'affaire-Harry-Quebert.txt,forêt,Elle continua encore et arriva aux abords de Side Creek Lane où elle jugea qu’il était temps de traverser la bordure de ,référentiel,référentiel,1,pass1
+Arnaud-Claude_Quastu-fait-de-tes-freres.txt,océan,"Ce que je vois ne représente pourtant qu’une infime partie du globe ; au-delà s’étend l’Ile-de-France, la Normandie, la ",référentiel,référentiel,1,pass1
+Giraud-Brigitte_Nous-serons-des-heros.txt,mer,"Mais Luis insistait, il disait en riant que les Portugais ne savent pas nager, tous les peuples qui vivent près de la me",référentiel,référentiel,1,pass1
+Thomas-Chantal_Souvenirs-de-la-maree-basse.txt,mer,Comme si la pluie rebondissant sur la mer était suffisamment forte et abondante pour lui substituer une surface d’eau do,référentiel,référentiel,1,pass1
+Boltanski-Christophe_La-Cache.txt,animaux,"En hiver, par grand froid, Luc rapatriait sa ferme aux animaux dans sa chambre.",figuré,figuré,1,pass2
+Barille-Elisabeth_Les-soeurs-et-autres-especes.txt,forêt,"Cette bête en lisière de forêt, cette fugitive hors d’atteinte, je la voyais à travers mes larmes, ce n’était ni une bic",référentiel,référentiel,1,pass1
+Dantzig-Charles_Histoire-de-l-amour-et-de-la-haine.txt,animal,"Pour Ferdinand, ce tendre et tiède animal l’avait maintenu dans un état de dépendance et de souffrance ; de joie, aussi,",référentiel,figuré,0,pass2
+Baque-Joel_La-fonte-des-glaces.txt,écologiques,Cet épisode le sensibilisa fortement à l’impact des certifications et des logos écologiques.,référentiel,référentiel,1,pass2
+Fleischer-Alain_Les-ambitions-desavouees.txt,forêt,"Tout mon corps n’était que ce lieu de convergence de la sève, appelée pour alimenter l’arbre planté dans la forêt.",référentiel,référentiel,1,pass1
+Royer-Corinne_Ceux-du-lac.txt,urbains,Il avait fallu pas moins de trois gars épais arborant des blousons de rangers urbains pour maîtriser Ruben et le raccomp,référentiel,référentiel,1,pass2
+Kerangal-Maylisde_Naissance-dun-pont.txt,fleuve,"De plus, les pétroliers qui avitaillent la cité ainsi que ses rares sites industriels rechignent à remonter le fleuve ju",référentiel,référentiel,1,pass1
+Le-Bris-Michel_La-beauté-du-monde.txt,proie,"Osa et Martin rentraient chaque nuit épuisés, étourdis, sous Yceil narquois de Little Joe qui les guettait comme harponn",figuré,figuré,1,pass2
+Rolin-Olivier_Tigre-en-papier.txt,pelouses,"Il faisait chaud, il y avait des parasols sur les pelouses, des pédalos sur l’eau bleue immobile où se reflétaient les m",référentiel,référentiel,1,pass1
+Majdalani-Charif_Caravanserail.txt,montagne,Parmi les nombreuses histoires sur ces hommes qui se sentirent à l’étroit entre la montagne et la mer et qui quittèrent ,référentiel,référentiel,1,pass1
+Lang-Luc_La-tentation.txt,lac,"Politesses d’usage Comment vas-tu ? Tes vacances au lac ? Mais le fils semble tendu, agacé, et François comprend vite qu",référentiel,référentiel,1,pass1
+Mouawad-Wajdi_Anima.txt,montagnes,"Avant que ne tombe le soir, Jean a voulu montrer à Wahhch et Winona le coucher du soleil au-dessus des montagnes.",référentiel,référentiel,1,pass1
+Olmi-Veronique_Bakhita.txt,proie,"Que l’élan soit impossible, celui du corps, mais aussi celui de l’esprit : la prudence et l’instinct sans lesquels un es",figuré,figuré,1,pass2
+Dreyfus-Arthur_Journal-sexuel-dun-garçon-daujourdhui.txt,transgéniques,"Comment peut-on dîner dans ces établissements nés pour le tourisme, ne servant que des kebabs transgéniques, des bologna",référentiel,référentiel,1,pass1
+Liberati-Simon_Performance.txt,paysage,"Le goût de Keith pour les armes à feu et sa complicité dangereuse avec Anita, le paysage désertique des sierras andalous",référentiel,référentiel,1,pass1
