@@ -1,0 +1,409 @@
+id;fichier;token_lexique;contexte;lemme;source;subcategorie_metaphore;categorie_compare;notes
+
+1;Jauffret-Regis_Univers-Univers.txt;chiendent;Elle avait gouverné des peuples de pères qui cher chaient leurs fils depuis des millénaires, de gamins qui poussaient comme du chiendent, de femmes qui passaient leur temps à perdre leurs eaux, à mettre au monde des bulles qui s’envolaient pour éclater dans l’atmosphère bleu ardoise.;chiendent;plantes;COMP_SIM;CH;
+
+2;Schneider-Michel_Marilyn,-dernieres-seances.txt;tigre;Je ne saurais dire qui, de nous deux, était le tigre, qui la baleine.;tigre;animaux;META_ATT;CH;
+
+3;Bofane-In-Koli-Jean_Congo_inc._le_testament_de_Bismarck.txt;agneaux;Ce sont des agneaux immolés, des innocents dans la bouche du lion de Judas.;agneau;animaux;META_ATT;CH;
+
+4;Akouche-Karim_La-musique-dereglee-du-monde.txt;pastèque;fini, adieu, et j’ai pensé à ma maman provisoire qui s’était envolée dans la montagne avec son ventre de pastèque éclatée, et tout et tout, et puis, tout d’un coup, une vapeur a poussé dans mes yeux, et;pastèque;plantes;META_QUAL;CH;
+
+5;Delacourt-Gregoire_On-ne-voyait-que-le-bonheur.txt;nénuphar;Le nénuphar chaud de mon sang.;nénuphar;plantes;META_DET;CH;
+
+6;Nicole-Eugene_Loeuvre-des-mers.txt;oedipe;Il prétend que la cure, telle que la conçoit le fondateur de la psychanalyse, ne fait que renforcer l’oedipe.;oedipe;animaux;x;;X
+
+7;Lafon-Lola_Chavirer.txt;acajou;Elles répétaient comme si elles l’avaient rencontrée ce prénom dont elles savaient les contours, du manteau long aux mèches acajou, Cathy.;acajou;plantes;COUL;;
+
+8;Hoex-Corinne_Le-grand-menu.txt;pomme;Maman me certifie qu’aucune pomme jamais ne me fera d’enfant.;pomme;plantes;META_PRED;CH;
+
+9;Kerangal-Maylisde_Corniche-Kennedy.txt;nénuphars;Ils y ont ensemble des pauses indéfinies, vautrés les uns contre les autres en formation arachnéenne, ou étalés, nénuphars très ouverts, dessinant sur la pierre telle arborescence bizarre, tel cadastre secret, et ils glandent au soleil, des heures durant pigmentent leur peau, jouent, rient et divaguent, disponibles, effroyablement disponibles, comme fondus dans l’air du temps et contemporains du plus petit nuage, capteurs sensibles de la moindre forfaiture de langue, du moindre geste faisant image – un penalty de folie;nénuphar;plantes;META_APP;CH;
+
+10;Levy-Marc_Le-Premier-jour.txt;morse;À table, tu avais l’air d’un morse échoué sur la banquise.;morse;animaux;META_ATT;CH;
+
+11;Hunzinger-Claudie_Les-grands-cerfs.txt;chien;Fabienne, soudain, s’est arrêtée et m’a dit avec une sorte de véhémence : Tant que je ne suis pas, tant qu’une partie de mon être ne va pas du côté où il fait noir, parce que ce n’est pas un pré fleuri, l’écriture, mais du noir, tant que je ne suis pas dans cet endroit où je ne veux pas aller, où il faut me traîner comme un chien, ce n’est pas la peine que j’essaie de commencer quelque chose, un roman, ce ne sera rien de bon.;chien;animaux;COMP_SIM;CH;
+
+12;Monenembo-Tierno_Le-Terroriste-Noir.txt;palmiers;Je vous vois, nouveau, exotique et lointain, aussi assorti à Romaincourt qu’un hectare de palmiers sur les neiges du mont Blanc et je me dis qu’ils ont bien fait d’agir ainsi, Célestin, le colonel, surtout le colonel, et même la Pinéguette, oui, oui, même la Pinéguette.;palmier;plantes;COMP_SIM;CH;
+
+13;Bleys-Olivier_Discours-dun-arbre-sur-la-fragilite-des-hommes.txt;piquants noirs;À peine descendu de selle, il envoya son genou dans l’estomac du gros et sa tête, boule de piquants noirs, au nez de Tchouang-tseu.;piquants noirs;plantes;META_APP;CH;
+
+14;Nicole-Eugene_Loeuvre-des-mers.txt;saumon;Jeanne et Marie, stupéfaites, s’approon chèrent. La toilette-commode à pattes fines disparaissait sous composition multicolore qui lui donnait l’aspect d’un autel d’un reposoir. Autour de la couronne de mariage de Jeanne, en fleurs de cerisier sous sa cloche de verre, des rouges à lèvres une ou par douzaines dans des présentoirs transparents déclinaient à l’extrémité de leurs tubes en or toutes les nuances de coloris qui vont du saumon écossais au sang le plus vif.;saumon;animaux;COUL;;
+
+15;Bouysse-Franck_Ne-daucune-femme.txt;cassis;Ses yeux étaient creusés, comme si on avait dégagé le pourtour à l’aide d’une gouge, avec deux grains de cassis plantés en plein milieu.;cassis;plantes;META_ATT;CH;
+
+16;Arsand-Daniel_Lily.txt;agneau;Et puis tout aussi brutalement, Constance redevint un agneau.;agneau;animaux;META_ATT;CH;
+
+17;Bonnefoy-Miguel_Le-reve-du-jaguar.txt;coquelicots;Il avait des yeux d’un rouge intense, comme deux coquelicots enflammés, un pelage gris-noir dont la couleur était indéfinissable, et sur le dos un duvet de plumes moelleuses, aussi lisses et souples qu’une toile de chapeau melon.;coquelicot;plantes;COMP_SIM;CH;
+
+18;Carolis-Patrick-de_Les-demoiselles-de-provence.txt;lys;Après avoir jeté un regard sur cette masse au-dessus de laquelle flottent une multitude de bannières, celles du roi, bleues à fleurs de lys, et celles multicolores des seigneurs et chevaliers, il donne l’ordre de départ.;lys;plantes;IMAG;;
+
+19;Hatzfeld-Jean_La-strategie-des-antilopes.txt;singes;Des images de notre vie de singes à Kayumba ou de leur vie de reptiles dans les marais, ce serait inhumain, ce serait ajouter de la peine à la souffrance des rescapés et, en plus, ne servirait à rien.;singe;animaux;META_QUAL;A;
+
+20;Dreyfus-Arthur_Journal-sexuel-dun-garçon-daujourdhui.txt;cheval;À cheval sur mon torse, il dévoile enfin sa bite (de taille moyenne).;cheval;animaux;LOC_IDIOM;;
+
+21;Minard-Celine_Le-dernier-monde.txt;fourmis;Il se tenait la tête à deux mains, s’allongeait au sol les jambes en l’air, cherchait du sucre, de quoi respirer, se pinçait, s’envoyait des fourmis dans les muscles et Lawson l’encourageait.;fourmi;animaux;LOC_IDIOM;CH;
+
+22;Becker-Emma_Le-Mal-joli.txt;marguerite;Pourtant je compte, scrupuleusement, comme les pétales d’une marguerite, toutes ses petites générosités à mon égard.;marguerite;plantes;COMP_SIM;A;
+
+23;Kaplan-Leslie_Fever.txt;foin;On est comme une aiguille dans une meule de foin.;foin;plantes;LOC_IDIOM;CH;
+
+24;Salvayre-Lydie_Pas-Pleurer.txt;mouches;La pensée lui vint qu’elle aurait beau, à l’avenir, se maquiller, se vêtir de robes coûteuses, se parer de bijoux précieux, apprendre les gestes de l’autorité en renvoyant les bonnes d’un revers de la main comme on chasse les mouches, elle garderait toute sa vie cet air modeste qui était un air intérieur, un air immaîtrisable, un air indélébile, un air qui autorisait tous les abus et toutes les humiliations, un air hérité d’une longue lignée de paysans pauvres, et son empreinte inscrite sur sa gueule et dans sa chair, une empreinte laissée par les acceptations sans gloire, les renoncements sans prestige, les révoltes sans cris, et cette conviction qu’on n’est sur terre que très peu de chose.;mouche;animaux;COMP_P;CH;
+
+25;Roegiers-Patrick_Le-bonheur-des-belges.txt;pervenche;Sitôt partis les trois dirigeants, fiers comme Artaban, portés aux nues par les laizes verticales de leur fanion tout neuf, je me tourne vers l’aimable et douce mercière, aux yeux pervenche, déchargée de sa tâche.;pervenche;plantes;COUL;;
+
+26;Lançon-Philippe_Le-lambeau.txt;canard;Il est vrai qu’on ignorait encore que la gauche continuait de courir comme un canard sans tête.;canard;animaux;COMP_SIM;A;
+
+27;Dreyfus-Arthur_Journal-sexuel-dun-garçon-daujourdhui.txt;roses;(Les gestes amoureux se dérobent comme des roses, finissant par composer un bouquet abstrait.);rose;plantes;COMP_P;A;
+
+28;Pancol-Katherine_Les-ecureuils-de-Central-Park-sont-tristes-le-lundi.txt;chou;Elle paierait pour sa propre méchanceté d’abord et pour tous ceux qui le traitaient de bubon ambulant ou de chou farci.;chou;plantes;META_ATT;CH;
+
+29;Barbery-Muriel_Lelegance-du-herisson.txt;concombre;Je vais à la pêche au concombre mariné, qui n’a de concombre et de marinade que l’aspect tant c’est, sur la langue, une chose délicieuse.;concombre;plantes;MOD_ANALOG;NH;
+
+30;Vargas-Fred_Quand-sort-la-recluse.txt;loup;En cas de révolte, Seguin menagait ses chévres de « voir le loup ».;loup;animaux;LOC_IDIOM;A;
+
+31;Luterbacher-Thierry_Un-cerisier-dans-lescalier.txt;tournesols;Framboise portait une robe bleu pâle parsemée de tournesols dorés.;tournesol;plantes;IMAG;;
+
+32;Schneider-Michel_Marilyn,-dernieres-seances.txt;pomme;La mère, avec le peigne empoisonné, ou bien, quand elle aura l’âge, la pomme du péché qui apporte la connaissance et la sexualité, et avec eux le travail, la peine et la mort?;pomme;plantes;META_ATT;A;
+
+33;Cotton_Stanislas_La-moitie-du-jour-il-fait-nuit.txt;bananier;Je serai le tronc de l’arbre, le corps de la liane, la feuille du bananier, je serai invisible, intouchable, et je serai libre.;bananier;plantes;META_ATT;CH;
+
+34;Desjardins-Martine_Maleficium.txt;poivre;Ma première réaction fut de hurler de douleur, parce que l’écaille brûlait comme du poivre.;poivre;plantes;COMP_SIM;CH;
+
+35;Reinhardt-Eric_L-amour-et-les-forets.txt;prune;Si vous vous faites contrôler, la flèche doit pouvoir raser les poils de l’avant-bras, sinon vous vous prenez une prune.;prune;plantes;LOC_IDIOM;A;
+
+36;Thomas-Chantal_L-echange-des-princesses.txt;pomme;Lui parlant, tâchant de se concentrer sur l’esprit de la confession, s’efforçant de n’omettre aucun péché aussi véniel soit-il, traquant en elle ne serait-ce que la tentation d’une tentation, elle est subjuguée par des images du bien-aimé, des détails de son être absolument beau, des subtilités à ravir : l’ombre de ses cils sur ses joues claires, ses lèvres dessinées à la perfection, ses yeux sombres et lumineux, son port altier, ses mollets musclés pris dans des bas rouge vif, vert pomme, jaune jonquille.;pomme;plantes;COUL;;
+
+37;Cherfi-Magyd_Ma-Part-De-Gaulois.txt;oignons;Pitié les Arabes, ne nous laissez pas dans la merde, promis plus jamais on vous traitera de bougnoules, de bicots, d’oignons, de gris… On vous ouvrira les portes des boîtes de nuit, prenez nos femmes, nos enfants, à bas Jésus, tiens, le pape on vous le donne.;oignon;plantes;META_NOM;A;
+
+38;Nguyen_Soie-et-metal.txt;cheval;Clara continue à foudroyer l’objet du regard, lequel ne tarde pas à devenir à ses yeux un cheval de Troie introduit dans ses murs le ventre rempli de pièges, comme tous les chevaux de Troie.;cheval;animaux;LOC_IDIOM;O;
+
+39;Hunzinger-Claudie_La-langue-des-oiseaux.txt;chat;Elle a ouvert la fente de ses yeux, l’air d’un chat.;chat;animaux;MOD_ANALOG;CH;
+
+40;Haenel-Yannick_TIens-ferme-ta-couronne.txt;antilope;"J’étais comme eux, j’étais ce chamois effaré qui galope vers la sortie ; cet aurochs aveuglé par les combats ; cette antilope qui cherche une source.";antilope;animaux;META_ATT;CH;
+
+41;Pennac-Daniel_Chagrin-decole.txt;moutons;Réciter une liste de noms comme on compte des moutons, ce n’est pas possible.;mouton;animaux;COMP_P;A;
+
+42;Devers-Nathan_Les-liens-artificiels.txt;colibri;Les deux agents spéciaux, l’un au volant et l’autre assis à l’arrière, s’envoyaient des noms de code via le tchat : « On lance la procédure colibri ?;colibri;animaux;META_APP;A;
+
+43;Kiner-Salome__Grande-Couronne.txt;éléphant;Il portait un costard blanc pattes d’éléphant et les cheveux gominés en arrière.;éléphant;animaux;COUL;;
+
+44;Gaudet-Jonathan_La-derive-des-jours.txt;araignée;Bientôt, il sera remplacé lui aussi par une bête encore plus belliqueuse, la moissonneuse-batteuse, vaste architecture de fer avançant comme une araignée fouettant l’air et le blé devant elle.;araignée;animaux;COMP_P;O;
+
+45;Werber-Bernard_LUltime-secret.txt;sésame;Elle ouvre la porte du MIEL, musée international de l’Epicurisme et du Libertinage, avec son sésame.;sésame;plantes;LOC_IDIOM;O;
+
+46;Khoury-Ghata-Venus_La-maison-aux-orties.txt;chats;Les chats : ma progéniture de la main gauche.;chat;animaux;META_APP;A;
+
+47;Rolin-Olivier_Exterieur-monde.txt;artichaut;Et à peine débarqué, c’est une autre qui m’avait séduit (je suis un cœur d’artichaut) dans l’ilektrikos plein d’Américains bruyants (comme cette langue est déplaisante aux oreilles, quand les sons du grec, ou de l’italien, sont si agréables !;artichaut;plantes;META_QUAL;P;
+
+48;Verger-Frederic_Arden.txt;pommes de terre;Au milieu des vêtements, un couple de silhouettes à chapeau et fichu cassées en deux comme si elles glanaient des pommes de terre ramassaient et roulaient en boule sous leurs bras tout ce qu’elles pouvaient y fourrer. Salomon pressa le pas pour empêcher un pressentiment de s’épanouir. Il trotta ainsi plus d’une demi-heure et, alors que le soir tombait, il aperçut une charrette qui avançait à sa rencontre.;pomme de terre;plantes;COMP_P;CH;
+
+49;Clerc-Thomas_Paris-musee-du-XXIe-siecle.txt;lynx;"Incident : un type qui ouvre le coffre de sa bagnole attire mon œil de lynx sur des affiches de pub pour un opticien ; comme je les regarde, il me dit sur un ton agacé « ça va ?";lynx;animaux;META_QUAL/ LOC_IDIOM;CH;
+
+50;Ducrozet-Pierre_Linvention-des-corps.txt;aigle;J’ai à présent une vision supérieure à celle d’un aigle.;aigle;animaux;COMP_Q;P;
+
+51;Belezi-Mathieu_Cetait-notre-terre.txt;taureau;et fonçais avec ma tête de taureau entre les figuiers, les rosiers assoiffés et les glaïeuls à l’agonie;taureau;animaux;META_QUAL;CH;
+
+52;Vargas-Fred_Quand-sort-la-recluse.txt;chien;— Ca pue vraiment, dit-il. Et cela vient de cette piece. Le commissaire, nez levé de dix centimétres, sorienta a travers la salle en suivant le filet d’odeur nauséabonde et, tel le chien de la brigade canine, s'arréta devant le bureau de Voisenet.;chien;animaux;COMP_SIM;CH;
+
+53;Pluyette-Patrice_La-traversee-du-Mozambique-par-temps-calme.txt;mammouth;Jean-Philippe a d’abord eu du mal à le reconnaître, c’était comme un fantôme de glace, un mammouth blanc.;mammouth;animaux;COMP_SIM;CH;
+
+54;Guenassia-Jean-Michel_Le-club-des-incorrigibles-optimistes.txt;souris;"– Toi, tu es le chat, et le client, c’est la souris.
+Une souris, c’est malin.
+Un chat, c’est patient.";souris;animaux;META_ATT;CH;
+
+55;Dalembert-Louis_Mur-Mediterranee.txt;chou;Pourvu qu’ils ne soient pas installés à côté de gens bizarres, comme les deux zenjiyat, ces négresses effrontées, avec lesquelles elle s’était pris le chou à l’embarquement.;chou;plantes;LOC_IDIOM;;
+
+56;Jauffret-Regis_Univers-Univers.txt;crapaud;Ils s’endormiraient d’un sommeil commun duquel ils ne se quitteraient pas un instant, développant le même rêve limpide et scintillant comme au cours un diamant sans le moindre crapaud.;crapaud;animaux;x;;X
+
+57;Claudel-Philippe_Les-ames-grises.txt;coq;Un des premiers qu’il fournit fut d’ailleurs le nôtre : un poilu, le drapeau à la main gauche, le fusil dans la droite, tout le corps tendu en avant sur un genou un peu fléchi, avec à son côté un coq gaulois, immense et bien fier, saisi dans l’instant où il gueule son chant, dressé sur ses ergots.;coq;animaux;IMAG;;
+
+58;Dupont-Eric_La-fiancee-americaine.txt;blés;Aussi blond que les blés de Prusse orientale.;blé;plantes;COMP_Q;CH;
+
+59;Moix-Yann_Naissance.txt;têtard;Quel têtard de quelle basse mare pour frémir aux Te Deum de la Callas ?;têtard;animaux;META_ATT;CH;
+
+60;Monenembo-Tierno_Bled.txt;chiens;On ne dépouille pas les martyrs, fussent-ils des chiens de roumis.;chien;animaux;META_ATT;CH;
+
+61;Bonnefoy-Miguel_Linventeur.txt;chou;Puis, un jour de pluie, au crépuscule de sa vie, s’effeuillant comme un chou malade, il se blesserait le pouce avec une lime rouillée et attraperait le tétanos, il souffrirait pendant quelques mois d’une paralysie;chou;plantes;COMP_SIM;CH;
+
+62;Vuillard-Eric_Lordre-du-jour.txt;vigne;"Dans son journal, Günter Stern insiste : tous les vêtements sont là, même ceux qu’ont revêtus les singes de cirque ou les petits chiens de Deauville ; depuis la feuille de vigne d’Adam jusqu’aux bottes des SA, il y a tout.";vigne;plantes;x;;X
+
+63;Bouillier-Gregoire_Rapport-sur-moi.txt;chien;En se penchant par la fenêtre, on distingue l’empreinte que son corps y a laissée en position de chien de fusil, comme un moule dans lequel on pourrait couler du plâtre.;chien;animaux;x;;X
+
+64;Jenni-Alexis_Lart-français-de-la-guerre.txt;cygne;Tu frémissais à côté de moi, mon cœur, tes yeux, tes lèvres, trois taches dans une auréole de duvet de cygne.;cygne;animaux;META_QUAL;CH;
+
+65;Greveillac-Paul_Maitres-et-esclaves.txt;serpent;Elle devint femme-serpent, et se jeta sur le faux eunuque, qu’elle mordit à la jugulaire de ses canines gorgées de venin.;serpent;animaux;META_APP;CH;
+
+66;Bofane-In-Koli-Jean_Congo_inc._le_testament_de_Bismarck.txt;brocolis;À force d’observer ce qui ressemblait à un étalage de brocolis, gagné par la nausée, Kiro prit quand même la décision – en convenant qu’il était sans doute encore un peu tôt – de descendre deux ou trois bières, cela lui ferait le plus grand bien.;brocoli;plantes;MOD_ANALOG;O;
+
+67;Lemaitre-Pierre_Le-grand-monde.txt;aigle;Pour Étienne la ressemblance du vieux Lockheed Vega avec un aigle relevait de la poésie. Peu importait à Loan qui, dès que possible, se transportait en avion.;aigle;animaux;MOD_ANALOG;O;
+
+68;Zeniter-Alice_Lart-de-perdre.txt;lion;Mais lorsqu’un mot vient sous la langue parce que le besoin se fait sentir de parler de quelques hommes distincts, et non plus de la pieuvre, ou de l’aigle, ou du lion énorme dans son entier, alors c’est fellaghas qu’ils emploient, Ali et ses frères, sans mépris ni colère, c’est juste ce qui leur vient.;lion;animaux;x;;X
+
+69;Filhol-Elizabeth_Doggerland.txt;nénuphars;16 Le hall du Palais des Congrès est traversé de plusieurs rangées de piliers blancs dont les chapiteaux, vus de l’extérieur du bâtiment, s’ouvrent comme des feuilles de nénuphars ou de lotus posées sur l’eau à intervalles réguliers, avec par endroits de légers écarts de niveau.;nénuphar;plantes;COMP_SIM;O;
+
+70;Dantzig-Charles_Histoire-de-l-amour-et-de-la-haine.txt;menthe;La table était couverte d’une nappe blanche à broderie blanche qu’Armand tenait de sa grand-mère, avec des assiettes blanches et des couverts en argent, l’éclat venant des verres, deux devant chaque assiette, à facettes de couleur, topaze, grenat, bleu velours, menthe, vitrail sur un champ de neige.;menthe;plantes;COUL;;
+
+71;Bonnefoy-Miguel_Le-Voyage-d-Octavio.txt;roseau;Son torse n’était pas plus large qu’un roseau et ses os saillants crevaient la peau à certains endroits.;roseau;plantes;COMP_Q;CH;
+
+72;April-Jean-Philippe_Les-ensauvagés.txt;aigles;Pis un aigle grand comme deux aigles.;aigle;animaux;COMP_Q;NH;
+
+73;Reznikov-Patricia_Le-songe-du-photographe.txt;ours;Au premier plan, un ours en peluche semble s’activer devant un gramophone.;ours;animaux;META_PRED;X;
+
+74;Lançon-Philippe_Le-lambeau.txt;chat;» Ce n’est pas la malchance de Marion qui veille sur moi : c’est son rire et son air de chat.;chat;animaux;MOD_ANALOG;CH;
+
+75;Khiari-Wahiba_Nos_silences.txt;jument;J’ai été ferrée, comme une jument, ça devait au moins me porter bonheur.;jument;animaux;COMP_SIM;CH;
+
+76;Koenig-Gaspard_Humus.txt;serpent;Il vit se dessiner sur son dos le tatouage en forme de serpent, une murène enfin rendue à son élément.;serpent;animaux;IMAG;;
+
+77;Paventi-Eza_Les-Souliers-de-Mandela.txt;citrouille;Une citrouille gomme à effacer, minuscule.;citrouille;plantes;IMAG;;
+
+78;April-Jean-Philippe_Les-ensauvagés.txt;poule;Ti-Pit Saint Pelletier d’abord, toujours prompt à forcer le jeu: - Des enfants qui perlent la bouche en _trou d’cul d’poule, ça vit pas longtemps, ça, par icitte. Ça non!;poule;animaux;LOC_IDIOM;CH;
+
+79;Boltanski-Christophe_La-Cache.txt;chats;On se lavait, comme des chats, avec un brumisateur Évian ou l’eau d’une bouillotte.;chat;animaux;COMP_SIM;CH;
+
+80;Musso-Guillaume_La-fille-de-Brooklyn.txt;blé;Quant à moi, le nez enfoui dans ses cheveux à l’odeur de blé, je puisais dans son enthousiasme un peu de l’optimisme dont j’avais grand besoin.;blé;plantes;META_QUAL;P;
+
+81;Bonnefoy-Miguel_Heritage.txt;cannelle;Le cataplasme resta sur sa cicatrice pendant une semaine et, au bout de dix jours, commença à en émaner une odeur de fleurs fanées, imprégnant l’air d’un parfum repoussant de boyaux, jusqu’à se transformer en une croûte sèche et brune comme un parchemin de cannelle.;cannelle;plantes;COMP_SIM;CH;
+
+82;Arcan-Nelly_Putain.txt;oignons;Alors pour les antidépresseurs je ne dis pas non, en attendant que ma mère meure je veux bien prendre tout ce qu’on peut m’offrir, des comprimés bleus le jour et des blancs la nuit, je veux bien rire d’un faux rire et sans raison sous la pression de la dopamine, rire en attendant de trouver la force de me tuer, d’ailleurs je ne sais pas pourquoi ce n’est pas déjà fait, pourquoi je suis encore là à me dire que je le ferai tôt ou tard, parce que je dois m’en convaincre comme je gagne de l’argent, en ajoutant une heure de plus à toutes celles en trop dans l’espoir fou de voir apparaître un sauveur dans l’excès des caresses qui se répètent, voyez-vous il faudrait que je soumette le monde à mon désordre pour en savoir quelque chose, je veux dire de mon désordre, il faudrait que je l’observe à grande échelle pour en tirer une équation, une petite formule magique qui fixerait de la couleur aux briques des édifices à bureaux et qui ferait s’ouvrir les fleurs, il faudrait que le psychanalyste quitte son fauteuil pour me retrouver là où je me tiens lorsque je ne suis pas dans son cabinet, qu’il laisse derrière lui sa famille et qu’il m’arrache de force aux clients, qu’il laisse tomber sa foudre sur mes parents et qu’il fasse de moi une histoire de cas, l’histoire de ma survie auprès du cadavre de ma mère et de la tragédie de mon sexe qui se jette dans la gueule du loup, enfin qu’il fasse n’importe quoi qui ne soit pas que renvoyer l’écho de ma plainte, répéter mes propos comme si tout devait être dit deux fois, une fois par moi et une autre fois par lui, une fois pour raconter mon malheur et une autre pour en souligner l’inutilité, une fois pour respecter la procédure et l’autre pour justifier l’argent que je lui donne, et je la connais trop bien cette plainte de neurasthénique, elle s’est hélas cristallisée sans retour, elle est un écran paraît-il qui ne cache rien du tout car avec les années il n’y a eu dans ma vie que de l’écran, des pelures d’oignons qui s’ouvrent sur d’autres pelures d’oignons, ma pensée parcourt depuis trop longtemps le même chemin de croix de putain qui n’a plus rien à expier ou si peu, que la misère de sa trajectoire absurde et sans surprise.;oignon;plantes;META_ATT;P;
+
+83;Deville-Patrick_Peste_choléra.txt;rat;Le pigeon est un peu le rat du ciel, un rat auquel on aurait vissé des ailes avant de le repeindre en gris.;rat;animaux;META_ATT;NH;
+
+84;Akouche-Karim_La-musique-dereglee-du-monde.txt;citrouille;mis dans une bouteille transparente, et même si elle ne l’avait pas nourri avec son téton, à cause que son sein citrouille était sec, elle lui donnait au biberon du lait, du jus de grenade et de la soupe.;citrouille;plantes;META_APP;CH;
+
+85;Bonnefoy-Miguel_Le-reve-du-jaguar.txt;pingouin;Convoquer le papillon géant qui vint chercher Chinco dans la mort et la découverte insolite du pingouin qui arriva un matin sur les côtes de Sinamaica pour devenir un bijou.;pingouin;animaux;x;;X
+
+86;Sewtohul-Amal_Made-in-Mauritius.txt;jujubier;Arrivé en haut du mur, j’ai d’abord vu un grand jujubier, qui se tenait comme un géant, bras écartés pour m’attraper.;jujubier;plantes;x;;X
+
+87;Apperry-Yann_Farrago.txt;blé;Une graine qu’on garde pour soi, a dit le Révérend, rapportant les paroles du Seigneur, est une graine qui vit, mais qui ne vit pour personne, tandis qu’une graine qu’on sème est une graine qui meurt, mais elle meurt en donnant naissance à un fruit ou un épi de blé.;blé;plantes;META_ATT;A;
+
+88;Le-Bris-Michel_La-beauté-du-monde.txt;chien;Et puis lion, nom d’un chien!;chien;animaux;LOC_IDIOM;;
+
+89;Aubry-Gwenaelle_Personne.txt;moineaux;Il ne lui reste alors qu’à regrouper le troupeau de son âme, tous, le mouton noir et le cheval blanc, le renard apprivoisé et les moineaux ivres, la mule harassée et les poissons volants, les recueillir, les abriter, se dépouiller de leurs crocs, de leurs griffes, de leur toison, renoncer à s’en faire des parures, des armes et des blasons, ne plus les;moineau;animaux;META_ATT;P;
+
+90;Aubry-Gwenaelle_Personne.txt;moutons;Je voulais cependant embrasser mes enfants avant de rejoindre le cimetière des éléphants ou des moutons noirs.;mouton;animaux;META_ATT;A;
+
+91;Chalandon-Sorj_Le-quatrieme-mur.txt;olivier;Sam était grand, cabossé et musclé à la fois, taillé comme un olivier fourbu.;olivier;plantes;COMP_SIM;CH;
+
+92;Vargas-Fred_Dans-les-bois-eternels.txt;bœuf;Une main large à étrangler un bœuf entre pouce et index, qui semblait avoir doublé de volume pour compenser l’absence de l’autre.;bœuf;animaux;COMP_P;CH;
+
+93;Meur-Diane_Les-villes-de-la-plaine.txt;rossignol;Mais enfin, on ne pouvait s’empêcher de le comparer au rossignol d’Anouher, captif du haut palais, et les vanniers présents, ainsi que les passementiers et les comptables rattachés à leur confrérie, pensaient tout bas que ce n’était pas juste.;rossignol;animaux;COMP_SIM;CH;
+
+94;Nicole-Eugene_Loeuvre-des-mers.txt;lapin;ce Le lapin tirait de sa poche le message (aujourd’hui conservé aux Archives tous les « coloniales de Londres) qui avait été communiqué à capitaines anglais : Comme ce climat est mortel pour les originaires des contrées septentrionales, les Français;lapin;animaux;IMAG;;
+
+95;Reinhardt-Eric_Sarah-Susanne-et-lecrivain.txt;tabac;maintenant les flaques de larges lacunes qui à l’instar de tumeurs cancéreuses agrandissaient chaque jour davantage le territoire mutique de la toile couleur tabac, au détriment de la clarté iconographique de l’œuvre.;tabac;plantes;COUL;;
+
+96;Lindenberg-Hugo_Un-jour-ce-sera-vide.txt;ivraie;« Jésus nous dira, avait expliqué le prêtre, que l’ivraie sera jetée au feu, que la mauvaise herbe sera jetée au feu », qu’il fallait demander au Seigneur d’arracher le mal qui est en nous et de le mettre au feu.;ivraie;plantes;META_ATT;A;
+
+97;Bayamack-Tam-Emmanuelle_La-treizieme-heure.txt;gardon;la nuit, alors que son frère se couche tous les soirs à vingt deux heures, pour émerger à l’aube frais comme un gardon, prêt à faire sa gym et sa prière ou à aider la vieille du dessus, l’insupportable Madame Goudge.;gardon;animaux;LOC_IDIOM;CH;
+
+98;Leblanc-Perrine_Gens-du-Nord.txt;carotte;Il avait besoin de faire le point et de fuir dans une salle de cinéma la réalité de son métier, qui consiste à courir derrière la carotte du récit, à l’instinct, et à jouer avec les ombres dans les coulisses de l’Histoire pour animer un monde.;carotte;plantes;META_DET;A;
+
+99;Achache-Carole_La-Plage-De-Trouville.txt;pruneau;Moniquette, le petit pruneau, a une chambre marron avec une moquette marron.;pruneau;plantes;META_APP;CH;
+
+100;Martin_Chauffier-Gilles_Silence-on-ment.txt;mouette;Dans la vie, mieux vaut être un torrent qu’un lac, un arbre qu’une fleur, une mouette qu’une huître : bouge, observe et agis…;mouette;animaux;META_ATT;CH;
+
+101;Brunel-Camille_La-guerrilla-des-animaux.txt;loup;À pas de loup, Isaac s’approcha du mur de cadavres.;loup;animaux;LOC_IDIOM;CH;
+
+102;Deserable-Francois_Evariste.txt;lauriers;Il n’a plus qu’à attendre les conclusions de Poisson, attendre qu’on le couvre d’or et le coiffe de lauriers (or nous savons qu’il n’aura ni l’or ni les lauriers mais lui, tournant le dos à Poisson et déjà rebroussant chemin vers le bar à cocktails, ne le sait pas encore).;laurier;plantes;META_PRED;CH;
+
+103;Mauvignier-Laurent_Des-hommes.txt;kaki;Comme s’il fallait quitter la France en catimini et se retrouver une fois encore la valise à la main et avec en plus le boudin kaki à l’épaule, prêt à embarquer et se retrouver de nuit, par un soir clair et pourtant froid, sur les quais.;kaki;plantes;COUL;;
+
+104;Reverdy-ThomasB_Climax.txt;loup;C’est lui qui précipite le crépuscule des dieux, une fois libéré de ses chaînes, Fenrir, fils de Loki, loup géant, frère du dragon et de Hel qui règne aux enfers, c’est le loup qui tuera Odin, père des dieux, au soir du Ragnarök.;loup;animaux;IMAG;;
+
+105;Zamir-Ali_Anguille-sous-roche.txt;pomme;vente des poissons lorsqu’ils avaient à s’occuper d’une mer de clients qui était loin du nombre de kilos de poissons qu’ils possédaient, chacun fuyait ses responsabilités pour éviter de subir les fusillades d’un mauvais œil, car il y avait justement des yeux de trop dès qu’il y avait pénurie de poisson, il suffisait d’un rien pour qu’ils tombent dans une pomme de discorde,;pomme;plantes;LOC_IDIOM;A;
+
+106;Sewtohul-Amal_Made-in-Mauritius.txt;marlin;C’était un garçon tout maigre, avec des yeux globuleux un peu exorbités, et un long nez tout mince, de sorte qu’il ressemblait un peu à un marlin.;marlin;animaux;MOD_ANALOG;CH;
+
+107;Senges-Pierre_Ruines-de-Rome.txt;ail à trois angles;"J’en viens à regretter son absence et, même si je la sais œuvrer pour la bonne cause (elle augmente ma campagne en cultivant son potager), je soupçonne qu’une telle assiduité s’explique par des motifs moins honorables, je soupçonne ma dame de faire de son agriculture improvisée l’alibi d’une honteuse, inavouée, obédience posthume à son tanneur de frère.
+[ail à trois angles]
+À chaque angle du paradis (le jardin d’Éden serait donc anguleux : c’est presque décevant – à moins que l’angle ne signifie recoin, retraite, alcôve, ou propose des paradoxes géométriques dignes de la quadrature du cercle), il y a quatre-vingt millions d’arbres et seulement soixante millions d’anges.";ail à trois angles;plantes;x;;X
+
+108;Lahens-Yanick_Bain-de-lune.txt;basilic;Avec les yeux mi-clos d’une courtisane, Erzuli Fréda Dahomey murmura par la bouche d’Olmène des mots-basilic, des syllabes ralé min nin vini*, des voyelles parfumées d’eau Florida.;basilic;plantes;META_APP;A;
+
+109;Effa-Gaston-Paul_les-enfants-de-la-tradition.txt;calebassier;Aujourd’hui, je suis moins qu’un calebassier, qu’une colline, qu’une tempête dans la nuit, qu’une hyène sur le point de bondir.;calebassier;plantes;COMP_Q;CH;
+
+110;Mabanckou-Alain_Verre-casse.txt;chiens;en fait L’Escargot entêté m’avait pris un jour à part et m’avait dit d’un air de confidence « Verre Cassé, je vais t’avouer un truc qui me tracasse, en réalité je pense depuis longtemps à une chose importante, tu devrais écrire, je veux dire, écrire un livre », et moi, un peu étonné, j’ai dit « un livre sur quoi », et il a répondu en montrant du doigt la terrasse du Crédit a voyagé avant de murmurer « un livre qui parlerait de nous ici, un livre qui parlerait de cet endroit unique au monde si on ne tient pas compte de La Cathédrale de New-Bell, au Cameroun », et j’ai ri, j’ai pensé qu’il avait quelque chose derrière la tête, qu’il me tendait un piège sans fin, il a dit « ne ris pas, je suis sérieux quand je le dis, tu dois écrire, je sais que tu le peux », et alors, vu son regard sérieux, j’ai compris que ce n’était pas une blague à deux francs CFA, et j’ai répliqué « mais c’est toi le patron, tu es mieux placé pour rapporter les choses qui se passent ici, je sais pas par quoi commencer, moi », et il m’a servi un verre avant de rebondir « crois-moi, j’ai essayé plusieurs fois moi-même, mais rien ne tient parce que j’ai pas le petit ver solitaire qui ronge ceux qui écrivent, toi ce ver est en toi, ça se voit quand on discute littérature, tu as soudain l’œil qui brille et les regrets qui remontent à la surface de tes pensées, mais c’est pas pour autant de la frustration, c’est pas non plus de l’aigreur, parce que je sais que tu es tout sauf un gars frustré, sauf un gars aigre, tu n’as rien à regretter, mon vieux », j’ai gardé le silence, et il a poursuivi ses propos « tu sais, je me souviens d’une de nos conversations où tu me parlais d’un écrivain célèbre qui buvait comme une éponge, c’est quoi déjà son nom », je n’ai pas répondu, et il a enchaîné « eh bien, depuis notre discussion, je me dis que peut-être que si tu t’es mis à boire c’était pour suivre l’exemple de cet écrivain dont le nom m’échappe, et quand je te vois aujourd’hui, je me dis que tu as quand même une gueule pour ça, en plus tu te moques de la vie parce que tu estimes que tu peux en inventer plusieurs et que toi-même tu n’es qu’un personnage dans le grand livre de cette existence de merde, tu es un écrivain, je le sais, je le sens, tu bois pour cela, tu n’es pas de notre monde, y a des jours où j’ai l’impression que tu dialogues avec des gars comme Proust ou Hemingway, des gars comme Labou Tansi ou Mongo Beti, je le sais, alors libère-toi, on n’est jamais vieux pour écrire », et je l’ai vu pour la première fois boire d’un trait son verre alors que d’habitude il boit juste un demi-verre, il a dit d’un air martial « Verre Cassé, sors-moi cette rage qui est en toi, explose, vomis, crache, toussote ou éjacule, je m’en fous, mais ponds-moi quelque chose sur ce bar, sur quelques gars d’ici, et surtout sur toi-même », ces paroles m’avaient cloué un moment le bec, j’avais failli verser des larmes, je ne me souvenais plus de quel écrivain ivrogne nous avions discuté, de toutes les façons y en avait plusieurs qui buvaient, et y en a qui boivent à mort parmi les contemporains, c’est quoi cette manière que L’Escargot entêté avait de pénétrer dans mon for intérieur ce jour-là, hein, et donc, pour me défendre, j’ai dit et redit « je suis pas écrivain, moi, et puis ça intéresserait qui, la vie des gens ou la mienne, c’est pas intéressant, y a pas de quoi remplir un cahier », il a tout de suite rétorqué « on s’en fout, Verre Cassé, tu dois écrire, moi ça m’intéresse, c’est déjà ça », et j’ai été fier qu’il me le demande à moi, au fond l’idée a commencé à me trotter dans la tête à partir de ce moment-là et, sous l’effet des verres de rouge que j’avais avalés sans m’arrêter, j’ai expliqué à L’Escargot entêté ce qu’était ma vraie vision de l’écriture, c’était simple pour moi de m’exprimer parce que c’est facile de parler de l’écriture quand on n’a rien écrit comme moi, et je lui ai dit que dans ce pays de merde tous s’improvisent maintenant écrivains alors qu’il n’y a même pas de vie derrière les mots qu’ils écrivent, je lui ai aussi dit qu’il m’est arrivé de voir à la télé d’un bar de l’avenue de l’Indépendance quelques-uns de ces écrivains qui portent des cravates, des vestes, des écharpes rouge électrique, parfois des lunettes rondes, qui fument aussi des pipes ou des cigares pour faire bien, bon chic bon genre, ces écrivains qui prennent des photos avec un air de ceux qui ont leur œuvre derrière eux, et ils veulent qu’on ne parle que de leur nombril gros comme une orange mécanique, y en a même parmi eux qui jouent les écrivains mal aimés, convaincus eux-mêmes de leur génie alors qu’ils n’ont pondu que des crottes de moineau, ils sont paranoïaques, aigres, jaloux, envieux, ils prétendent qu’il y a un coup d’État permanent contre eux, et ils menacent même que si on leur attribue un jour le prix Nobel de littérature ils vont catégoriquement le refuser parce qu’ils n’ont pas les mains sales, parce que le Nobel de littérature c’est l’engrenage, c’est le mur, c’est la mort dans l’âme, les jeux sont toujours faits au point qu’on se demande même qu’est-ce que la littérature, et donc ces écrivaillons de merde refuseraient le Nobel pour garder le chemin de la liberté, moi j’attends de voir ça de mes propres yeux, et j’ai aussi dit à L’Escargot entêté que si j’étais écrivain je demanderais à Dieu de me couvrir d’humilité, de me donner la force de relativiser ce que j’écris par rapport à ce que les géants de ce monde ont couché sur le papier, et alors que j’applaudirais le génie, je n’ouvrirais pas ma gueule devant la médiocrité ambiante, ce n’est qu’à ce prix que j’écrirais des choses qui ressembleraient à la vie, mais je les dirais avec des mots à moi, des mots tordus, des mots décousus, des mots sans queue ni tête, j’écrirais comme les mots me viendraient, je commencerais maladroitement et je finirais maladroitement comme j’avais commencé, je m’en foutrais de la raison pure, de la méthode, de la phonétique, de la prose, et dans ma langue de merde ce qui se concevrait bien ne s’énoncerait pas clairement, et les mots pour le dire ne viendraient pas aisément, ce serait alors l’écriture ou la vie, c’est ça, et je voudrais surtout qu’en me lisant on dise « c’est quoi ce bazar, ce souk, ce cafouillis, ce conglomérat de barbarismes, cet empire des signes, ce bavardage, cette chute vers les bas-fonds des belles-lettres, c’est quoi ces caquètements de basse-cour, est-ce que c’est du sérieux ce truc, ça commence d’ailleurs par où, ça finit par où, bordel », et je répondrais avec malice « ce bazar c’est la vie, entrez donc dans ma caverne, y a de la pourriture, y a des déchets, c’est comme ça que je conçois la vie, votre fiction c’est des projets de ringards pour contenter d’autres ringards, et tant que les personnages de vos livres ne comprendront pas comment nous autres-là gagnons notre pain de chaque nuit, y aura pas de littérature mais de la masturbation intellectuelle, vous vous comprendrez entre vous à la manière des ânes qui se frottent entre eux », j’ai dit à L’Escargot entêté en guise de conclusion que malheureusement j’étais pas écrivain, que je ne pouvais pas l’être, que moi je ne faisais qu’observer et parler aux bouteilles, à mon arbre au pied duquel j’aimais pisser et à qui j’avais promis de me réincarner en végétal pour vivre à ses côtés, et par conséquent je préférais laisser l’écriture aux doués et aux surdoués, à ceux que j’aimais lire quand je lisais encore simplement pour me former, je lui ai dit que je laissais l’écriture à ceux qui chantent la joie de vivre, à ceux qui luttent, rêvent sans cesse à l’extension du domaine de la lutte, à ceux qui fabriquent des cérémonies pour danser la polka, à ceux qui peuvent étonner les dieux, à ceux qui pataugent dans la disgrâce, à ceux qui vont avec assurance vers l’âge d’homme, à ceux qui inventent un rêve utile, à ceux qui chantent le pays sans ombre, à ceux qui vivent en transit dans un coin de la terre, à ceux qui regardent le monde à travers une lucarne, à ceux qui, comme mon défunt père, écoutent du jazz en buvant du vin de palme, à ceux qui savent décrire un été africain, à ceux qui relatent des noces barbares, à ceux qui méditent loin là-bas, au sommet du magique rocher de Tanios, je lui ai dit que je laissais l’écriture à ceux qui rappellent que trop de soleil tue l’amour, à ceux qui prophétisent le sanglot de l’homme blanc, l’Afrique fantôme, l’innocence de l’enfant noir, je lui ai dit que je laissais l’écriture à ceux qui peuvent bâtir une ville avec des chiens, à ceux qui édifient une maison verte comme celle de L’Imprimeur ou une maison au bord des larmes pour y héberger des personnages humbles, sans domicile fixe, des personnages qui ressentent la compassion des pierres, et donc je lui ai dit que je leur laissais l’écriture, tant pis pour les agités du bocal, les poètes du dimanche après-midi avec leurs vers à deux sous le quatrain, tant pis pour les nostalgiques tirailleurs sénégalais qui tirent à hue et à dia la fibre du militantisme, et ces gars ne veulent pas qu’un Nègre parle des bouleaux, de la pierre, de la poussière, de l’hiver, de la neige, de la rose ou simplement de la beauté pour la beauté, tant pis pour ces épigones intégristes qui poussent comme des champignons, et ils sont nombreux, ceux-là qui embouteillent les autoroutes des lettres, ceux-là qui profanent la pureté des univers, et ce sont ceux-là qui polluent la vraie littérature de nos jours;chien;animaux;x;;?
+
+111;Jobidon-Gilles_La_Route-des-petits-mains.txt;magnolia;"Discrets, les lilas ouvrent la marche brève de l’été.
+Le magnolia rit aux éclats.
+L’air a chipé ton sommeil dans la chambre frileuse.";magnolia;plantes;META_PRED;NH;
+
+112;Jablonka-Ivan_Laetitia-ou-la-fin-des-hommes.txt;huître;Si on lui faisait un reproche, elle ne protestait pas, mais elle se refermait comme une huître.;huître;animaux;COMP_SIM;CH;
+
+113;Jablonka-Ivan_Laetitia-ou-la-fin-des-hommes.txt;vautours;Lors des marches de janvier 2011, sur le pont de Saint-Nazaire, à La Bernerie, à Nantes, ou à l’église en juin 2011, les journalistes étaient « comme des vautours », selon Alain Larcher : on les trouvait partout, dans la rue, dans les jardins, sur les toits, brandissant des micros sous le nez des proches bouleversés, extorquant des souvenirs ou des photos d’enfance, déclenchant des flashs;vautour;animaux;COMP_SIM;CH;
+
+114;Haenel-Yannick_Cercle.txt;papillon;Ça me rafraîchit le cœur, jusqu’à l’instant du papillon de volupté.;papillon;animaux;META_DET;P;
+
+115;Verger-Frederic_Arden.txt;acacia;Et s’il ne respectait toujours pas les interdits mosaïques, il en éprouvait maintenant une culpabilité résignée, doucereuse comme une tranche de salami à l’acacia.;acacia;plantes;COMP_SIM;P;
+
+116;Laberge-Andree_La-riviere-du-loup.txt;loup;sous la pression des sentiments contraires qui s’affrontaient et heurtaient les parois fragiles de mon cerveau en éruption où se superposaient les images de ma mère et de la chienne en amour confondues et celles de mon loup de père affublé de désirs charnels désincarnés, carabine chargée en bandoulière qui pesait lourd du poids du devoir qui s’imposait, épée de fer affûtée et prête à taillader accrochée à la ceinture de mon pantalon, bouclier porté;loup;animaux;META_DET;CH;
+
+117;Duperey-Anny_Allons-voir-plus-loin-veux-tu.txt;piment;Bien qu’il ne connaisse pas grand-chose à ces manèges amoureux, il avait fort bien compris qu’avoir deux hommes dans la même maison l’amuserait, mettrait du piment dans l’ennui de la vie champêtre qu’elle découvrait, et même s’il venait des petits ils seraient de lui ou du frère et alors ?;piment;plantes;LOC_IDIOM;A;
+
+118;Effa-Gaston-Paul_les-enfants-de-la-tradition.txt;caméléon;Il n’était pas de ma tribu, son approbation ou son avis défavorable ne pouvait donc avoir aucune valeur, et cependant je sentais que, désormais, son regard faisait de moi un vrai parent du caméléon.;caméléon;animaux;META_NOM;CH;
+
+119;Werber-Bernard_Nous-les-dieux.txt;tigres;Le dieu des éléphants à plusieurs trompes, celui du mammouth, celui des tigres aux peaux fluorescentes, celui des scarabées aquatiques, celui d’un félin aux dents tellement longues qu’il n’arrivait pas à fermer la gueule.;tigre;animaux;x;;X
+
+120;Coulin-Delphine_Voir-du-pays.txt;serpent;Le Gros fonçait comme un malade, et les pneus crissaient dans les virages de la route qui se tordait comme un serpent.;serpent;animaux;COMP_SIM;O;
+
+121;Kerangal-Maylisde_Naissance-dun-pont.txt;cochon;Ceux-là s’étaient d’abord insurgés, personne ici ne possède le moindre titre de propriété, ce ne sont au fond que des squatteurs qui au fil des ans ont bétonné leurs mobil-homes, posé un toit sur leurs tentes sophistiquées, étanchéifié leurs cabanes en bois – celle du petit cochon numéro deux –, habitation toute pourvue d’une antenne satellite sur le toit.;cochon;animaux;IMAG;;
+
+122;Musso-Guillaume_Un-appartement-a-Paris.txt;aulnes;C’est donc dans ces circonstances improbables que le Roi des aulnes se retrouve avec le fils de Sean dans le coffre de sa voiture.;aulne;plantes;IMAG;;
+
+123;Bouraoui-Nina_Mes-mauvaises-pensees.txt;loup;"Ce livre sur les hommes serait fait de leur force physique, de cette beauté, quand elle n’est pas agressive, quand elle est dans le simple mouvement, dans le simple désir, dans la simple attraction d’une autre force, c’est là que prend la féminité sur le corps de l’homme, c’est là que celui-ci se transforme ou revient, peut-être à sa première forme, les corps des enfants semblent faits d’une seule chair, ce livre sur les hommes serait aussi le livre des hommes qui restent étroits, fins, comme moulés à leur première image, comme retenus par ce corps flou qui n’a su choisir son identité ; pour moi aussi il a fallu choisir, je ne divisais pas le monde en deux camps, je croyais à la transparence des chairs, à la traversée d’un être par un autre ; en Algérie, je suis traversée des hommes, à la mer quand ils forment un rang devant moi pour plonger, dans la Résidence, lorsqu’ils dorment sous les orangers, sur la place, quand ils fument avec mon père devant la boucherie, ou la vitrine du photographe qui prend mes premiers clichés pour le passeport et mon autorisation de sortie de territoire, quand je pars, avec ma sœur, en vacances en France, les hommes sont aussi dans mon imagination la nuit, comme si chaque eucalyptus cachait dans son tronc un guerrier, un voleur, un loup-garou ; il y a de la peur dans l’idée de ces hommes mais il y a aussi de la fascination, de se dire qu’il faut trouver à l’aide de mon intelligence, de mes inventions – le stylo qui empêcherait les fautes, la lumière à avaler pour s’éclairer de l’intérieur, la machine à faire du chocolat –, un moyen de capter, chez eux, ce qui, chez moi, fait défaut.";loup;animaux;IMAG;;
+
+124;Dalembert-Louis_Milwaukee-Blues.txt;lauriers;Dan y était allé de son grain de sel pour concocter l’itinéraire, qui rêvait d’un sursaut de cette ville du Midwest endormie sur ses lauriers nauséabonds quant à la question raciale.;laurier;plantes;META_PRED;A;
+
+125;Daoud-Kamel_Houris.txt;abeilles;Ils vinrent m’entourer comme la reine des abeilles.;abeille;animaux;COMP_SIM;CH;
+
+126;Montalbetti-Christine_Mon-ancetre-poisson.txt;chat;Lui, la grande classe, c’est le cygne et le chat qui se nettoient, la danseuse qui frotte ses pieds, un locataire qui combat avec sa concierge.;chat;animaux;META_ATT;CH;
+
+127;Lançon-Philippe_Le-lambeau.txt;cigale;Quand je le fais, il semble me dire, comme la fourmi à la cigale : tais-toi et travaille à ta rééducation, en prévision de l’hiver qui vient.;cigale;animaux;META_ATT;CH;
+
+128;Jauffret-Regis_Univers-Univers.txt;fourmis;Et même un couple qui se lèvera de table, sautant de l’un à l’autre et provoquant dans leur tête à ton passage le même genre de démangeaison que les fourmis dans un pied engourdi.;fourmi;animaux;COMP_SIM;P;
+
+129;Dupont-Monod-Clara_Sadapter.txt;palmiers;– Mes feuilles sont en forme de palmiers, sans nervure centrale…;palmier;plantes;COMP_SIM;NH;
+
+130;Chapuis-Bernard_La-vie-parlée.txt;chat;Lui qui ne voulait jamais quitter ni être quitté, qui disparaissait comme un chat dès qu’on l’approchait.;chat;animaux;COMP_SIM;CH;
+
+131;Jaenada-Philippe_la-Serpe.txt;vigne;(J’aime bien la métaphore de la vigne.;vigne;plantes;IMAG;;X
+
+132;Pennac-Daniel_Chagrin-decole.txt;carottes;Ce verdict m’offrait les compensations de la paresse : à quoi bon se tuer à la tâche si les plus hautes autorités considèrent que les carottes sont cuites ?;carotte;plantes;LOC_IDIOM;A;
+
+133;Nonn-Eric_Butterfly-II.txt;riz;Souvent, dans les autocars, il avait l’impression que son corps n’était plus qu’un sac de riz, une multitude de grains qui venaient le piquer sous la peau à chaque vibration.;riz;plantes;META_ATT;CH;
+
+134;Nothomb-Amelie_Antechrista.txt;chat;Elle regardait Je compris que mon entrée en matière avait les autres avec des airs implorants de chat été maladroite.;chat;animaux;MOD_ANALOG;CH;
+
+135;Hunzinger-Claudie_Un-chien-a-ma-table.txt;vigne;Dans le miroir de la douche où je me scrutais à présent, aucune différence entre une tulipe de vigne oubliée huit jours dans son vase sans eau, et moi.;vigne;plantes;COMP_SIM;CH;
+
+136;Musso-Guillaume_Que-serais-je-sans-toi.txt;grenadine;La vieille Anglaise avait mitonné un english breakfast de sa spécialité : toasts à la marmelade d’oignons, bol de porridge, tourte aux rognons, gelée tremblotante couleur grenadine.;grenadine;plantes;COUL;;
+
+137;Sorman-Joy_Comme-une-bete.txt;bœuf;Elles nous apprennent aussi à vivre, avec excès puisque la bête est la fièvre de l’homme : nous souffrons comme des bêtes, nous sommes de grosses côtes de bœuf saignantes, nos corps nous échappent, nous glissent entre les doigts, les doigts de la conscience.;bœuf;animaux;META_ATT;CH;
+
+138;Lebey-Marie_Oublier-Modiano.txt;poule;"Mon vieux, in the baba, cocotte, mon biquet, ma poule ; tout en me recoiffant devant la glace avant que mes enfants ne reviennent de l’école, je me délecte à prononcer à voix haute ces expressions en voie de disparition, comme si elles étaient la formule magique qui me rendrait à la vie.";poule;animaux;LOC_IDIOM;CH;
+
+139;Meur-Diane_Les-villes-de-la-plaine.txt;foin;Et le maître, dans ce foin redevenu berceau qui l’abritait comme il avait abrité, peut-être, l’homme de qui tout était venu, regarda, heure après heure, descendre le jour par les fentes du toit, pendant qu’autour de lui la ville résonnait de cris, d’appels, son l’heure du départ.;foin;plantes;x;;X
+
+140;Chevillard-Eric_Choir.txt;chats;Son récit aussitôt nous emporte comme des chats noyés.;chat;animaux;COMP_SIM;CH;
+
+141;Nabe-Marc-Edouard_L-homme-qui-arreta-d-ecrire.txt;petit pois;En principe, tu devrais entendre clapoter la petite sirène, caqueter le vilain petit canard et râler la princesse au petit pois...;petit pois;plantes;IMAG;;
+
+142;Haenel-Yannick_Cercle.txt;pomme;Par endroits, le ciel se flétrit comme une pomme de Cézanne.;pomme;plantes;COMP_SIM;E;
+
+143;Garcia-Tristan_7-Romans.txt;baleines;Le camping était jonché de débris, de carcasses de caravanes, ouvertes en deux comme des baleines qu’on a abattues et dépecées.;baleine;animaux;COMP_P;O;
+
+144;Moix-Yann_Naissance.txt;loup;Rien ne vaut un joli français refrain, avec d’émouvantes paroles, une balancée mélodie, qui fait pleurer dans le dernier couplet. En tous les cas qui donne à réfléchir. — À propos de Richard Anthony, mon loup, savais-tu que son identité véritable était « Richard Btesh » ?;loup;animaux;LOC_IDIOM;CH;
+
+145;Mabanckou-Alain_Petit-Piment.txt;chiot;Il me jeta un regard de chiot malheureux avant de me tourner le dos et de regagner le bâtiment principal.;chiot;animaux;META_QUAL;P;
+
+146;Dicker-Joël_La-verite-sur-l'affaire-Harry-Quebert.txt;tomate;Il avait la tête rouge comme une tomate, la chemise débraillée.;tomate;plantes;COMP_SIM;CH;
+
+147;Aubry-Suzanne_Ma-vie-entre-tes-mains.txt;chouette;— Pauvre chouette, dit-elle d’une voix faible.;chouette;animaux;x;;X
+
+148;Dreyfus-Arthur_Sans-Veronique.txt;chien;se débarrasser de son corps – dans cette région ce n’étaient pas les corps qui manquaient – toutefois il fallait l’admettre : les passeurs ne connaissaient pas Bernard qui, malgré son allure banale et son regard de chien égaré, occupait peut-être un haut poste dans la hiérarchie de Jabhat al-Nosra ou de l’État islamique, et rejoignait sous couvert sa faction en testant les réseaux, c’était même probable, d’ailleurs son visage, certes européen, comportait assurément quelques;chien;animaux;META_QUAL;P;
+
+149;Haenel-Yannick_Cercle.txt;fougère;Dans le ciel, la fougère exultait, elle riait avec les Chinois, tout le monde courait sur la Seine avec la flamme olympique, en direction de Pékin.;fougère;plantes;META_PRED;CH;
+
+150;Greveillac-Paul_Maitres-et-esclaves.txt;chrysanthème;Sa voix était un chrysanthème sucré.;chrysanthème;plantes;META_ATT;CH;
+
+151;Belaskri-Yahia_Le-silence-des-dieux.txt;ronce;Les paroles d’ortie et de ronce déchirent le cœur des simples, ceux dont l’âpre désir brûle du combat qu’ils mènent jour après jour pour leur survie.;ronce;plantes;META_DET;A;
+
+152;Haenel-Yannick_Cercle.txt;écureuil;Oui, le type en jaune ressemblait à l’écureuil.;écureuil;animaux;MOD_ANALOG;CH;
+
+153;Jaenada-Philippe_La-petite-femelle.txt;vipérine;À treize heures, quand on annonce que la vipérine héroïne du jour a tenté de se suicider, la colère éclate dans la file d’attente.;vipérine;plantes;META_ATT;CH;
+
+154;Almendros-Vincent_Fairemouche.txt;thé;C’était toujours le même papier peint, avec des églantines rose-thé reliées entre elles par de longues tiges vertes.;thé;plantes;IMAG;;
+
+155;Victor-Gary_Les-temps-de-la-cruauté.txt;riz;Les Haïtiens carburent au riz même s’il est encore tôt.;riz;plantes;x;;X
+
+156;Sewtohul-Amal_Histoire-dAshok.txt;aigle;Fallé manque travail pou aile assisté bane zaffaire pareye », et il repartit. Mais il n’alla pas à la gare. Il s’arrêta près des marchands de halim et regarda les gens - c’étaient tous des hommes - qui mangeaient leur halim, les épaules arrondies en un geste protecteur envers leur bol, qu’ils tenaient dans le creux de leur main avec précaution, comme s’il s’agissait d’un nid tombé d’un arbre avec ses oiselets. Ils mangeaient lentement et paisiblement, tout en regardant les passants de dessous les visières de leurs casquettes, avec, pour certains, leur sac de travail en bandoulière sur leur épaule. Ensuite, il se mit à marcher. Il observa d’un regard attentif les gens des arcades, comme s’il était un étranger en voyage à Maurice. Il vit un jeune homme portant un T-shirt noir sur lequel était appliqué un dessin de l’aigle chauve américain se dressant devant le bouclier étoilé.;aigle;animaux;IMAG;;
+
+157;Dupont-Eric_La-fiancee-americaine.txt;pommes de terre;» D’affreux seins lui poussèrent, pareils aux pommes de terre qu’elle épluchait.;pomme de terre;plantes;MOD_ANALOG;CH;
+
+158;Malte-Marcus_Le-garçon.txt;buisson ardent;… Ma soute… Ma moniche… Mon buisson ardent…;buisson ardent;plantes;META_ATT;CH;
+
+159;Veinstein-Alain_La-partition.txt;choux;Tout ce que je peux assurer c’est que je vais lui voler dans les plumes, tel un lutin malin, et faire mes choux gras de sa vie de tous les jours, sur le point, aujourd’hui, de m’être livrée en pâture.;choux;plantes;LOC_IDIOM;A;
+
+160;Akouche-Karim_La-musique-dereglee-du-monde.txt;loups;Il m a demandé de fermer les yeux et de gribouiller sans réfléchir pendant que les instruments des soldats gueulaient comme des loups galeux, et lorsque j ai ouvert les yeux, j ai vu des étoiles danser à un doigt de mon nez, et Papy;loup;animaux;COMP_SIM;O;
+
+161;Werber-Bernard_Nous-les-dieux.txt;cheval;J’enfourche le dauphin albinos comme un cheval. Mes pieds se posent sur ses nageoires latérales et il m’entraîne en avant.;cheval;animaux;COMP_SIM;NH;
+
+162;Zeniter-Alice_Lart-de-perdre.txt;laurier-rose;Elle se racornit dans une maison vide et elle est amère comme les feuilles de laurier-rose.;laurier-rose;plantes;COMP_SIM;CH;
+
+163;d-Ormesson-Jean_Un-jour-je-men-irai.txt;navet;du Concerto no 21 de Mozart, le livre XI des Confessions de saint Augustin, le baron de Charlus dans la Recherche et la mort de Rubempré à la fin de Splendeurs et misères des courtisanes, la mort d’Anna Karenine et celle du prince André, Gene Tierney dans Laura ou dans Le Rêve de Mrs Muir, Ava Gardner dans Pandora qui était un navet, Rita Hayworth dans Gilda, Ingrid Bergman un peu partout, Robert Redford lavant les cheveux de Meryl Streep dans Out of Africa et Meryl Streep murmurant à Redford quand ils dansent tous les deux sous la lune : « À partir de maintenant, tout ce que vous me direz, je le croirai.;navet;plantes;LOC_IDIOM;A;
+
+164;Mukasonga-Scholastique_Dame-Du-Nil.txt;aigle;Il avait un ongle très long, comme les serres de l’aigle.;aigle;animaux;COMP_SIM;CH;
+
+165;Carrere-Emmanuel_Le_royaume.txt;olivier;D’un point de vue horticole, la métaphore est particulièrement mal venue, cela n’empêche pas de comprendre l’idée : les Juifs sont les rameaux coupés de l’olivier, mais les rameaux fraîchement greffés, prévient Paul, qu’ils ne fassent pas les fiers pour autant !;olivier;plantes;META_ATT;A;
+
+166;Bachi-Salim_Le-chien-d-Ulysse.txt;renard;Reniflant, l’homme à tête de renard s’approcha de la danseuse.;renard;animaux;META_QUAL;CH;
+
+167;Lavoie-Marie-Renee_la-petite-et-le-vieux.txt;tortue;— Elle mange comme une tortue, on en a pour la nuit.;tortue;animaux;COMP_SIM;CH;
+
+168;Dieudonne-Adeline_la-vraie-vie.txt;moineau;Puis il s’est mis à sangloter, son corps de moineau secoué par des torrents de terreur.;moineau;animaux;META_QUAL;CH;
+
+169;Sorman-Joy_La-peau-de-lours.txt;éléphants;Je suis le seul animal de la ménagerie laissé en liberté dans l’enceinte du cirque — avec les chiens que l’on déguise en éléphants nains et les oies —, je peux ainsi rôder tout le jour autour du bout de campement qu’elles partagent, et de loin je les contemple qui se préparent : étirements, respirations et corps passés au talc que je butine comme du pollen.;éléphant;animaux;IMAG;;
+
+170;Sebban-Olivier_Le-jour-de-ton-nom.txt;couleuvre;Une odeur de poudre et de métal chaud s’insinua: couleuvre de vapeur blanche au-dessus de la végétation.;couleuvre;animaux;META_DET;O;
+
+171;Zeniter-Alice_Lart-de-perdre.txt;vipère;Rachida l’a décrite comme une vipère.;vipère;animaux;MOD_ANALOG;CH;
+
+172;Amigorena-Santiago_Le-Premier-Amour.txt;ours;Et c’est ainsi que Daniel et moi, après six jours d’abstinence, avons pris une douche légendaire qui effaça la saleté immémoriale accumulée sur nos peaux d’ours mal léchés pendant notre auguste périple.;ours;animaux;META_QUAL;CH;
+
+173;Rolin-Jean_La-cloture.txt;éléphant;Venant de Clignancourt, j’abordai l’échangeur par l’ouest et, tout d’abord, je ne trouvai rien : le square qui est au milieu – peut-être le seul square de Paris aussi inaccessible au public, et d’ailleurs tant mieux pour lui – était vraiment trop minable et aussi beaucoup trop sombre, trop encaissé entre les multiples bretelles du périphérique et de la RN1, et c’était encore pire avec le parking couvert, un endroit tellement lamentable – en dépit de la très relative note de gaieté qu’y introduit le stand de lavage de voitures à l’enseigne de l’éléphant bleu – avec ses amoncellements de détritus, ses flaques d’huile de vidange et d’autres fluides corrosifs, ses épaves de bagnoles cramées ou désossées et ses restes épars de vies brisées (je pèse mes mots), sacs de couchage pourris ou vieux matelas de mousse, que même une évocation de la Berezina y eût été déplacée.;éléphant;animaux;IMAG;;
+
+174;Werber-Bernard_Nous-les-dieux.txt;dauphin;Un homme-dauphin, le meilleur conteur de sa génération, annonça que, le lendemain, il leur raconterait l’histoire du monde.;dauphin;animaux;META_APP;CH;
+
+175;Pancol-Katherine_Les-ecureuils-de-Central-Park-sont-tristes-le-lundi.txt;chien;Vous n’êtes pas sans savoir que M. Grobz et moi-même, nous sommes séparés.  Chaval hocha la tête de l’air peureux du chien qui guette le geste imprévisible d’un maître brutal et se tient coi.;chien;animaux;META_QUAL;CH;
+
+176;Paventi-Eza_Les-Souliers-de-Mandela.txt;paon;Gregory, fier comme un paon dans la lumière.;paon;animaux;COMP_SIM;CH;
+
+177;Falcy-Chloé_Balkis.txt;chat;Par bien des aspects, j’étais comme le chat roux : nous avions tous les deux besoin de l’amour de David.;chat;animaux;COMP_SIM;CH;
+
+178;Benchetrit-Samuel_Chroniques-de-lasphalte.txt;vache;Freddy, cette fille est pour toi, elle te veut… Et une autre voix qui venait d’en bas, répondait : Fous-moi la paix, il fait trop froid, trouve-toi un lit bien chaud et on en reparle. — La vache ! … Alors qu’est-ce que t’as fait ? -- — Au début ouais… Mais ça a pas duré longtemps parce qu’il s’est mis à neiger. — La vache ! — Ouais… Et pas des petits flocons à;vache;animaux;LOC_IDIOM;;
+
+179;Cortanze-Gerard-de_Assam.txt;lapin;Les Français ne pourront jamais nous déloger, mais lui, ils vont le tirer comme un lapin !;lapin;animaux;COMP_SIM;CH;
+
+180;NDiaye-Marie_Ladivine.txt;chiens;Ce Freddy Moliger, elle l’avait remarqué, était gourmand, presque avide, il mangeait vite, absorbé et dédaigneux, comme plein de condescendance pour son propre appétit, mais n’était-ce pas ainsi, songeait Ladivine Sylla avec indulgence, que voulaient apparaître ceux qu’on avait mal nourris dans leur enfance, à qui on avait jeté avec moins de sentiment encore qu’à des chiens des portions chiches et mal cuisinées ?;chien;animaux;x;;X
+
+181;Bigot-Christophe_Un-autre-mattend-ailleurs.txt;salsifis;Cette espèce de salsifis longiligne et blanchâtre n’en finit plus de décrire à la romancière sa collection de cartes postales d’Antinoüs.;salsifis;plantes;META_APP;CH;
+
+182;Claudel-Philippe_Les-ames-grises.txt;citrouille;Je savais que dans quelques heures j’allais les revoir, elle et son ventre rond comme une belle citrouille, ce ventre dans lequel, lorsque j’y appliquais l’oreille, j’entendais les battements de l’enfant et sentais ses mouvements ensommeillés.;citrouille;plantes;COMP_SIM;CH;
+
+183;Senges-Pierre_Ruines-de-Rome.txt;pomme;"ou la souplesse des demi habiles : dans les deux cas, faux prophètes ou vrais courtisans, la feuille articulée sera pour le jardinier l’avant-garde des mensonges à venir, le bonneteau de toutes les promesses) ; la feuille bifide doit tout à la langue des reptiles, fréquente les frondaisons comme la vipère fréquente le nid, s’affiche en compagnie d’Ève, de la pomme et du serpent pour constituer le quatrième traître d’un trio maléfique (bifide, elle rappelle la queue des dragons de Patmos, les pieds de boucs et les baguettes de sourciers) ; embrassante, engainante, la feuille devient liane, ou palme, vaste comme un drap, elle se fait tout entière mangrove et semble pouvoir entourer de sa tendresse trompeuse, de sa fausse affection,";pomme;plantes;META_APP;A;
+
+184;Millet-Richard_Devorations.txt;citron;"Et cependant il avait été écrivain, lui, un écrivain connu, sous un autre nom, c’est vrai, et il avait tout attendu de l’écriture : l’amour, ou plus simplement les femmes, et la gloire, bien sûr, tout en sachant qu’elle ne cesse de se dérober, cette gloire où mordre plus amèrement que dans aucun citron ; une gloire qui n’a aujourd’hui plus cours, disparue avec le nouveau millénaire, comme tant de choses de ce qui est désormais l’ancien monde, me dirait-il avec un sourire d’enfant contemplant les jouets qu’il a brisés.";citron;plantes;COMP_Q;A;
+
+185;Rondeau-Daniel_Dans-la-marche-du-temps.txt;sapins;Ils ont marché ainsi jusqu’à la pente nord du ravin de Vaux, où ils sont arrivés à Zh 45 exactement, Pierre venait de demander Joffret, le nouveau sergent, vu qu’il n’avait toujours pas l’heure à de montre et c’est là qu’ils ont attendu le jour en dormant debout dans la tranchée, les mains crispées au fond des poches, les pieds changés en glace, raides sous leur manteau de neige, comme des sapins.;sapin;plantes;COMP_SIM;CH;
+
+186;Enard-Mathias_Zone.txt;maïs;de tuyaux et de réservoirs illuminé lui aussi la nuit par des lampes rouges qui surgissaient du brouillard, il rentrait chez lui au petit jour en bus, par le pont dit “de la Liberté” qui unit Venise à la terre ferme et commémore la fin de la domination autrichienne, Ghassan répandait toujours un parfum bizarre, comme de cacahouète ou de maïs grillé, il avait beau se laver cette étrange odeur de chimie ne le quittait jamais, elle ne faisait que s’amoindrir au gré de sa distance avec l’usine, sans jamais disparaître tout à fait : le travail de nuit lui volait son corps sans le lui rendre complètement, contaminé par les effluves familiers et inquiétants, comme un soldat en campagne sent;maïs;plantes;COMP_SIM;E;
+
+187;Deserable-Francois_Evariste.txt;ciguë;"On raconte, ou plutôt Raspail nous raconte, que l’eau-de-vie rentrait clandestinement par la grille ; qu’un prisonnier tenait cantine, sans patente, sans d’autre but que s’enrichir et assouvir la soif des locataires de Pélago ; que ceux-là entraînaient Zanetto — le surnom d’Évariste — à se saouler avec eux ; qu’il accepta le défi, saisit le godet comme Socrate la ciguë, le présenta à ses lèvres innocentes ; le but d’un trait ; qu’au deuxième verre il chancela ; qu’au troisième il perdit l’équilibre : pour le railler on le traita de gamin que trois gouttes faisaient tituber, allez, retourne à tes mathématiques, Zanetto, et viens pas nous emmerder.";ciguë;plantes;COMP_P;CH;
+
+188;Braudau-Michel_Linterpretation-des-singes.txt;vigne vierge;Au fond de la tombe pousse la racine du lierre qui part à l’assaut du champ de ruines, la vigne vierge espérance. :!;vigne vierge;plantes;META_APP;A;
+
+189;Mauvignier-Laurent_Dans-la-foule.txt;pins parasols;"Les usines de Savona exhibaient d’énormes citernes vertes, des cheminées rouges et blanches imitant les cyprès dans les collines, puis des immeubles sales et des grues, un cimetière flanqué d’autoponts qui se découpaient dans le vide, seulement portés par des colonnes de béton maigres comme des pattes de flamants roses, des saignées de béton, des champs d’une herbe brûlée sous des pylônes métalliques, pendant que des échafaudages servaient de carcasses ou d’armures à des immeubles en rénovation ; j’ai vu, en allumant une cigarette, l’autopont juste au-dessous de celui sur lequel nous roulions, et j’avais le vertige, un début de vertige, des images, les chaussures de Tana près du lit de la chambre d’un hôtel prétendument Art nouveau dans le cœur de Bruxelles, j’entendais sa voix, nous roulions entourés par des usines, par le bleu du ciel et par celui d’une station Tamoil, cernés par des antennes de télé pointées vers le ciel comme les pins parasols, des rails rouillés et une terrasse encombrée d’arbustes autant que ma tête encombrée de projections sur ce qui se passerait quand nous serions face à elle, Tana, m’imaginant déjà planqué derrière Tonino pour ne pas avoir à affronter son regard ni ses quelques mots de français qu’elle ne manquerait pas de m’adresser, mais pour demander quoi ?";pin parasol;plantes;COMP_SIM;O;
+
+190;Lambron-Marc_Les-Menteurs.txt;rosier;Entonner une chanson de Stevie Wonder en karaoké lorsque l’on reçoit la Légion d’honneur, c’est l’affaire d’un rosier du rock qui vient de découvrir MTV.;rosier;plantes;META_DET;A;
+
+191;Garcin-Christian-_Des-femmes-disparaissent.txt;sésame;Comme partout dans le monde, la langue chinoise parlée sans accent était un sésame.;sésame;plantes;LOC_IDIOM;A;
+
+192;Bonnefoy-Miguel_Linventeur.txt;rose;Des bourrasques glaciales faisaient tanguer sa machine comme une rose au milieu d’un torrent.;rose;plantes;COMP_SIM;O;
+
+193;Giordano-Raphaelle_Ta-deuxième-vie-commence-quand-tu-comprends-que-tu-nen-as-quune.txt;lotus;"Lotus.
+Fleur de lotus.
+Équilibre.";lotus;plantes;META_APP;A;
+
+194;Dantzig-Charles_Histoire-de-l-amour-et-de-la-haine.txt;olivier;Dans une robe d’un vert « dessous de feuille d’olivier » qui laissait apparents ses beaux genoux, Anne rajusta un grand chapeau beige « ciel du Kenya » dont les bords se rabattaient sur ses joues.;olivier;plantes;COUL;;
+
+195;Lobe-Max_39-rue-de-Berne.txt;haricot;Là, en bas, cette chose mouillée-là, ce haricot rouge doré, charnu, poilu, planqué entre ses cuisses fines.;haricot;plantes;META_ATT;CH;
+
+196;Volodine-Antoine_Terminus-radieux.txt;fougères;Sur toute la surface de la clairière les fougères se balançaient, elles aussi comme essayant de se débattre contre un son qui les violentait.;fougère;plantes;x;;X
+
+197;Rolin-Olivier_Exterieur-monde.txt;figue;(Je m’en voudrais de ne pas, sur épreuves, ajouter un mot à ces quelques notes algériennes désinvoltes et mi-figue mi-raisin : depuis que je les ai écrites, j’ai séjourné de nouveau, tout récemment, dans ce pays qu’un mouvement immense et pacifique, et imaginatif, soulevait contre la mafia dirigeante.;figue;plantes;LOC_IDIOM;A;
+
+198;Bayamack-Tam-Emmanuelle_La-treizieme-heure.txt;rose;La pudeur étant de mise entre mères et filles, je ne vais pas te raconter ma vie en rose par le menu.;rose;plantes;LOC_IDIOM;A;
+
+199;Thuy-Kim_Man.txt;lichen;Plus les teintes s’approchent du lichen, du sapin, du vert bouteille, plus le bracelet prend de la valeur.;lichen;plantes;COUL;;
+
+200;Ravaloson-Johry_Vol-a-vif.txt;raisin;je fais, plus figue que raisin.;raisin;plantes;LOC_IDIOM;CH;

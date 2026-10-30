@@ -1,0 +1,20 @@
+Code;Type;Structure;Exemple (vivant / nature);Fonction
+COMME_SN;comparaison similative;Adj/V + comme + SN;"rusé comme un renard ; courir comme un lièvre";image + intensification
+COMME_P;comparaison phrastique;P1 comme P2;les branches craquaient comme les os d’un vieux cerf;scénarisation
+COMME_SI;comparaison hypothétique;comme si + P;comme si une forêt entière retenait son souffle;fictionnalisation
+COMP_DEG;comparaison quantitative;plus / moins / aussi / autant… que;"plus lent qu’une tortue ; plus haut qu’un séquoia";degré / hyperbole
+DE_PARANGON;analogie nominale en de;N1 de N2, N1 = qualité;"mémoire d’éléphant ; patience de tortue";qualité exemplaire
+DE_MATIERE;métaphore matérialisante;N abstrait + de + matière;"volonté de granit ; calme de roc";solidification / essentialisation
+DE_UNIVERS;analogie d’univers;N + de + domaine imaginaire ou naturel;"océan de verdure ; montagne de nuages";projection culturelle ou paysagère
+DE_QUANTIF;quantification métaphorique;N quantifieur + de + N;"une forêt de pylônes ; un essaim de pensées";amplification
+DE_PROP;analogie proportionnelle;N1 de N2;"vautours de la finance ; loups de la spéculation";catégorisation symbolique
+META_ATTR;métaphore attributive;N1 est N2;"cet homme est un loup ; cette ville est une fourmilière";identification
+META_APP;métaphore appositionnelle;apposition / juxtaposition;"la montagne sentinelle ; le fleuve serpent";condensation
+META_JUXT;binôme nominal;N1-N2 ou N1 N2;"arbre-parapluie ; rivière-serpent ; forêt cathédrale";catégorisation imagée
+META_VERB;métaphore verbale;verbe incompatible;"la forêt avalait la lumière ; le glacier agonisait";dynamisation
+MOD_ANALOG;analogie modalisée;sembler, on dirait, avoir l’air, faire l’effet de;on aurait dit une meute de nuages;subjectivation
+ANALOG_COMPLEX;analogie complexe;comparaison enchâssée / filée;à côté de cette tempête, les loups semblaient apprivoisés;réseau figuratif
+META_FILEE;métaphore filée;réseau métaphorique continu;la rivière serpentait, muait, puis renaissait comme un reptile au printemps;cohérence imaginaire
+IMAG;représentation ;image, dessin, sculpture, motif;"un tableau représentant un lion ; une robe à fleurs";référence au vivant représenté
+COUL;couleur;couleur + référent du vivant;"vert pomme ; bleu ciel";désignation d'une couleur
+LOC_IDIOM;locution idiomatique;expression figée;"avoir la chair de poule ; poser un lapin";sens lexicalisé
