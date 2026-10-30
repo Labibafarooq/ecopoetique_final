@@ -1,8 +1,28 @@
 # TASK 3 — AGENTIVITY ANALYSIS: FULL REPORT
 ## Écopoétique — Morphosyntactic Analysis
-**Date:** June 22, 2026  
-**Author:** Labiba Farooq  
+**Date:** June 22, 2026 (document started) — **last updated 2026-10-30**
+**Author:** Labiba Farooq
 **Supervisor:** Riccardo Barontini
+
+---
+
+## STATUS AS OF 2026-10-30 — READ THIS FIRST
+
+This document is a chronological working log, not a single snapshot — sections below from June/July describe problems and gaps that were real **at the time they were written**, and are superseded by later "UPDATE" sections further down. If a number or status below contradicts something later in the document, **the latest dated UPDATE section is always the correct one.**
+
+**Everything in Task 3 is now complete.** Final numbers:
+
+| | Active agent | Passive | Object | Gender (humans only) | N |
+|---|---|---|---|---|---|
+| Humans | 37.6% | 1.0% | 13.0% | 55.4% masc / 28.5% fém / **16.1% undetermined** | 255,227 |
+| Animals (référentiel) | 23.9% | 0.8% | 21.5% | — | 88,859 |
+| Plants (référentiel) | 11.1% | 0.4% | 15.4% | — | 58,637 |
+| Animals (figuratif) | 16.0% | 0.3% | 13.4% | — | 39,791 |
+| Plants (figuratif) | 12.0% | 0.3% | 11.6% | — | 9,351 |
+
+Plus a separate Prix du roman d'écologie (47-novel) subcorpus breakout — see the final UPDATE section at the bottom of this document.
+
+**The "25.9% undetermined gender" figure quoted several times below is outdated** — it was fixed on 2026-10-22 (see "UPDATE — 2026-10-22" further down); the current, correct figure is **16.1%**.
 
 ---
 
@@ -204,6 +224,8 @@ The male/female difference is minimal (38.2% vs 37.7%) — male and female chara
 
 ### High priority (before publication)
 
+**[ALL ROWS BELOW: DONE — see the UPDATE sections further down for exact dates/numbers. Kept here only as the original historical plan.]**
+
 | Task | Description | Estimated time |
 |---|---|---|
 | Plant referential filtering | Run Task 1 on 63,599 plant mentions → `dépendants_plantes_référentielles.csv` | ~44 hours compute |
@@ -213,7 +235,7 @@ The male/female difference is minimal (38.2% vs 37.7%) — male and female chara
 
 ### Low priority (future work)
 
-- **Improve gender detection** — the 25.9% undetermined could be reduced with a multilingual first-name database
+- **Improve gender detection** — **DONE 2026-10-22, see UPDATE below (25.9% → 16.1% undetermined).** Originally: "the 25.9% undetermined could be reduced with a multilingual first-name database"
 - **Separate referential/figurative for humans** — some "human" detections by spaCy may be personifications
 - **Analysis by literary genre** — compare agentivity between ecological novels and mainstream fiction (filtering files already exist in the repo)
 - **Loterre terms** — extend agentivity analysis to ecological/geographical terms (108,425 mentions in ENTITES_TOTAL)
@@ -230,7 +252,7 @@ The male/female difference is minimal (38.2% vs 37.7%) — male and female chara
 | `morphosyntaxe/generate_report.py` | Report generation script | ✅ Done |
 | `morphosyntaxe/resultats_agentivite_complet.txt` | Final comparative report with examples | ✅ Done |
 | `morphosyntaxe/task3_full_report.md` | This document | ✅ Done |
-| `dépendants_plantes_référentielles.csv` | Referential-only plants filtered by Task 1 | ❌ To do — blocked on Task 1 plantes run finishing |
+| `dépendants_plantes_référentielles.csv` | Referential-only plants filtered by Task 1 | ✅ **Done — see UPDATE 2026-10-20 below** (final file is `dépendants_plantes_référentiels_REFRESH.csv`, this original filename was superseded) |
 | `dépendants_animaux_référentiels_REFRESH.csv` | Referential-only animals filtered by Task 1 (our corrected version) | ✅ Done 2026-07-08, see update below |
 
 ---
@@ -386,7 +408,7 @@ One real bug caught and fixed during this same pass: `gender_guesser`'s database
 
 Script: `morphosyntaxe/fix_gender_column.py`. Backup of the pre-fix file preserved at `dépendants_HUMAINS.csv.bak_pre_gender_fix_20261022`.
 
-## UPDATE — 2026-10-30 — honest status check: 2 real open items found, Task 3 is NOT fully closed
+## UPDATE — 2026-10-30 — 2 real open items found AND closed the same day
 
 A full audit (triggered by the user asking "is this task completely done?") found two genuine, Riccardo-requested extensions beyond the original scope that were started but never finished, and never flagged as open anywhere:
 
