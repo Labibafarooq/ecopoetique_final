@@ -56,7 +56,9 @@ The category definitions changed substantially across 5 email exchanges between 
 
 **Built but never run**: `run_task45_compare_category_v2_physical_psych.py` — a variant built specifically around the physical-vs-psychological distinction (item 3 above). No output file exists for it anywhere. Worth running and comparing against v1 before considering the gold-set work fully closed.
 
-**Not cross-compared**: a separate retrieval-based few-shot variant (`run_task45_retrieval_fewshot.py`) and an embeddings-based variant (`embed_task45_examples.py`) both exist but were never benchmarked against the main script to see if either does better.
+**Retrieval-fewshot variant — actually tested, confirmed worse, just never written up until now**: `run_task45_retrieval_fewshot.py` (`task45_retrieval_test_log.txt`) scored **65.8% (50/76) on the honest test set** — worse than v1's 76.3%. v1 remains the right choice.
+
+**Embeddings variant — genuinely not tested**: `embed_task45_examples.py` only built the embeddings themselves (`task45_embeddings.npy` + metadata) — no classifier run or score exists for it anywhere.
 
 **Full-corpus run: genuinely blocked, not just stalled.** Task 4.5 needs each real corpus mention's Task 2 subcategory as input — that only exists for the 184 rows in the Task 2 gold set so far. Task 2's own full-corpus run is itself stalled at ~35% (see `task2_report.md`). Nothing to run at scale until that unblocks.
 
@@ -81,6 +83,6 @@ The category definitions changed substantially across 5 email exchanges between 
 ## OPEN ITEMS
 
 - Run and compare the v2 (physical/psychological) variant against v1.
-- Cross-compare the retrieval-fewshot and embeddings variants against the main script.
+- Run and score the embeddings variant against v1 (retrieval-fewshot is already done and confirmed worse).
 - Full-corpus run blocked on Task 2's full-corpus run finishing.
 - Confirm with Riccardo that the "X in Task 4.5 column, real subcategory in Task 2 column" scoring convention is implemented as he intended.
