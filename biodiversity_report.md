@@ -29,6 +29,8 @@ A self-directed request from Riccardo (2026-07-20), separate from Tasks 1-4.5: c
 
 **All three corpora sit close to 1.0** — animal/plant vocabulary is fairly evenly spread, not dominated by a handful of species, and this holds consistently across all three corpora (plantes evenness is remarkably stable: 0.954-0.956 everywhere).
 
+**Note on categories**: fungi (champignons) and taxons (a Loterre sub-category) are kept as their own separate categories, per Riccardo's explicit reply (2026-10-22, 10:28 AM): *"I would put taxons and fungi in separate categories."* Full history of the request, the data-integrity fixes, and every formula used is in `TASK_BIODIVERSITY_RESEARCH_HISTORY_COMPLETE.md`.
+
 **A real limitation found while pulling these numbers**: the `_taxons` (Loterre sub-category) column is **entirely blank at the per-book level in all 3 corpora** — individual novels simply don't contain enough taxon mentions to rarefy down to even 20 samples. This works fine at the pooled/whole-corpus level (used successfully in beta diversity, below), but per-book Pielou/Hill for `taxons` specifically has no usable data. Worth telling Riccardo directly rather than letting a silent blank go unnoticed.
 
 ### Species Abundance Distribution (SAD)
@@ -52,7 +54,7 @@ Log-series wins clearly on all 3 — the expected "hollow curve" shape for a poo
 | Loterre | 0.55 | 0.46 | 0.56 |
 | **Taxons** | **0.00** | **0.00** | **0.00** |
 
-**A real, striking finding worth flagging to Riccardo directly**: for the `taxons` category specifically, Jaccard similarity is exactly **0.0 between every pair of corpora** — meaning the specific taxon terms mentioned in DigEco, Bestsellers, and Prix-Écologie don't overlap *at all*. Either this is a genuinely real finding (each corpus discusses completely different scientific taxa) or it's worth double-checking the taxons extraction/lexicon for this category specifically, since zero overlap across 3 independent corpora is an unusually clean result.
+**On `taxons` showing exactly 0.0 Jaccard between every pair of corpora**: already investigated at the time (2026-10-22) — cross-checked against the underlying counts and found each corpus has only 1-2 distinct taxon species in its baseline year at all. This is a sparsity artifact (too few taxon mentions to share any overlap by chance), not a genuine ecological signal — already correctly flagged as such, not something new to re-investigate.
 
 ### Hill numbers (q=0 richness, q=1≈exp(Shannon), q=2≈inverse Simpson; all rarefied to 20 individuals, per-book average)
 
